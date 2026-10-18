@@ -1,0 +1,47 @@
+{
+  "_comment": "GR00T NEW_EMBODIMENT catheter insertion modality mapping. FluoroVLA. Schema v2.0.0.",
+  "_schema_version": "2.0.0",
+  "_embodiment_tag": "new_embodiment",
+  "_task": "Advance the catheter tip to the distal vessel target while remaining inside the lumen.",
+  "state": {
+    "catheter": {
+      "start": 0,
+      "end": 2,
+      "_field_names": ["inserted_length_m", "previous_insert_velocity_mps"],
+      "_units": ["metres", "metres_per_second"],
+      "_deployable": true,
+      "_privileged": false,
+      "_causality": "state[1] at step 0 = 0.000; at step t = executed velocity at step t-1"
+    }
+  },
+  "action": {
+    "insert_velocity": {
+      "start": 0,
+      "end": 1,
+      "_field_names": ["insert_velocity_mps"],
+      "_units": ["metres_per_second"],
+      "_discrete_values_mps": [0.000, 0.006, 0.012],
+      "_representation": "ABSOLUTE",
+      "_type": "NON_EEF",
+      "_format": "DEFAULT"
+    }
+  },
+  "video": {
+    "fluoro": {
+      "original_key": "observation.images.fluoro",
+      "_resolution_px": [320, 320],
+      "_channels": 3,
+      "_pixel_spacing_mm": 0.6,
+      "_projection": "LAO-45",
+      "_sid_mm": 510.0,
+      "_sdd_mm": 1020.0,
+      "_rate_hz": 10.0
+    }
+  },
+  "annotation": {
+    "human.task_description": {
+      "original_key": "task_index",
+      "_fixed_string": "Advance the catheter tip to the distal vessel target while remaining inside the lumen."
+    }
+  }
+}

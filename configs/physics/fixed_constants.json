@@ -1,0 +1,135 @@
+{
+ "purpose": "Reviewed snapshot of the fixed physical and task constants. Source of truth is the code; tests/test_fixed_constants.py fails when they differ. A change requires a protocol erratum (experiments/protocols/experimental_protocol_v1.md, errata policy).",
+ "patient_independence": {
+  "task_contract.py": "Task definition (velocities 6/12 mm/s, decision period 0.1 s, success window EPS = V_MAX*dt, dwell, lumen tolerance 1.5 mm, catastrophic-velocity and root-motion limits): properties of the insertion task and the instrument, not of any anatomy.",
+  "teacher/privileged_teacher.py": "Action levels and the CRUISE margin (two CRUISE decisions of lag): functions of the three velocities and the decision period only.",
+  "physics/engine.py": "Rod model (7 bodies of 30 mm, 3 mm capsule radius), solver iterations, stiffnesses, contact materials, time stepping: the catheter and the numerical scheme, validated once and applied unchanged to every patient.",
+  "physics/lumen_sdf.py": "Lumen contact parameters (mesh voxel, projection target phi = -capsule radius, SDF query radius, axis samples): contact model constants, independent of anatomy.",
+  "physics/patient_episode.py": "Settle frames, pre-deployed bodies, frames per decision: episode protocol constants.",
+  "anatomy/access_geometry.py": "Spur length, descriptor window (73.5 mm rod + 100 mm travel), capsule radius, zone offset: measurement conventions fixed before the multi-patient analysis (calibrated on the reference patient and applied unchanged).",
+  "anatomy/episode_config.py": "Start-condition rule (60-100 mm feed range, 73.5 mm rod behind the tip), zone offsets and the timeout formula: protocol definitions."
+ },
+ "constants": {
+  "task_contract.py": {
+   "V_MAX_MPS": 0.012,
+   "V_SLOW_MPS": 0.006,
+   "DECISION_DT_S": 0.1,
+   "PHYSICS_FRAMES_PER_DECISION": 6,
+   "L_SEG_MM": 30.0,
+   "EPS_MM": "expr: V_MAX_MPS * DECISION_DT_S * 1000.0",
+   "DWELL_STEP_MM": "expr: 0.5 * V_SLOW_MPS * DECISION_DT_S * 1000.0",
+   "DWELL_STEPS": "expr: int(math.floor(2.0 * EPS_MM / (V_MAX_MPS * 1000.0) / DECISION_DT_S)) + 1",
+   "T_MAX_STEPS": 30,
+   "LUMEN_DELTA_MM": 1.5,
+   "CATASTROPHIC_VEL_MPS": 2.0,
+   "ROOT_MOVE_TOL_M": 1e-06,
+   "SMOOTH_SIGMA_MM": 3.0,
+   "RESAMPLE_STEP_MM": 0.25,
+   "STATUSES": [
+    "SUCCESS",
+    "STOPPED_SHORT",
+    "OVERSHOOT",
+    "LUMEN_VIOLATION",
+    "TIMEOUT",
+    "PHYSICS_FAILURE"
+   ]
+  },
+  "teacher/privileged_teacher.py": {
+   "HOLD_MPS": 0.0,
+   "SLOW_MPS": 0.006,
+   "CRUISE_MPS": 0.012,
+   "CRUISE_MARGIN_MM": "expr: 2.0 * V_MAX_MPS * DECISION_DT_S * 1000.0",
+   "POLICY_OBSERVATION_KEYS": [
+    "observation.images.fluoro",
+    "inserted_length_m",
+    "previous_insert_velocity_mps",
+    "annotation.human.task_description"
+   ],
+   "TEACHER_ONLY_KEYS": [
+    "tip_extremity_mm",
+    "zone_near_mm",
+    "zone_far_mm",
+    "tip_speed_mps",
+    "n_active",
+    "axis_violation_mm",
+    "centerline_s_mm"
+   ]
+  },
+  "physics/engine.py": {
+   "DEVICE": "cuda:0",
+   "NUM_SEGMENTS": 7,
+   "L_SEG": 0.03,
+   "RADIUS": 0.003,
+   "DT_FRAME": "expr: 1.0 / 60.0",
+   "SIM_SUBSTEPS": 5,
+   "SIM_DT": "expr: DT_FRAME / SIM_SUBSTEPS",
+   "NUM_FRAMES": 360,
+   "ELAPSED_S": "expr: NUM_FRAMES * DT_FRAME",
+   "PORTAL": "expr: np.array([0.0, 0.0, 0.0], dtype=np.float64)",
+   "AXIS": "expr: np.array([1.0, 0.0, 0.0], dtype=np.float64)",
+   "FEED_MODE_FREE_SPACE_PORTAL_SLIDE": "free_space_portal_slide",
+   "FEED_MODE_PATIENT_DISTAL_JOINT": "patient_distal_joint",
+   "BEND_STIFFNESS_FREE_SPACE": 100.0,
+   "TWIST_STIFFNESS_FREE_SPACE": 100.0,
+   "BEND_STIFFNESS_PATIENT": 10.0,
+   "TWIST_STIFFNESS_PATIENT": 10.0,
+   "PATIENT_VBD_ITERATIONS": 16,
+   "FREE_SPACE_VBD_ITERATIONS": 8,
+   "PATIENT_TIP_BEND_TWIST_STIFFNESS": 15.0,
+   "SHAPE_KE": 100000.0,
+   "SHAPE_KD": 100.0,
+   "SHAPE_MU": 0.3,
+   "CONTACT_MAX": 256,
+   "_WORLD_POSE": null,
+   "_FEED_CFG": null,
+   "_WP_INIT": false
+  },
+  "physics/lumen_sdf.py": {
+   "MASK_DOWNSAMPLE": 2,
+   "CATHETER_RADIUS_M": "expr: float(RADIUS)",
+   "MAX_DIST_M": 0.05,
+   "TARGET_PHI_M": "expr: -CATHETER_RADIUS_M",
+   "SAMPLE_FRAC": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+   ],
+   "N_SAMPLES": 5
+  },
+  "physics/patient_episode.py": {
+   "BEND_STIFFNESS": 100.0,
+   "SETTLE_FRAMES": 30,
+   "PREDEPLOY_ACTIVE": 3,
+   "FRAMES_PER_DECISION": 6,
+   "SAMPLE_FRAC": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+   ],
+   "CATASTROPHIC_VEL_MPS": 2.0,
+   "_N_ACTIVE_INIT": 2
+  },
+  "anatomy/access_geometry.py": {
+   "SPUR_MM": 12.0,
+   "R_C": 3.0,
+   "W_LEN": 173.5,
+   "ZONE_OFF": 4.72,
+   "C_CLEAR": 2.3132999999999995,
+   "EPS": "expr: tc.EPS_MM",
+   "STEP": "expr: tc.RESAMPLE_STEP_MM",
+   "LOOP_COLLAPSE": true
+  },
+  "anatomy/episode_config.py": {
+   "R_C": 3.0,
+   "ZONE_NEAR": 4.72,
+   "ZONE_FAR": 2.32,
+   "ROD_BEHIND": 73.5,
+   "F_LO": 60.0,
+   "F_CAP": 100.0
+  }
+ }
+}

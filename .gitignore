@@ -1,0 +1,52 @@
+# data and caches (never committed: raw patient CT, twins, meshes)
+/data/
+*.nii
+*.nii.gz
+*.dcm
+mu_volume.npy
+hu_volume.npy
+vessel_mask.npy
+vessel_collision_mesh*.npz
+lumen_collision_mesh*.npz
+# generated runs and outputs
+/runs/
+/migration/
+/outputs/
+*.mp4
+*.avi
+/frames/
+# models and checkpoints
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.bin
+/checkpoints/
+/models/
+# logs and temporary files
+*.log
+*.tmp
+*.swp
+*.pre_*
+# python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+# docker / IDE / OS
+.docker/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+# secrets
+.env
+*.pem
+*.key
+credentials*
+secrets*

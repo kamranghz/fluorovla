@@ -1,0 +1,7 @@
+{
+  "reference_patient": "s0011",
+  "cohort_size": 12,
+  "sentinel_patient": "s1082",
+  "candidate_gate_mm": 150.0,
+  "comment": "Protocol parameters of the pre-registered development-cohort selection (experiments/protocols/experimental_protocol_v1.md, section 15). The reference patient is the benign case on which the Privileged Teacher and the landing definition were first validated; the sentinel is a physics stress case excluded from fitting."
+}

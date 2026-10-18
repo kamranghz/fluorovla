@@ -1,0 +1,9 @@
+# Direct requirements of the physics + geometry pipeline (exact versions used for all reported results).
+numpy==2.5.0
+scipy==1.17.1
+scikit-image==0.26.0
+warp-lang==1.17.0
+nibabel
+# Newton physics at the pinned commit (install without dependencies; versions in constraints.txt):
+#   pip install --no-deps "newton @ git+https://github.com/newton-physics/newton.git@6d2ece7c314248960a249ebc46b0dafbb5a89232"
+pytest

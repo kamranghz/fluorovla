@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fluorovla"
+version = "0.1.0"
+description = "Patient-specific physics-based catheter-insertion demonstrations with simulated fluoroscopic/DSA observations for Vision-Language-Action policies (simulation only)."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["numpy==2.5.0", "scipy==1.17.1", "scikit-image==0.26.0"]
+
+[project.optional-dependencies]
+physics = ["warp-lang==1.17.0"]            # plus Newton at the pinned commit, see docs/reproducibility.md
+geometry = ["nibabel"]                      # TotalSegmentator label reading (side assignment)
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+fluorovla = ["policy/catheter_modality_config/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["gpu: needs CUDA, Warp, the pinned Newton checkout and the local data directory"]

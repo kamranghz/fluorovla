@@ -1,0 +1,78 @@
+{
+ "stage": "stage2",
+ "attempt": 2,
+ "written": "2026-10-18 13:09:56",
+ "patients": [
+  "s0011",
+  "s0963",
+  "s1400",
+  "s1364",
+  "s0950",
+  "s0344",
+  "s1388",
+  "s1348",
+  "s1397",
+  "s0513",
+  "s1369",
+  "s0573",
+  "s1082"
+ ],
+ "configuration": {
+  "algorithm": "unchanged _sel_common + _sel_step3_final"
+ },
+ "file_sha256": {
+  "D:/projects/MedPhysAI/scripts/protocol/stage2_select_attempt2.py": "18de535d953f203cc583102144790bca4974b0dfbcac171cc8c35a7a131f78c5",
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage2_attempt2/twin_rows.json": "eb792426cedd4486bd6514dd886ffd6f52c15f0026db17457ab0e237dcee81a3",
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage2_attempt2/selection_step3.json": "74955b673d5e5e85eb966b10368f17fabe7acd19585a6024de4f12a1fe2c15b5",
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage2_attempt2/run.log": "4e300ff2c8bf040822bc8f0648f0d23b5216ae02b4cfa611be585e565146f57d"
+ },
+ "criteria": {
+  "deterministic": true
+ },
+ "results": {
+  "attempt1_cohort": [
+   "s0011",
+   "s0963",
+   "s1400",
+   "s1364",
+   "s0950",
+   "s0344",
+   "s1388",
+   "s1348",
+   "s1397",
+   "s0513",
+   "s1391",
+   "s0058"
+  ],
+  "attempt2_cohort": [
+   "s0011",
+   "s0963",
+   "s1400",
+   "s1364",
+   "s0950",
+   "s0344",
+   "s1388",
+   "s1348",
+   "s1397",
+   "s0513",
+   "s1369",
+   "s0573"
+  ],
+  "changed": [
+   "s0058",
+   "s0573",
+   "s1369",
+   "s1391"
+  ],
+  "sentinel": "s1082 (twin: tort_w 2.22 right side, unchanged)",
+  "universe_attempt2": {
+   "paths": 125,
+   "patients": 65,
+   "eligible": 58
+  },
+  "consequence": "attempt-2 cohort replaces s1391 and s0058 by s1369 and s0573 (the deterministic re-run on the corrected universe). Stage 3 configs/results exist for s1391 (violation x6) but not for s1369/s0573; Stage 3 stays paused. Needs explicit approval before the configs are regenerated."
+ },
+ "decision": "PROVISIONAL (awaiting approval): corrected-universe cohort differs in 2 of 12 patients",
+ "deviations": [],
+ "reruns": []
+}

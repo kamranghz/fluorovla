@@ -1,0 +1,334 @@
+{
+  "s_split_lumen_cross_section_two_lumens_mm": null,
+  "split_window": "2*local_radius + 1 voxel",
+  "s_carina_centroid_mm": 186.41432859429074,
+  "s_cluster_entry_on_portal_arm_mm": 183.5844198427733,
+  "s_split_used_mm": 183.5844198427733,
+  "axis_lumen_eq_radius_mm_last_20mm_before_split": [
+    [
+      164.41432859429074,
+      5.418863995382676
+    ],
+    [
+      165.41432859429074,
+      5.613615477764332
+    ],
+    [
+      166.41432859429074,
+      5.613615477764332
+    ],
+    [
+      167.41432859429074,
+      6.102643417692329
+    ],
+    [
+      168.41432859429074,
+      5.613615477764332
+    ],
+    [
+      169.41432859429074,
+      5.801833370921287
+    ],
+    [
+      170.41432859429074,
+      5.6770481745453605
+    ],
+    [
+      171.41432859429074,
+      5.6770481745453605
+    ],
+    [
+      172.41432859429074,
+      5.984134206021491
+    ],
+    [
+      173.41432859429074,
+      6.102643417692329
+    ],
+    [
+      174.41432859429074,
+      5.739779892994359
+    ],
+    [
+      175.41432859429074,
+      6.161043249922617
+    ],
+    [
+      176.41432859429074,
+      6.445109785487341
+    ],
+    [
+      177.41432859429074,
+      6.500433630989414
+    ],
+    [
+      178.41432859429074,
+      6.6636498349357165
+    ],
+    [
+      179.41432859429074,
+      6.978639737521917
+    ],
+    [
+      180.41432859429074,
+      7.329037678543799
+    ],
+    [
+      181.41432859429074,
+      7.280013464932681
+    ],
+    [
+      182.41432859429074,
+      7.521940060195162
+    ],
+    [
+      183.41432859429074,
+      7.61655937789471
+    ]
+  ],
+  "eps_mm": 1.2000000000000002,
+  "eps_formula": "V_MAX*dt",
+  "clearance_mm": 2.318787461811439,
+  "clearance_formula": "max measured per-decision advance + max measured stop glide",
+  "catheter_tip_radius_mm": 3.0,
+  "landing_zone_extremity_mm": [
+    178.86563238096184,
+    181.26563238096185
+  ],
+  "landing_zone_polyline_tip_mm": [
+    175.86563238096184,
+    178.26563238096185
+  ],
+  "landing_zone_width_mm": 2.4000000000000004,
+  "landing_zone_width_px": 6.66455374118151,
+  "distance_zone_far_edge_to_split_mm": 2.318787461811439,
+  "target_center_polyline_tip_s_mm": 177.06563238096186,
+  "s_tip_initial_mm": 73.50519342994882,
+  "feed_needed_mm": 103.56043895101304,
+  "available_tip_arclength_mm": 163.5051934299488,
+  "shortfall_to_zone_far_edge_mm": 14.760438951013043,
+  "shortfall_to_split_mm": 20.079226412824482,
+  "capacity_needed_bodies": 7,
+  "bodies_in_model": 6,
+  "min_extra_capacity_mm": 14.760438951013043,
+  "min_extra_segments_of_30mm": 1,
+  "timeout": {
+    "t_min_all_cruise_s": 8.630036579251087,
+    "t_cruise_s": 8.130036579251087,
+    "approach_slow_distance_mm": 6.0,
+    "t_approach_s": 1.0,
+    "t_dwell_s": 0.30000000000000004,
+    "T_MAX_s": 9.430036579251087,
+    "T_MAX_decisions": 95,
+    "formula": "(feed - 2 r_c)/V_MAX + 2 r_c/V_SLOW + K*dt"
+  },
+  "overshoot": "s_extremity(t) > landing_zone far edge, with s_extremity = projected arclength of the distal end of the last active capsule (polyline end + r_c along the axis)",
+  "lumen_violation": "axis SDF sample outside the lumen by > 1.5 mm (half of the 3 mm collision-mesh voxel) at any substep",
+  "capacity_run_evaluation": {
+    "first_frame_axis_violation_gt_1p5mm": 372,
+    "s_tip_at_first_violation_mm": 145.25471186708876,
+    "time_at_first_violation_s": 6.2,
+    "first_frame_any_outside_sample": 292,
+    "s_tip_at_first_outside_mm": 130.87420955396698,
+    "max_violation_mm": 5.331099033355713,
+    "max_tip_dist_to_centerline_mm": 10.31766254898142,
+    "s_when_last_body_activates_mm": 164.33726379900463,
+    "validated_envelope_end_mm": 109.50519342994882,
+    "target_polyline_tip_s_mm": 177.06563238096186,
+    "violation_occurs_before_target": true
+  },
+  "split_scan": [
+    {
+      "s": 126.41432859429074,
+      "n_lumens": 1,
+      "lumen_voxels": [
+        30
+      ],
+      "axis_lumen_eq_radius_mm": 4.635290424278275
+    },
+    {
+      "s": 129.41432859429074,
+      "n_lumens": 1,
+      "lumen_voxels": [
+        30
+      ],
+      "axis_lumen_eq_radius_mm": 4.635290424278275
+    },
+    {
+      "s": 132.41432859429074,
+      "n_lumens": 1,
+      "lumen_voxels": [
+        35
+      ],
+      "axis_lumen_eq_radius_mm": 5.006685883593409
+    },
+    {
+      "s": 135.41432859429074,
+      "n_lumens": 1,
+      "lumen_voxels": [
+        41
+      ],
+      "axis_lumen_eq_radius_mm": 5.418863995382676
+    },
+    {
+      "s": 138.41432859429074,
+      "n_lumens": 1,
+      "lumen_voxels": [
+        50
+      ],
+      "axis_lumen_eq_radius_mm": 5.984134206021491
+    },
+    {
+      "s": 141.41432859429074,
+      "n_lumens": 1,
+      "lumen_voxels": [
+        55
+      ],
+      "axis_lumen_eq_radius_mm": 6.276212903913004
+    },
+    {
+      "s": 144.41432859429074,
+      "n_lumens": 1,
+      "lumen_voxels": [
+        55
+      ],
+      "axis_lumen_eq_radius_mm": 6.276212903913004
+    },
+    {
+      "s": 147.41432859429074,
+      "n_lumens": 1,
+      "lumen_voxels": [
+        54
+      ],
+      "axis_lumen_eq_radius_mm": 6.2188946904840385
+    },
+    {
+      "s": 150.41432859429074,
+      "n_lumens": 1,
+      "lumen_voxels": [
+        48
+      ],
+      "axis_lumen_eq_radius_mm": 5.863230142835039
+    },
+    {
+      "s": 153.41432859429074,
+      "n_lumens": 1,
+      "lumen_voxels": [
+        42
+      ],
+      "axis_lumen_eq_radius_mm": 5.484549593573589
+    },
+    {
+      "s": 156.41432859429074,
+      "n_lumens": 1,
+      "lumen_voxels": [
+        40
+      ],
+      "axis_lumen_eq_radius_mm": 5.352372348458314
+    },
+    {
+      "s": 159.41432859429074,
+      "n_lumens": 1,
+      "lumen_voxels": [
+        35
+      ],
+      "axis_lumen_eq_radius_mm": 5.006685883593409
+    },
+    {
+      "s": 162.41432859429074,
+      "n_lumens": 1,
+      "lumen_voxels": [
+        41
+      ],
+      "axis_lumen_eq_radius_mm": 5.418863995382676
+    },
+    {
+      "s": 165.41432859429074,
+      "n_lumens": 1,
+      "lumen_voxels": [
+        44
+      ],
+      "axis_lumen_eq_radius_mm": 5.613615477764332
+    },
+    {
+      "s": 168.41432859429074,
+      "n_lumens": 1,
+      "lumen_voxels": [
+        44
+      ],
+      "axis_lumen_eq_radius_mm": 5.613615477764332
+    },
+    {
+      "s": 171.41432859429074,
+      "n_lumens": 1,
+      "lumen_voxels": [
+        45
+      ],
+      "axis_lumen_eq_radius_mm": 5.6770481745453605
+    },
+    {
+      "s": 174.41432859429074,
+      "n_lumens": 1,
+      "lumen_voxels": [
+        46
+      ],
+      "axis_lumen_eq_radius_mm": 5.739779892994359
+    },
+    {
+      "s": 177.41432859429074,
+      "n_lumens": 1,
+      "lumen_voxels": [
+        59
+      ],
+      "axis_lumen_eq_radius_mm": 6.500433630989414
+    },
+    {
+      "s": 180.41432859429074,
+      "n_lumens": 1,
+      "lumen_voxels": [
+        75
+      ],
+      "axis_lumen_eq_radius_mm": 7.329037678543799
+    },
+    {
+      "s": 183.41432859429074,
+      "n_lumens": 1,
+      "lumen_voxels": [
+        81
+      ],
+      "axis_lumen_eq_radius_mm": 7.61655937789471
+    },
+    {
+      "s": 186.41432859429074,
+      "n_lumens": 1,
+      "lumen_voxels": [
+        74
+      ],
+      "axis_lumen_eq_radius_mm": 7.280013464932681
+    },
+    {
+      "s": 189.41432859429074,
+      "n_lumens": 1,
+      "lumen_voxels": [
+        80
+      ],
+      "axis_lumen_eq_radius_mm": 7.569397566060481
+    },
+    {
+      "s": 192.41432859429074,
+      "n_lumens": 1,
+      "lumen_voxels": [
+        92
+      ],
+      "axis_lumen_eq_radius_mm": 8.117274569709014
+    },
+    {
+      "s": 195.41432859429074,
+      "n_lumens": 1,
+      "lumen_voxels": [
+        94
+      ],
+      "axis_lumen_eq_radius_mm": 8.205031439785696
+    }
+  ]
+}

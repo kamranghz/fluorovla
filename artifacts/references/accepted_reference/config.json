@@ -1,0 +1,13 @@
+{
+ "patient_id": "s0011",
+ "access_side": "s0011_accepted_portal",
+ "ct_dir": "cache/twin/s0011",
+ "mesh_cache": "cache/twin/s0011/vessel_collision_mesh_solver_local.npz",
+ "mesh_frame": "solver_local",
+ "portal_m": [0.0, 0.0, 0.0],
+ "tangent_raw": [-0.1975291222333908, 0.0, 0.9802970290184021],
+ "ct_offset_m": [0.061955078125, 0.201955078125, -0.0085],
+ "sign_scale": 1.0,
+ "landing_zone": "landing_zone.json",
+ "path_npz": "path_ext.npz"
+}

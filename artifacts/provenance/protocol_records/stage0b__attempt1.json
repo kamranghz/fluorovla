@@ -1,0 +1,43 @@
+{
+ "stage": "stage0b",
+ "attempt": 1,
+ "written": "2026-10-18 09:09:40",
+ "patients": [
+  "s0011"
+ ],
+ "configuration": {
+  "scope": "physics-episode parameterization only (patient_config + 3 modules); default = s0011 constants",
+  "override_mode": "implemented, NOT yet exercised (first use in Stage 3)",
+  "renderer_dataset_writer": "not yet parameterized; regress before Stage 6"
+ },
+ "file_sha256": {
+  "D:/projects/MedPhysAI/scripts/medphysai/patient_config.py": "108c4611c1fb5c28209267a93c41ddbc9183e495271188b811ecdaebd6cc4753",
+  "D:/projects/MedPhysAI/scripts/newton_stage4a_vessel_contact.py": "63572382a48566e7b2d25024f31f4fb841ba247ba540f3d0a96f5a9b27304c1c",
+  "D:/projects/MedPhysAI/scripts/medphysai/backends/newton_fluoro_observation.py": "881cf12a37a486999e839de7399e6cacfabf5a4e64b6eb8f021406f4d5c4e7e8",
+  "D:/projects/MedPhysAI/scripts/_canonical_episode_physics.py": "f64dfcdc68ca6a8a88c6c02939ab7acc3f5cc31cac035f73645afba4455d478d",
+  "D:/projects/MedPhysAI/scripts/newton_stage4a_vessel_contact.py.pre_parameterization": "71c9a9525fc64c0234dd37c16e3372ab03a75a47d647f59be9f37a0c732af5e3",
+  "D:/projects/MedPhysAI/scripts/medphysai/backends/newton_fluoro_observation.py.pre_parameterization": "a5e80d0936055c1237f409e1485ca9997a20a87530cec1664d9f64423a251d4a",
+  "D:/projects/MedPhysAI/scripts/_canonical_episode_physics.py.pre_parameterization": "981e2a9b60d5da7ea538010394755547eacbb43efcbee413187a030621c2fadb",
+  "D:/projects/MedPhysAI/outputs/cvpr_first_demo_v2_holdtail/episode_physics_canon2.json": "0af16e66736bb87e4fd1a0679849b2f5b91de5bb2ad723b5d4e270d282c93881",
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage0b/baseline_unmodified/episode_physics_canon_baseline.json": "6d06ab85f1034e655e01916156e49e4efff2c1938cc0cb86c70deb4ffa4645c1",
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage0b/parameterized_default/episode_physics_canon_param.json": "4096d869ded56728532aec73e7340b2c01ceb7708df7f26acf7c142ec2aad6be"
+ },
+ "criteria": {
+  "regression": "parameterized default vs accepted s0011 episode: identical rows, status, summary"
+ },
+ "results": {
+  "unmodified_vs_stored": {
+   "n_compared": 1680,
+   "bit_identical": true
+  },
+  "parameterized_default_vs_stored": {
+   "n_compared": 1680,
+   "max_abs_diff": 0.0,
+   "bit_identical": true,
+   "n_mismatches": 0
+  }
+ },
+ "decision": "PASS (physics part): parameterization introduces no change to the default s0011 episode. No physics retuning performed.",
+ "deviations": [],
+ "reruns": []
+}

@@ -1,0 +1,3012 @@
+[
+ {
+  "old_path": "scripts/compose_figS05_extended_gallery.py",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "not referenced by canonical code",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/groot_catheter_schema_smoke_test.py",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "not referenced by canonical code",
+  "scientific_status": "evidence",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/newton_drr_observation_bridge.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/newton_drr_observation_render_jobs.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/newton_shared_patient_feed_backend.py",
+  "new_path_or_replacement": "src/fluorovla/physics/lumen_sdf.py",
+  "reason": "generate_lumen_contacts consolidated; validation main() archived",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/newton_stage2a_portal_feed.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/newton_stage2b_single_activation.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/newton_stage2c_multi_activation.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/newton_stage2d_progression_actions.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/newton_stage3b_patient_mapping.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/newton_stage4a_vessel_contact.py",
+  "new_path_or_replacement": "src/fluorovla/physics/lumen_sdf.py",
+  "reason": "library part (mesh, constants) consolidated; Stage-4A validation main() archived",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/newton_stage4a_vessel_contact.py.pre_parameterization",
+  "new_path_or_replacement": "(none: legacy archive keeps the file; hash in PRE_REFACTOR_SHA256.txt)",
+  "reason": "superseded pre-edit backup of an earlier version",
+  "scientific_status": "provenance of earlier code state",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/newton_stage4bde_patient_feed_revalidation.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/newton_stage4b_activation_contact.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/newton_stage4c_contact_root_cause.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/newton_stage4d_segment_contact.py",
+  "new_path_or_replacement": "src/fluorovla/physics/lumen_sdf.py",
+  "reason": "library part (SDF kernel/query) consolidated; Stage-4D validation main() archived",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/newton_stage4e_native_lumen_contact.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/newton_stage4f_lumen_contact_fix.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/run-i4h.sh",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "not referenced by canonical code",
+  "scientific_status": "evidence",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/stage3_7_install_conda.bat",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage3_7_run_all_probes.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage3_7_windows_env.bat",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage3_7_windows_gpu_probe.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/stage3_7_windows_renderer_probe.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/stage3_7_windows_viewport_probe.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/stage3_build.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage3_validate.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage4_1_verify_data.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage4_2_preprocess.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage4_3_segment_vessels.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage4_4_centerline.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage4_5_patient_drr.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage4_6_viewport_smoke.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/stage4_6_viewport_smoke.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage4_8_run.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage4_8_sdf_contact_audit.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/stage4_docker_opts.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/stage5_4d_trajectory_logger.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/stage5_docker_opts.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/stage5_run.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage6_1_action_space_audit.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/stage6_1_merge.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage6_1_run.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage6_2_1_prefix_consistency.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/stage6_2_1_run.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage6_2_2_root_stabilization.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/stage6_2_2_run.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage6_2_phase.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage6_2_rci_dcs_poc.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/stage6_2_run.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage6_3_run.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage6_3_sheath_insertion.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/stage6_5_1_activation_boundary.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/stage6_5_1_run.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage6_5_2a_action_api_check.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage6_5_2a_demo_logger.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/stage6_5_2a_demo_logger_run.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage6_5_2a_drr_fov_fix.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/stage6_5_2a_drr_fov_fix_run.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage6_5_2a_pose_guard_audit.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/stage6_5_2a_progression_actions.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/stage6_5_2a_progression_run.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage6_5_2a_run.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage6_5_2a_short_episode.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/stage6_5_2a_short_episode_run.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage6_5_2a_step27_trace_run.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage6_5_2a_synchronized_drr.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/stage6_5_2a_synchronized_drr_50_run.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage6_5_2a_synchronized_drr_run.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage6_5_2a_variable_rest_cruise.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/stage6_5_2a_variable_rest_cruise_run.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage6_5_2a_variable_rest_feed.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/stage6_5_2a_variable_rest_run.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage6_5_2_material_boundary.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/stage6_5_2_run.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage6_5_cosserat_boundary.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/stage6_5_material_feed_poc.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/stage6_5_run.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage6_5_xpbd_step27_trace.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/stage6_counterfactual_audit.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/stage6_run.sh",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/stage_newton_progression_adapter_check.py",
+  "new_path_or_replacement": "docs/provenance/*.md (validation results); script archived",
+  "reason": "historical Stage-N validation script; superseded by the canonical physics modules; results documented",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/supervise_train.ps1",
+  "new_path_or_replacement": "tools/infra/supervise_groot_training.ps1",
+  "reason": "ported (local WSL training supervision; training moves to cloud)",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/supervise_train.ps1.pre_alloc",
+  "new_path_or_replacement": "(none: legacy archive keeps the file; hash in PRE_REFACTOR_SHA256.txt)",
+  "reason": "superseded pre-edit backup of an earlier version",
+  "scientific_status": "provenance of earlier code state",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/supervise_train.ps1.pre_final100",
+  "new_path_or_replacement": "(none: legacy archive keeps the file; hash in PRE_REFACTOR_SHA256.txt)",
+  "reason": "superseded pre-edit backup of an earlier version",
+  "scientific_status": "provenance of earlier code state",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/wslg-docker-opts.sh",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "not referenced by canonical code",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/_analyze_anatomy_visibility.py",
+  "new_path_or_replacement": "(deferred to the rendering / dataset-generation stage)",
+  "reason": "rendering/DSA exploration script; to be consolidated when the DSA calibration stage starts",
+  "scientific_status": "evidence (DSA roadmap protocol)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/_analyze_contrast_fixedwindow.py",
+  "new_path_or_replacement": "(deferred to the rendering / dataset-generation stage)",
+  "reason": "rendering/DSA exploration script; to be consolidated when the DSA calibration stage starts",
+  "scientific_status": "evidence (DSA roadmap protocol)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/_analyze_contrast_visibility.py",
+  "new_path_or_replacement": "(deferred to the rendering / dataset-generation stage)",
+  "reason": "rendering/DSA exploration script; to be consolidated when the DSA calibration stage starts",
+  "scientific_status": "evidence (DSA roadmap protocol)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/_analyze_roadmap_visibility.py",
+  "new_path_or_replacement": "(deferred to the rendering / dataset-generation stage)",
+  "reason": "rendering/DSA exploration script; to be consolidated when the DSA calibration stage starts",
+  "scientific_status": "evidence (DSA roadmap protocol)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/_audit_bifurcation_anatomy.py",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/_audit_bifurcation_landing.py",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/_audit_cvpr_foundation_target.py",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/_audit_cvpr_previous_action_causality.py",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/_audit_cvpr_target_contract.py",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/_audit_drr_bridge.py",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/_audit_final_report.py",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/_audit_groot_loader_horizon.py",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/_audit_newton_physics.py",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/_build_demo_episode.py",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/_canonical_episode_physics.py",
+  "new_path_or_replacement": "src/fluorovla/physics/episode_runner.py",
+  "reason": "converted from a script to run_physics_episode(); bit-identical",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/_canonical_episode_physics.py.pre_parameterization",
+  "new_path_or_replacement": "(none: legacy archive keeps the file; hash in PRE_REFACTOR_SHA256.txt)",
+  "reason": "superseded pre-edit backup of an earlier version",
+  "scientific_status": "provenance of earlier code state",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/_ckpt_valid.py",
+  "new_path_or_replacement": "tools/groot/validate_checkpoint.py",
+  "reason": "ported",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/_compare_eval600.py",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/_cuda_warmup.py",
+  "new_path_or_replacement": "tools/groot/cuda_warmup.py",
+  "reason": "ported",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/_diag_render_min.py",
+  "new_path_or_replacement": "(deferred to the rendering / dataset-generation stage)",
+  "reason": "rendering/DSA exploration script; to be consolidated when the DSA calibration stage starts",
+  "scientific_status": "evidence (DSA roadmap protocol)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/_diag_roadmap_path.py",
+  "new_path_or_replacement": "(deferred to the rendering / dataset-generation stage)",
+  "reason": "rendering/DSA exploration script; to be consolidated when the DSA calibration stage starts",
+  "scientific_status": "evidence (DSA roadmap protocol)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/_eval600_orchestrator.sh",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/_export_loss_history.py",
+  "new_path_or_replacement": "tools/groot/export_loss_history.py",
+  "reason": "ported",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/_groot_overfit_eval.py",
+  "new_path_or_replacement": "tools/groot/evaluate_offline_actions.py",
+  "reason": "ported",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/_groot_real_data_integration.py",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "not referenced by canonical code",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/_groot_real_data_integration_v2.py",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "not referenced by canonical code",
+  "scientific_status": "evidence",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/_inspect_ckpt_state.py",
+  "new_path_or_replacement": "tools/groot/inspect_checkpoint_state.py",
+  "reason": "ported",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/_make_split_plan.py",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/_monitor_full_run.sh",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/_monitor_snap_run.sh",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/_plan_dataset_counts.py",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/_probe_slangpy_cuda.py",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/_reach_report.py",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/_reach_rollout.py",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/_render_anatomy_visibility.py",
+  "new_path_or_replacement": "(deferred to the rendering / dataset-generation stage)",
+  "reason": "rendering/DSA exploration script; to be consolidated when the DSA calibration stage starts",
+  "scientific_status": "evidence (DSA roadmap protocol)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/_render_contrast_views.py",
+  "new_path_or_replacement": "(deferred to the rendering / dataset-generation stage)",
+  "reason": "rendering/DSA exploration script; to be consolidated when the DSA calibration stage starts",
+  "scientific_status": "evidence (DSA roadmap protocol)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/_render_demo_images.py",
+  "new_path_or_replacement": "(deferred to the rendering / dataset-generation stage)",
+  "reason": "rendering/DSA exploration script; to be consolidated when the DSA calibration stage starts",
+  "scientific_status": "evidence (DSA roadmap protocol)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/_render_roadmap_views.py",
+  "new_path_or_replacement": "(deferred to the rendering / dataset-generation stage)",
+  "reason": "rendering/DSA exploration script; to be consolidated when the DSA calibration stage starts",
+  "scientific_status": "evidence (DSA roadmap protocol)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/_resume_alloc_test.sh",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/_rss_sampler.sh",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/_run_anatomy_visibility.sh",
+  "new_path_or_replacement": "(deferred to the rendering / dataset-generation stage)",
+  "reason": "rendering/DSA exploration script; to be consolidated when the DSA calibration stage starts",
+  "scientific_status": "evidence (DSA roadmap protocol)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/_run_audit_drr_bridge_docker.py",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/_run_canonical_physics.sh",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/_run_contrast_views.sh",
+  "new_path_or_replacement": "(deferred to the rendering / dataset-generation stage)",
+  "reason": "rendering/DSA exploration script; to be consolidated when the DSA calibration stage starts",
+  "scientific_status": "evidence (DSA roadmap protocol)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/_run_cvpr_drr_render.sh",
+  "new_path_or_replacement": "(deferred to the rendering / dataset-generation stage)",
+  "reason": "rendering/DSA exploration script; to be consolidated when the DSA calibration stage starts",
+  "scientific_status": "evidence (DSA roadmap protocol)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/_run_demo_render.sh",
+  "new_path_or_replacement": "(deferred to the rendering / dataset-generation stage)",
+  "reason": "rendering/DSA exploration script; to be consolidated when the DSA calibration stage starts",
+  "scientific_status": "evidence (DSA roadmap protocol)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/_run_diag_render.sh",
+  "new_path_or_replacement": "(deferred to the rendering / dataset-generation stage)",
+  "reason": "rendering/DSA exploration script; to be consolidated when the DSA calibration stage starts",
+  "scientific_status": "evidence (DSA roadmap protocol)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/_run_eval600.sh",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/_run_reach.sh",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/_run_roadmap_views.sh",
+  "new_path_or_replacement": "(deferred to the rendering / dataset-generation stage)",
+  "reason": "rendering/DSA exploration script; to be consolidated when the DSA calibration stage starts",
+  "scientific_status": "evidence (DSA roadmap protocol)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/_run_sampler.sh",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/_run_teacher.sh",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/_run_with_nvrtc.sh",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/_save_diag.py",
+  "new_path_or_replacement": "(deferred to the rendering / dataset-generation stage)",
+  "reason": "rendering/DSA exploration script; to be consolidated when the DSA calibration stage starts",
+  "scientific_status": "evidence (DSA roadmap protocol)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/_save_diag_reload.py",
+  "new_path_or_replacement": "(deferred to the rendering / dataset-generation stage)",
+  "reason": "rendering/DSA exploration script; to be consolidated when the DSA calibration stage starts",
+  "scientific_status": "evidence (DSA roadmap protocol)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/_scan_patient_pool.py",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/_setup_cuda_nvrtc_stub.sh",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/_snapshot_offline.py",
+  "new_path_or_replacement": "tools/groot/snapshot_training_state.py",
+  "reason": "ported",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/_startup_guard.sh",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/_teacher_report.py",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/_teacher_rollout.py",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/_tiny_overfit_report.py",
+  "new_path_or_replacement": "src/fluorovla/* (superseded) / docs/provenance",
+  "reason": "historical audit/orchestration script superseded by canonical modules and tools",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/bin/nvidia-ctk",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "not referenced by canonical code",
+  "scientific_status": "evidence",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/design_v3/anatomy_profile.py",
+  "new_path_or_replacement": "docs/provenance/cohort_selection_design.md + artifacts/summaries",
+  "reason": "design-stage analysis/report step; outputs summarized, selection logic consolidated in cohort_selection.py",
+  "scientific_status": "evidence (design stage)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/design_v3/_dbg_pairs.py",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "scratch debug script of the design stage",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/design_v3/_dbg_sel.py",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "scratch debug script of the design stage",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/design_v3/_debug_fail.py",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "scratch debug script of the design stage",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/design_v3/_debug_fail2.py",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "scratch debug script of the design stage",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/design_v3/_debug_skel.py",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "scratch debug script of the design stage",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/design_v3/_expected_distribution.py",
+  "new_path_or_replacement": "docs/provenance/cohort_selection_design.md + artifacts/summaries",
+  "reason": "design-stage analysis/report step; outputs summarized, selection logic consolidated in cohort_selection.py",
+  "scientific_status": "evidence (design stage)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/design_v3/_extract_for_selection.py",
+  "new_path_or_replacement": "docs/provenance/cohort_selection_design.md + artifacts/summaries",
+  "reason": "design-stage analysis/report step; outputs summarized, selection logic consolidated in cohort_selection.py",
+  "scientific_status": "evidence (design stage)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/design_v3/_pilot_counts.py",
+  "new_path_or_replacement": "docs/provenance/cohort_selection_design.md + artifacts/summaries",
+  "reason": "design-stage analysis/report step; outputs summarized, selection logic consolidated in cohort_selection.py",
+  "scientific_status": "evidence (design stage)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/design_v3/_pool_stats.py",
+  "new_path_or_replacement": "docs/provenance/cohort_selection_design.md + artifacts/summaries",
+  "reason": "design-stage analysis/report step; outputs summarized, selection logic consolidated in cohort_selection.py",
+  "scientific_status": "evidence (design stage)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/design_v3/_rule_diagnostics.py",
+  "new_path_or_replacement": "docs/provenance/cohort_selection_design.md + artifacts/summaries",
+  "reason": "design-stage analysis/report step; outputs summarized, selection logic consolidated in cohort_selection.py",
+  "scientific_status": "evidence (design stage)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/design_v3/_s0011_physics_vs_geometry.py",
+  "new_path_or_replacement": "docs/provenance/cohort_selection_design.md + artifacts/summaries",
+  "reason": "design-stage analysis/report step; outputs summarized, selection logic consolidated in cohort_selection.py",
+  "scientific_status": "evidence (design stage)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/design_v3/_scan_access_paths.py",
+  "new_path_or_replacement": "docs/provenance/cohort_selection_design.md + artifacts/summaries",
+  "reason": "design-stage analysis/report step; outputs summarized, selection logic consolidated in cohort_selection.py",
+  "scientific_status": "evidence (design stage)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/design_v3/_select_pilot.py",
+  "new_path_or_replacement": "docs/provenance/cohort_selection_design.md + artifacts/summaries",
+  "reason": "design-stage analysis/report step; outputs summarized, selection logic consolidated in cohort_selection.py",
+  "scientific_status": "evidence (design stage)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/design_v3/_sel_common.py",
+  "new_path_or_replacement": "src/fluorovla/anatomy/cohort_selection.py",
+  "reason": "consolidated",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/design_v3/_sel_qa_images.py",
+  "new_path_or_replacement": "docs/provenance/cohort_selection_design.md + artifacts/summaries",
+  "reason": "design-stage analysis/report step; outputs summarized, selection logic consolidated in cohort_selection.py",
+  "scientific_status": "evidence (design stage)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/design_v3/_sel_step1_tables.py",
+  "new_path_or_replacement": "docs/provenance/cohort_selection_design.md + artifacts/summaries",
+  "reason": "design-stage analysis/report step; outputs summarized, selection logic consolidated in cohort_selection.py",
+  "scientific_status": "evidence (design stage)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/design_v3/_sel_step2_select.py",
+  "new_path_or_replacement": "docs/provenance/cohort_selection_design.md + artifacts/summaries",
+  "reason": "design-stage analysis/report step; outputs summarized, selection logic consolidated in cohort_selection.py",
+  "scientific_status": "evidence (design stage)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/design_v3/_sel_step3_final.py",
+  "new_path_or_replacement": "src/fluorovla/anatomy/cohort_selection.py",
+  "reason": "consolidated (select_development_cohort)",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/design_v3/_sel_step4_report.py",
+  "new_path_or_replacement": "docs/provenance/cohort_selection_design.md + artifacts/summaries",
+  "reason": "design-stage analysis/report step; outputs summarized, selection logic consolidated in cohort_selection.py",
+  "scientific_status": "evidence (design stage)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/design_v3/_sel_step5_extras.py",
+  "new_path_or_replacement": "docs/provenance/cohort_selection_design.md + artifacts/summaries",
+  "reason": "design-stage analysis/report step; outputs summarized, selection logic consolidated in cohort_selection.py",
+  "scientific_status": "evidence (design stage)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/design_v3/_sel_step6_sensitivity.py",
+  "new_path_or_replacement": "docs/provenance/cohort_selection_design.md + artifacts/summaries",
+  "reason": "design-stage analysis/report step; outputs summarized, selection logic consolidated in cohort_selection.py",
+  "scientific_status": "evidence (design stage)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/design_v3/_sel_step7_last.py",
+  "new_path_or_replacement": "docs/provenance/cohort_selection_design.md + artifacts/summaries",
+  "reason": "design-stage analysis/report step; outputs summarized, selection logic consolidated in cohort_selection.py",
+  "scientific_status": "evidence (design stage)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/design_v3/_sel_step8_doc.py",
+  "new_path_or_replacement": "docs/provenance/cohort_selection_design.md + artifacts/summaries",
+  "reason": "design-stage analysis/report step; outputs summarized, selection logic consolidated in cohort_selection.py",
+  "scientific_status": "evidence (design stage)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/design_v3/_sel_step9_write.py",
+  "new_path_or_replacement": "docs/provenance/cohort_selection_design.md + artifacts/summaries",
+  "reason": "design-stage analysis/report step; outputs summarized, selection logic consolidated in cohort_selection.py",
+  "scientific_status": "evidence (design stage)",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/design_v3/_test_s0011.py",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "scratch debug script of the design stage",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/action.py",
+  "new_path_or_replacement": "src/fluorovla/action.py",
+  "reason": "ported; AST identical",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/medphysai/demo_transition.py",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "not referenced by canonical code",
+  "scientific_status": "evidence",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/medphysai/drr_framing.py",
+  "new_path_or_replacement": "src/fluorovla/observations/drr_framing.py",
+  "reason": "ported; AST identical (patched-attribute name renamed)",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/medphysai/patient_config.py",
+  "new_path_or_replacement": "src/fluorovla/physics/patient_config.py",
+  "reason": "replaced: explicit PatientConfig object instead of import-time global CFG; s0011 constants moved to artifacts/references/s0011/config.json",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/medphysai/target_contract.py",
+  "new_path_or_replacement": "src/fluorovla/task_contract.py",
+  "reason": "ported; AST identical",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/medphysai/teacher.py",
+  "new_path_or_replacement": "src/fluorovla/teacher/privileged_teacher.py",
+  "reason": "ported; AST identical",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/medphysai/__init__.py",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "not referenced by canonical code",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/medphysai/backends/i4h_progression.py",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "not referenced by canonical code",
+  "scientific_status": "evidence",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/medphysai/backends/newton_fluoro_observation.py",
+  "new_path_or_replacement": "src/fluorovla/observations/fluoro_renderer.py",
+  "reason": "ported with PatientConfig injection; NOT regression-tested (renderer stage deferred)",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/medphysai/backends/newton_fluoro_observation.py.pre_parameterization",
+  "new_path_or_replacement": "(none: legacy archive keeps the file; hash in PRE_REFACTOR_SHA256.txt)",
+  "reason": "superseded pre-edit backup of an earlier version",
+  "scientific_status": "provenance of earlier code state",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/medphysai/backends/newton_patient_episode.py",
+  "new_path_or_replacement": "src/fluorovla/physics/patient_episode.py",
+  "reason": "ported; takes PatientConfig; bit-identical results (regression A/B/C)",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/medphysai/backends/newton_progression.py",
+  "new_path_or_replacement": "src/fluorovla/physics/progression.py",
+  "reason": "ported; AST identical",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/medphysai/backends/newton_stage2d_engine.py",
+  "new_path_or_replacement": "src/fluorovla/physics/engine.py",
+  "reason": "ported; AST identical",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/medphysai/backends/newton_stage2d_engine.py.pre_7body",
+  "new_path_or_replacement": "(none: legacy archive keeps the file; hash in PRE_REFACTOR_SHA256.txt)",
+  "reason": "superseded pre-edit backup of an earlier version",
+  "scientific_status": "provenance of earlier code state",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/medphysai/backends/newton_stage2d_engine.py.pre_canonical",
+  "new_path_or_replacement": "(none: legacy archive keeps the file; hash in PRE_REFACTOR_SHA256.txt)",
+  "reason": "superseded pre-edit backup of an earlier version",
+  "scientific_status": "provenance of earlier code state",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/medphysai/backends/protocol.py",
+  "new_path_or_replacement": "src/fluorovla/physics/backend_protocol.py",
+  "reason": "ported; AST identical",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/medphysai/backends/__init__.py",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "not referenced by canonical code",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/medphysai/groot/catheter_modality.py",
+  "new_path_or_replacement": "src/fluorovla/policy/catheter_modality.py",
+  "reason": "ported; not run",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/medphysai/groot/episode_schema.py",
+  "new_path_or_replacement": "src/fluorovla/data/episode_schema.py",
+  "reason": "ported; firewall test added",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/medphysai/groot/episode_schema.py.pre_projection_label",
+  "new_path_or_replacement": "(none: legacy archive keeps the file; hash in PRE_REFACTOR_SHA256.txt)",
+  "reason": "superseded pre-edit backup of an earlier version",
+  "scientific_status": "provenance of earlier code state",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/medphysai/groot/launch_catheter_finetune.py",
+  "new_path_or_replacement": "src/fluorovla/policy/finetune_launcher.py",
+  "reason": "ported; env knobs renamed FLUOROVLA_*; not run (training deferred)",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/medphysai/groot/launch_catheter_finetune.py.pre_continue",
+  "new_path_or_replacement": "(none: legacy archive keeps the file; hash in PRE_REFACTOR_SHA256.txt)",
+  "reason": "superseded pre-edit backup of an earlier version",
+  "scientific_status": "provenance of earlier code state",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/medphysai/groot/launch_catheter_finetune.py.pre_heartbeat",
+  "new_path_or_replacement": "(none: legacy archive keeps the file; hash in PRE_REFACTOR_SHA256.txt)",
+  "reason": "superseded pre-edit backup of an earlier version",
+  "scientific_status": "provenance of earlier code state",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/medphysai/groot/launch_catheter_finetune.py.pre_snapshots",
+  "new_path_or_replacement": "(none: legacy archive keeps the file; hash in PRE_REFACTOR_SHA256.txt)",
+  "reason": "superseded pre-edit backup of an earlier version",
+  "scientific_status": "provenance of earlier code state",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/medphysai/groot/__init__.py",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "not referenced by canonical code",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/medphysai/groot/catheter_modality_config/modality.json",
+  "new_path_or_replacement": "src/fluorovla/policy/catheter_modality_config/modality.json",
+  "reason": "ported",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/protocol/build_cloud_bundle.py",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "not referenced by canonical code",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/protocol/build_patient_episode_config.py",
+  "new_path_or_replacement": "src/fluorovla/anatomy/episode_config.py",
+  "reason": "ported as pure function; configs identical for 45 episodes",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/protocol/cloud_batch.py",
+  "new_path_or_replacement": "tools/run_physics_mapping.py",
+  "reason": "ported",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/protocol/cloud_finalize.py",
+  "new_path_or_replacement": "src/fluorovla/evaluation/physics_mapping_summary.py",
+  "reason": "ported",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/protocol/cohort_reconciliation.py",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "not referenced by canonical code",
+  "scientific_status": "evidence",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/protocol/cohort_reconciliation_attempt2.py",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "not referenced by canonical code",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/protocol/compare_episode_physics.py",
+  "new_path_or_replacement": "src/fluorovla/evaluation/episode_comparison.py + tools/check_reproduction.py",
+  "reason": "ported",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/protocol/compare_reproduction.py",
+  "new_path_or_replacement": "src/fluorovla/evaluation/episode_comparison.py + tools/check_reproduction.py",
+  "reason": "ported",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/protocol/episode_batch.py",
+  "new_path_or_replacement": "tools/run_physics_mapping.py",
+  "reason": "superseded (explicit PatientConfig makes module purging unnecessary)",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/protocol/episode_with_probe.py",
+  "new_path_or_replacement": "src/fluorovla/physics/initial_state_probe.py + tools/run_physics_mapping.py",
+  "reason": "ported",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/protocol/finish_cloud_bundle.py",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "not referenced by canonical code",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/protocol/junction_audit.py",
+  "new_path_or_replacement": "artifacts/provenance + docs/provenance (audit result); tool not ported",
+  "reason": "one-off topology audit; result recorded in protocol records",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/protocol/make_manifest.py",
+  "new_path_or_replacement": "tools/file_manifest.py + src/fluorovla/common/provenance.py",
+  "reason": "ported",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/protocol/project_inventory.py",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "not referenced by canonical code",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/protocol/record.py",
+  "new_path_or_replacement": "src/fluorovla/common/provenance.py",
+  "reason": "ported",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/protocol/run_batches.py",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "not referenced by canonical code",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/protocol/run_episodes.py",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "not referenced by canonical code",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/protocol/stage1_compare.py",
+  "new_path_or_replacement": "src/fluorovla/anatomy/candidate_pool.py (side assignment)",
+  "reason": "side-assignment logic ported; design-vs-twin comparison is provenance (docs/provenance/cohort_reconciliation.md)",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/protocol/stage2_select.py",
+  "new_path_or_replacement": "tools/select_development_cohort.py + src/fluorovla/anatomy/cohort_selection.py",
+  "reason": "ported",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/protocol/stage2_select_attempt2.py",
+  "new_path_or_replacement": "tools/select_development_cohort.py",
+  "reason": "same logic; attempt 2 is the locked selection",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/protocol/stage3_summarize.py",
+  "new_path_or_replacement": "src/fluorovla/evaluation/physics_mapping_summary.py + tools/summarize_physics_mapping.py",
+  "reason": "superseded by attempt-addressable summary",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/protocol/twin_build.sh",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "not referenced by canonical code",
+  "scientific_status": "evidence",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/protocol/twin_build_inproc.py",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "not referenced by canonical code",
+  "scientific_status": "evidence",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "scripts/protocol/twin_build_win.py",
+  "new_path_or_replacement": "src/fluorovla/anatomy/twin_build.py + tools/build_patient_twin.py",
+  "reason": "ported",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/protocol/twin_geometry.py",
+  "new_path_or_replacement": "src/fluorovla/anatomy/access_geometry.py",
+  "reason": "ported (LOOP_COLLAPSE + per-entry guard included)",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/protocol/twin_geometry.v1_before_loop_collapse.py",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "not referenced by canonical code",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/protocol/twin_run.sh",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "not referenced by canonical code",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/protocol/write_reconciliation_doc.py",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "not referenced by canonical code",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/protocol/wsl_physics.sh",
+  "new_path_or_replacement": "tools/infra/wsl_run.sh",
+  "reason": "ported (local WSL workaround only)",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "scripts/protocol/_assemble_repo_artifacts.py",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "not referenced by canonical code",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/protocol/_hash_tree.py",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "not referenced by canonical code",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/protocol/_refactor_audit.py",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "not referenced by canonical code",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scripts/protocol/_refactor_map.py",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "not referenced by canonical code",
+  "scientific_status": "evidence",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "scratch_vdt/vasculature_digital_twin/cli/__pycache__/preprocess_ct.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scratch_vdt/vasculature_digital_twin/cli/__pycache__/preprocess_ct.cpython-313.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scratch_vdt/vasculature_digital_twin/cli/__pycache__/segment_vessels.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scratch_vdt/vasculature_digital_twin/cli/__pycache__/segment_vessels.cpython-313.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scratch_vdt/vasculature_digital_twin/cli/__pycache__/__init__.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scratch_vdt/vasculature_digital_twin/cli/__pycache__/__init__.cpython-313.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scratch_vdt/vasculature_digital_twin/ct/__pycache__/dicom_ingest.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scratch_vdt/vasculature_digital_twin/ct/__pycache__/dicom_ingest.cpython-313.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scratch_vdt/vasculature_digital_twin/ct/__pycache__/__init__.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scratch_vdt/vasculature_digital_twin/ct/__pycache__/__init__.cpython-313.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scratch_vdt/vasculature_digital_twin/__pycache__/config.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scratch_vdt/vasculature_digital_twin/__pycache__/config.cpython-313.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scratch_vdt/vasculature_digital_twin/__pycache__/preprocessor.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scratch_vdt/vasculature_digital_twin/__pycache__/preprocessor.cpython-313.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scratch_vdt/vasculature_digital_twin/__pycache__/vasculature.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scratch_vdt/vasculature_digital_twin/__pycache__/vasculature.cpython-313.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scratch_vdt/vasculature_digital_twin/__pycache__/volume.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scratch_vdt/vasculature_digital_twin/__pycache__/volume.cpython-313.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scratch_vdt/vasculature_digital_twin/__pycache__/__init__.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scratch_vdt/vasculature_digital_twin/__pycache__/__init__.cpython-313.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/design_v3/__pycache__/anatomy_profile.cpython-313.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/design_v3/__pycache__/_expected_distribution.cpython-313.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/design_v3/__pycache__/_sel_common.cpython-313.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/backends/__pycache__/i4h_progression.cpython-310.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/backends/__pycache__/i4h_progression.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/backends/__pycache__/newton_fluoro_observation.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/backends/__pycache__/newton_patient_episode.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/backends/__pycache__/newton_progression.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/backends/__pycache__/newton_stage2d_engine.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/backends/__pycache__/protocol.cpython-310.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/backends/__pycache__/protocol.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/backends/__pycache__/__init__.cpython-310.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/backends/__pycache__/__init__.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/groot/__pycache__/catheter_modality.cpython-311.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/groot/__pycache__/catheter_modality.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/groot/__pycache__/catheter_modality.cpython-313.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/groot/__pycache__/episode_schema.cpython-311.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/groot/__pycache__/episode_schema.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/groot/__pycache__/episode_schema.cpython-313.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/groot/__pycache__/__init__.cpython-311.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/groot/__pycache__/__init__.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/groot/__pycache__/__init__.cpython-313.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/__pycache__/action.cpython-310.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/__pycache__/action.cpython-311.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/__pycache__/action.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/__pycache__/action.cpython-313.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/__pycache__/demo_transition.cpython-310.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/__pycache__/drr_framing.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/__pycache__/patient_config.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/__pycache__/target_contract.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/__pycache__/target_contract.cpython-313.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/__pycache__/teacher.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/__pycache__/teacher.cpython-313.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/__pycache__/__init__.cpython-310.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/__pycache__/__init__.cpython-311.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/__pycache__/__init__.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/medphysai/__pycache__/__init__.cpython-313.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/protocol/__pycache__/build_patient_episode_config.cpython-313.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/protocol/__pycache__/record.cpython-313.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/protocol/__pycache__/twin_geometry.cpython-313.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/__pycache__/newton_drr_observation_bridge.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/__pycache__/newton_shared_patient_feed_backend.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/__pycache__/newton_stage4a_vessel_contact.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/__pycache__/newton_stage4d_segment_contact.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/__pycache__/newton_stage4e_native_lumen_contact.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/__pycache__/newton_stage4f_lumen_contact_fix.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/__pycache__/stage6_5_2a_pose_guard_audit.cpython-311.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/__pycache__/stage6_5_2_material_boundary.cpython-310.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/__pycache__/stage6_5_cosserat_boundary.cpython-311.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/__pycache__/_audit_cvpr_target_contract.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/__pycache__/_diag_bend_stiffness.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/__pycache__/_probe_s0011_vessel_sdf.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/__pycache__/_save_diag.cpython-313.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "scripts/__pycache__/_save_diag_reload.cpython-313.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "third_party/i4h-workflows/tools/utilities/cli/__pycache__/container.cpython-310.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "third_party/i4h-workflows/tools/utilities/cli/__pycache__/container.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "third_party/i4h-workflows/tools/utilities/cli/__pycache__/util.cpython-310.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "third_party/i4h-workflows/tools/utilities/cli/__pycache__/util.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "third_party/i4h-workflows/tools/utilities/cli/__pycache__/__init__.cpython-310.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "third_party/i4h-workflows/tools/utilities/cli/__pycache__/__init__.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "third_party/i4h-workflows/tools/utilities/metadata/__pycache__/gather_metadata.cpython-310.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "third_party/i4h-workflows/tools/utilities/metadata/__pycache__/gather_metadata.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "third_party/i4h-workflows/tools/utilities/metadata/__pycache__/utils.cpython-310.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "third_party/i4h-workflows/tools/utilities/metadata/__pycache__/utils.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "third_party/i4h-workflows/tools/utilities/metadata/__pycache__/__init__.cpython-310.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "third_party/i4h-workflows/tools/utilities/metadata/__pycache__/__init__.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "third_party/i4h-workflows/tools/utilities/__pycache__/__init__.cpython-310.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "third_party/i4h-workflows/tools/utilities/__pycache__/__init__.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "third_party/i4h-workflows/workflows/catheter_navigation/scripts/simulation/fluorosim/examples/__pycache__/interactive_catheter_slang_viewport.cpython-311.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "third_party/i4h-workflows/workflows/catheter_navigation/scripts/simulation/fluorosim/examples/__pycache__/interactive_catheter_slang_viewport.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "third_party/i4h-workflows/workflows/catheter_navigation/scripts/simulation/fluorosim/rendering/__pycache__/diffdrr_slang_renderer.cpython-311.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "third_party/i4h-workflows/workflows/catheter_navigation/scripts/simulation/fluorosim/rendering/__pycache__/diffdrr_slang_renderer.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "third_party/i4h-workflows/workflows/catheter_navigation/scripts/simulation/fluorosim/rendering/__pycache__/__init__.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "third_party/i4h-workflows/workflows/catheter_navigation/tests/__pycache__/test_fluorosim_smoke.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "third_party/i4h-workflows/workflows/catheter_navigation/tests/__pycache__/__init__.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "third_party/i4h-workflows/workflows/catheter_navigation/__pycache__/__init__.cpython-312.pyc",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "bytecode cache",
+  "scientific_status": "none",
+  "category": "TEMP_DEBUG"
+ },
+ {
+  "old_path": "docs/cvpr_adaptive_teacher_multipatient_pilot_v2.md",
+  "new_path_or_replacement": "docs/provenance/adaptive_teacher_design.md",
+  "reason": "protocol/provenance document moved under semantic name",
+  "scientific_status": "provenance",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "docs/cvpr_cohort_reconciliation_v1.md",
+  "new_path_or_replacement": "docs/provenance/cohort_reconciliation.md",
+  "reason": "protocol/provenance document moved under semantic name",
+  "scientific_status": "provenance",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "docs/cvpr_contrast_visibility_v1.md",
+  "new_path_or_replacement": "docs/provenance/contrast_visibility.md",
+  "reason": "protocol/provenance document moved under semantic name",
+  "scientific_status": "provenance",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "docs/cvpr_dsa_roadmap_protocol_v1.md",
+  "new_path_or_replacement": "docs/provenance/dsa_roadmap_protocol.md",
+  "reason": "protocol/provenance document moved under semantic name",
+  "scientific_status": "canonical",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "docs/cvpr_final_experimental_protocol_v1.md",
+  "new_path_or_replacement": "experiments/protocols/experimental_protocol_v1.md",
+  "reason": "protocol/provenance document moved under semantic name",
+  "scientific_status": "canonical",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "docs/cvpr_multipatient_dataset_design_v1.md",
+  "new_path_or_replacement": "docs/provenance/multipatient_dataset_design.md",
+  "reason": "protocol/provenance document moved under semantic name",
+  "scientific_status": "provenance",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "docs/cvpr_pilot_cohort_selection_v1.md",
+  "new_path_or_replacement": "docs/provenance/cohort_selection_design.md",
+  "reason": "protocol/provenance document moved under semantic name",
+  "scientific_status": "provenance",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "docs/cvpr_stage3_native_linux_migration.md",
+  "new_path_or_replacement": "docs/cloud_workflow.md (superseded)",
+  "reason": "protocol/provenance document moved under semantic name",
+  "scientific_status": "provenance",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "docs/cvpr_stage3_preliminary_init_audit.md",
+  "new_path_or_replacement": "docs/provenance/initial_state_preliminary_audit.md",
+  "reason": "protocol/provenance document moved under semantic name",
+  "scientific_status": "provenance",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "docs/cvpr_target_contract_v1.md",
+  "new_path_or_replacement": "docs/provenance/target_contract_design.md",
+  "reason": "protocol/provenance document moved under semantic name",
+  "scientific_status": "provenance",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "docs/cvpr_visible_bifurcation_target_v1.md",
+  "new_path_or_replacement": "docs/provenance/visible_bifurcation_target.md",
+  "reason": "protocol/provenance document moved under semantic name",
+  "scientific_status": "provenance",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "docs/environment.md",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "earlier stage report (stage validation / environment record); results superseded by the protocol records",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "docs/implementation_log.md",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "earlier stage report (stage validation / environment record); results superseded by the protocol records",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "docs/stage2_validation.md",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "earlier stage report (stage validation / environment record); results superseded by the protocol records",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "docs/stage3_5_graphics_validation.md",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "earlier stage report (stage validation / environment record); results superseded by the protocol records",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "docs/stage3_7_windows_feasibility.md",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "earlier stage report (stage validation / environment record); results superseded by the protocol records",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "docs/stage3_validation.md",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "earlier stage report (stage validation / environment record); results superseded by the protocol records",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "docs/stage4_8_sdf_contact_audit.md",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "earlier stage report (stage validation / environment record); results superseded by the protocol records",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "docs/stage4_s0011_patient_pipeline.md",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "earlier stage report (stage validation / environment record); results superseded by the protocol records",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "docs/stage5_first_4d_trajectory.md",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "earlier stage report (stage validation / environment record); results superseded by the protocol records",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "docs/stage6_1_effective_action_space.md",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "earlier stage report (stage validation / environment record); results superseded by the protocol records",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "docs/stage6_2_1_prefix_consistency.md",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "earlier stage report (stage validation / environment record); results superseded by the protocol records",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "docs/stage6_2_2_root_stabilization.md",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "earlier stage report (stage validation / environment record); results superseded by the protocol records",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "docs/stage6_2_rci_dcs_poc.md",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "earlier stage report (stage validation / environment record); results superseded by the protocol records",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "docs/stage6_3_sheath_insertion.md",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "earlier stage report (stage validation / environment record); results superseded by the protocol records",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "docs/stage6_5_1_activation_boundary.md",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "earlier stage report (stage validation / environment record); results superseded by the protocol records",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "docs/stage6_5_2a_demo_logger.md",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "earlier stage report (stage validation / environment record); results superseded by the protocol records",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "docs/stage6_5_2a_pose_guard_audit.md",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "earlier stage report (stage validation / environment record); results superseded by the protocol records",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "docs/stage6_5_2a_progression_action_api.md",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "earlier stage report (stage validation / environment record); results superseded by the protocol records",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "docs/stage6_5_2a_progression_action_space.md",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "earlier stage report (stage validation / environment record); results superseded by the protocol records",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "docs/stage6_5_2_material_boundary.md",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "earlier stage report (stage validation / environment record); results superseded by the protocol records",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "docs/stage6_5_material_feed_poc.md",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "earlier stage report (stage validation / environment record); results superseded by the protocol records",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "docs/stage6_counterfactual_reasoning_task.md",
+  "new_path_or_replacement": "(legacy archive)",
+  "reason": "earlier stage report (stage validation / environment record); results superseded by the protocol records",
+  "scientific_status": "evidence (earlier validation)",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/cvpr_tiny_overfit_v1/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "GR00T tiny-overfit run (checkpoints, evals, logs); 154 GB; intermediate checkpoints are candidates for external archive",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/cvpr_visible_bifurcation_v1/",
+  "new_path_or_replacement": "artifacts/references/s0011 + legacy archive",
+  "reason": "contains the accepted s0011 landing zone / path (copied to artifacts/references/s0011)",
+  "scientific_status": "see category",
+  "category": "KEEP_REPRODUCTION"
+ },
+ {
+  "old_path": "outputs/cvpr_first_demo_v2_holdtail/",
+  "new_path_or_replacement": "artifacts/references/s0011 + legacy archive",
+  "reason": "contains the accepted s0011 episode (copied to artifacts/references/s0011)",
+  "scientific_status": "see category",
+  "category": "KEEP_REPRODUCTION"
+ },
+ {
+  "old_path": "outputs/cvpr_first_demo_v1/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "superseded by first_demo_v2_holdtail",
+  "scientific_status": "see category",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "outputs/cvpr_protocol_v1/",
+  "new_path_or_replacement": "artifacts/provenance/protocol_records + artifacts/summaries + legacy archive",
+  "reason": "protocol execution records, geometry, selection, local physics-mapping results and infrastructure logs",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "data/ct_cache/",
+  "new_path_or_replacement": "FluoroVLA/data/cache/twin",
+  "reason": "patient twins (mu/hu volumes, masks, centerlines); rebuilt deterministically by tools/build_patient_twin.py; MOVED (hash-verified) to FluoroVLA/data/cache/twin",
+  "scientific_status": "see category",
+  "category": "REGENERABLE_CACHE"
+ },
+ {
+  "old_path": "data/Totalsegmentator_dataset_small_v201/",
+  "new_path_or_replacement": "FluoroVLA/data/raw/totalsegmentator",
+  "reason": "raw CT + segmentations (authoritative raw data); MOVED (hash-verified) to FluoroVLA/data/raw/totalsegmentator",
+  "scientific_status": "see category",
+  "category": "KEEP_CANONICAL"
+ },
+ {
+  "old_path": "data/4d_medphys/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier 4D trajectory frames of s0011",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "migration/cloud_stage3_v1/",
+  "new_path_or_replacement": "unchanged",
+  "reason": "immutable pre-refactor recovery bundle",
+  "scientific_status": "see category",
+  "category": "KEEP_REPRODUCTION"
+ },
+ {
+  "old_path": "third_party/i4h-workflows/",
+  "new_path_or_replacement": "legacy archive; document pinned commit",
+  "reason": "external i4h repository checkout (renderer / twin sources)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "environments/windows-cuda-shim/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "Windows CUDA shim from the abandoned Windows-native renderer attempt",
+  "scientific_status": "see category",
+  "category": "OBSOLETE"
+ },
+ {
+  "old_path": "data/Totalsegmentator_dataset_small_v201.zip/",
+  "new_path_or_replacement": "legacy archive (not deleted)",
+  "reason": "zip archive of the raw dataset that now lives, extracted and verified, in FluoroVLA/data/raw/totalsegmentator; kept (raw-data protection)",
+  "scientific_status": "see category",
+  "category": "DUPLICATE"
+ },
+ {
+  "old_path": "tools/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "i4h / holohub CLI tooling copy (third party); only needed to rebuild the i4h container",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "assets/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "supplementary figure S5 gallery",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "07_MedPhysAI_materials.zip/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "thesis materials archive (not inspected for redundancy)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs.zip/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "archive of early outputs (not inspected for redundancy)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "THESIS_MATERIALS_MANIFEST.md/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "manifest of the thesis materials archive",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "=0.40/",
+  "new_path_or_replacement": "(deleted)",
+  "reason": "stray file created by an unquoted pip command ('pip install pkg>=0.40' redirect); no content of value",
+  "scientific_status": "see category",
+  "category": "DELETE"
+ },
+ {
+  "old_path": "scratch_vdt/",
+  "new_path_or_replacement": "VDT_PATH documented in docs/reproducibility.md",
+  "reason": "copy of the vasculature_digital_twin package from the i4h image",
+  "scientific_status": "see category",
+  "category": "REGENERABLE_CACHE"
+ },
+ {
+  "old_path": "outputs/stage3_5_drr_regression.png/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/stage3_7_windows_gpu_probe.txt/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/stage3_drr_synthetic.png/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/stage3_drr_synthetic_i4h.png/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/_pool_gate_ids.json/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/_pool_scan.json/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/cvpr_groot_integration_v1/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/cvpr_groot_integration_v2/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/cvpr_multipatient_design_v1/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/cvpr_physical_reachability_v1/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/cvpr_prelearning_doublecheck/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/cvpr_target_contract_v1/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/cvpr_teacher_validation_v1/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/groot_catheter_schema_smoke/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/icra_pre_ai_audit/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/newton_drr_observation_bridge/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/newton_progression_adapter/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/newton_shared_patient_feed_backend/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/newton_stage1_5_smoke/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/newton_stage2a_portal_feed/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/newton_stage2b_single_activation/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/newton_stage2c_multi_activation/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/newton_stage2d_progression_actions/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/newton_stage3b_patient_mapping/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/newton_stage4a_vessel_contact/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/newton_stage4bde_patient_feed_revalidation/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/newton_stage4b_activation_contact/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/newton_stage4c_contact_root_cause/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/newton_stage4d_segment_contact/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/newton_stage4e_native_lumen_contact/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/newton_stage4f_lumen_contact_fix/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/stage3_7/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/stage4_s0011/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/stage5_s0011/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/stage6_1_action_space/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/stage6_2_1_prefix_consistency/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/stage6_2_2_root_stabilization/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/stage6_2_rci_dcs_poc/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/stage6_3_sheath_insertion/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/stage6_5_1_activation_boundary/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/stage6_5_2a_demo_logger/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/stage6_5_2a_pose_guard_audit/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/stage6_5_2a_progression_actions/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/stage6_5_2a_variable_rest_feed/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/stage6_5_2_material_boundary/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/stage6_5_material_feed_poc/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/stage6_counterfactual/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "earlier stage output (validation JSON/figures)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ },
+ {
+  "old_path": "outputs/cvpr_dsa_roadmap_v1/",
+  "new_path_or_replacement": "legacy archive",
+  "reason": "DSA roadmap protocol outputs (needed again at DSA calibration)",
+  "scientific_status": "see category",
+  "category": "KEEP_EVIDENCE"
+ }
+]

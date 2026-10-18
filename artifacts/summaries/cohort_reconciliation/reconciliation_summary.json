@@ -1,0 +1,40 @@
+{
+ "subjects": 102,
+ "labels_aorta_and_both_iliacs": 73,
+ "design_extractor_ok": 62,
+ "design_extractor_failed": 11,
+ "anatomical_gate61": 61,
+ "design_pool59_paths112": [
+  59,
+  112
+ ],
+ "twin_built(scan_ok U gate61)": 69,
+ "twin_valid_ge150_patients": 65,
+ "pool59_in_twin": 59,
+ "pool59_not_in_twin": [],
+ "twin_not_in_pool59": [
+  "s0762",
+  "s0777",
+  "s0903",
+  "s0963",
+  "s1233",
+  "s1374"
+ ],
+ "twin_superset_of_pool59": true,
+ "final_status_counts": {
+  "DEVELOPMENT": 12,
+  "POOL_TWIN_VALID": 47,
+  "POOL_TWIN_VALID_DESCRIPTOR_FLAGGED": 5,
+  "EXCLUDED_TWIN_INVALID_OR_SHORT": 4,
+  "DEVELOPMENT_SENTINEL": 1
+ },
+ "twin_not_in_pool59_reasons": {
+  "s0762": "design extractor failed ('no true bifurcation cluster'); twin graph finds a valid cluster -> design-stage extractor error, anatomy valid",
+  "s0777": "design extractor failed ('no true bifurcation cluster'); twin graph finds a valid cluster -> design-stage extractor error, anatomy valid",
+  "s0903": "design extractor failed ('no true bifurcation cluster'); twin graph finds a valid cluster -> design-stage extractor error, anatomy valid",
+  "s0963": "design extractor failed ('no true bifurcation cluster'); twin graph finds a valid cluster -> design-stage extractor error, anatomy valid",
+  "s1233": "design extractor failed ('no true bifurcation cluster'); twin graph finds a valid cluster -> design-stage extractor error, anatomy valid",
+  "s1374": "design extractor failed ('no true bifurcation cluster'); twin graph finds a valid cluster -> design-stage extractor error, anatomy valid"
+ },
+ "pool59_not_in_twin_reasons": {}
+}

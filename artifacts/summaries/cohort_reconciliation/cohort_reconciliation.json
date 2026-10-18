@@ -1,0 +1,623 @@
+[
+ {
+  "patient_id": "s0011",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=184.7', 'right': 'valid S=183.6'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "DEVELOPMENT",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s0058",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=200.5', 'right': 'valid S=200.5'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s0250",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'FLAGGED'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=216.1', 'right': 'valid S=218.4'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s0344",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=242.2', 'right': 'valid S=245.6'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "DEVELOPMENT",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s0358",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=188.1', 'right': 'valid S=197.3'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s0454",
+  "previous_status": "label73|scan_ok|not_gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=175.7', 'right': 'valid S=191.8'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s0461",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'invalid:CLUSTER_ARMS_2', 'right': 'valid S=216.9'}|descriptor_status={'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s0477",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=184.2', 'right': 'valid S=202.6'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s0513",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=197.1', 'right': 'valid S=222.5'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "DEVELOPMENT",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s0519",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=189.7', 'right': 'valid S=204.7'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s0573",
+  "previous_status": "label73|scan_ok|not_gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=199.2', 'right': 'valid S=202.6'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "DEVELOPMENT",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s0591",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'right': 'BOUNDARY'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=159.2', 'right': 'valid S=169.4'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s0629",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=201.5', 'right': 'valid S=222.6'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s0649",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'FLAGGED'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=196.5', 'right': 'valid S=209.9'}|descriptor_status={'left': 'OK', 'right': 'FLAGGED'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s0703",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=234.2', 'right': 'valid S=236.4'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s0720",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=214.4', 'right': 'valid S=219.3'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s0726",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=186.6', 'right': 'valid S=206.6'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s0727",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'BOUNDARY', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=171.2', 'right': 'valid S=179.9'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s0762",
+  "previous_status": "label73|scan_FAILED:ValueError('no true bifurcation cluster'|gate61|not_pool59",
+  "twin_status": "VALID>=150|{'left': 'valid S=197.7', 'right': 'valid S=168.8'}|descriptor_status={'left': 'FLAGGED', 'right': 'FLAGGED'}",
+  "reason_for_change": "design extractor failed ('no true bifurcation cluster'); twin graph finds a valid cluster -> design-stage extractor error, anatomy valid",
+  "final_protocol_status": "POOL_TWIN_VALID_DESCRIPTOR_FLAGGED",
+  "in_pool59": false,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s0763",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=222.6', 'right': 'valid S=231.8'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s0777",
+  "previous_status": "label73|scan_FAILED:ValueError('no true bifurcation cluster'|gate61|not_pool59",
+  "twin_status": "VALID>=150|{'left': 'valid S=186.6', 'right': 'valid S=181.5'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "design extractor failed ('no true bifurcation cluster'); twin graph finds a valid cluster -> design-stage extractor error, anatomy valid",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": false,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s0812",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=179.6', 'right': 'valid S=184.1'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s0815",
+  "previous_status": "label73|scan_ok|not_gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=188.7', 'right': 'valid S=213.3'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s0859",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=191.6', 'right': 'valid S=220.0'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s0878",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=189.0', 'right': 'valid S=193.8'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s0885",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=247.0', 'right': 'valid S=246.8'}|descriptor_status={'left': 'FLAGGED', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s0903",
+  "previous_status": "label73|scan_FAILED:ValueError('no true bifurcation cluster'|gate61|not_pool59",
+  "twin_status": "VALID>=150|{'left': 'valid S=189.0', 'right': 'valid S=200.3'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "design extractor failed ('no true bifurcation cluster'); twin graph finds a valid cluster -> design-stage extractor error, anatomy valid",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": false,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s0912",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=217.3', 'right': 'valid S=224.0'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s0915",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=219.1', 'right': 'valid S=211.1'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s0928",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=198.5', 'right': 'valid S=97.8'}|descriptor_status={'left': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s0950",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'right': 'EXTREME'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=77.7', 'right': 'valid S=243.3'}|descriptor_status={'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "DEVELOPMENT",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s0963",
+  "previous_status": "label73|scan_FAILED:ValueError('no true bifurcation cluster'|gate61|not_pool59",
+  "twin_status": "VALID>=150|{'left': 'valid S=165.3', 'right': 'valid S=163.1'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "design extractor failed ('no true bifurcation cluster'); twin graph finds a valid cluster -> design-stage extractor error, anatomy valid",
+  "final_protocol_status": "DEVELOPMENT",
+  "in_pool59": false,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s0970",
+  "previous_status": "label73|scan_ok|not_gate61|not_pool59",
+  "twin_status": "NO_VALID_PATH>=150|{'left': 'valid S=111.6', 'right': 'valid S=129.7'}|descriptor_status={}",
+  "reason_for_change": "not in design pool and no valid twin path >=150 mm",
+  "final_protocol_status": "EXCLUDED_TWIN_INVALID_OR_SHORT",
+  "in_pool59": false,
+  "twin_valid_150": false
+ },
+ {
+  "patient_id": "s1029",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'FLAGGED', 'right': 'FLAGGED'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=209.8', 'right': 'valid S=214.8'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s1082",
+  "previous_status": "label73|scan_ok|not_gate61|pool59|design_sides={'left': 'EXTREME', 'right': 'EXTREME'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=143.6', 'right': 'valid S=156.2'}|descriptor_status={'right': 'EXTREME'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "DEVELOPMENT_SENTINEL",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s1086",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=222.3', 'right': 'valid S=248.5'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s1123",
+  "previous_status": "label73|scan_ok|not_gate61|not_pool59",
+  "twin_status": "NO_VALID_PATH>=150|{'left': 'valid S=85.8', 'right': 'valid S=97.3'}|descriptor_status={}",
+  "reason_for_change": "not in design pool and no valid twin path >=150 mm",
+  "final_protocol_status": "EXCLUDED_TWIN_INVALID_OR_SHORT",
+  "in_pool59": false,
+  "twin_valid_150": false
+ },
+ {
+  "patient_id": "s1124",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=215.7', 'right': 'valid S=223.6'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s1127",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'FLAGGED'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=204.7', 'right': 'valid S=217.1'}|descriptor_status={'left': 'OK', 'right': 'FLAGGED'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s1206",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'BOUNDARY'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=156.3', 'right': 'valid S=164.0'}|descriptor_status={'left': 'BOUNDARY', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s1233",
+  "previous_status": "label73|scan_FAILED:ValueError('no true bifurcation cluster'|gate61|not_pool59",
+  "twin_status": "VALID>=150|{'left': 'valid S=186.6', 'right': 'valid S=192.1'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "design extractor failed ('no true bifurcation cluster'); twin graph finds a valid cluster -> design-stage extractor error, anatomy valid",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": false,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s1267",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=231.9', 'right': 'valid S=262.3'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s1287",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=239.9', 'right': 'valid S=254.7'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s1336",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=232.5', 'right': 'valid S=225.0'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s1348",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=178.3', 'right': 'valid S=203.2'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "DEVELOPMENT",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s1350",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=174.8', 'right': 'valid S=195.6'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s1361",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'FLAGGED', 'right': 'FLAGGED'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=164.4', 'right': 'valid S=253.7'}|descriptor_status={'left': 'FLAGGED', 'right': 'FLAGGED'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID_DESCRIPTOR_FLAGGED",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s1364",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=190.2', 'right': 'valid S=212.6'}|descriptor_status={'left': 'OK', 'right': 'FLAGGED'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "DEVELOPMENT",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s1365",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=192.8', 'right': 'valid S=204.3'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s1366",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=200.6', 'right': 'valid S=204.8'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s1369",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=216.5', 'right': 'valid S=222.7'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "DEVELOPMENT",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s1371",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'EXTREME'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=226.2', 'right': 'valid S=243.3'}|descriptor_status={'left': 'OK', 'right': 'EXTREME'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s1372",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'EXTREME', 'right': 'EXTREME'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=222.2', 'right': 'valid S=215.4'}|descriptor_status={'left': 'EXTREME', 'right': 'EXTREME'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s1373",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'FLAGGED', 'right': 'FLAGGED'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=214.7', 'right': 'valid S=262.2'}|descriptor_status={'left': 'FLAGGED', 'right': 'FLAGGED'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID_DESCRIPTOR_FLAGGED",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s1374",
+  "previous_status": "label73|scan_FAILED:ValueError('no true bifurcation cluster'|gate61|not_pool59",
+  "twin_status": "VALID>=150|{'left': 'valid S=183.5', 'right': 'valid S=172.5'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "design extractor failed ('no true bifurcation cluster'); twin graph finds a valid cluster -> design-stage extractor error, anatomy valid",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": false,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s1379",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'FLAGGED', 'right': 'EXTREME'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=248.9', 'right': 'valid S=175.9'}|descriptor_status={'left': 'FLAGGED', 'right': 'FLAGGED'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID_DESCRIPTOR_FLAGGED",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s1383",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'FLAGGED'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=212.9', 'right': 'valid S=149.4'}|descriptor_status={'left': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s1384",
+  "previous_status": "label73|scan_ok|not_gate61|not_pool59",
+  "twin_status": "NO_VALID_PATH>=150|{'left': 'valid S=125.5', 'right': 'valid S=129.0'}|descriptor_status={}",
+  "reason_for_change": "not in design pool and no valid twin path >=150 mm",
+  "final_protocol_status": "EXCLUDED_TWIN_INVALID_OR_SHORT",
+  "in_pool59": false,
+  "twin_valid_150": false
+ },
+ {
+  "patient_id": "s1387",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=194.5', 'right': 'valid S=199.9'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s1388",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=173.7', 'right': 'valid S=181.2'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "DEVELOPMENT",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s1390",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=228.0', 'right': 'valid S=236.1'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s1391",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=209.7', 'right': 'valid S=213.6'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s1395",
+  "previous_status": "label73|scan_FAILED:ValueError('no true bifurcation cluster'|gate61|not_pool59",
+  "twin_status": "NO_VALID_PATH>=150|{'left': 'invalid:CLUSTER_ARMS_4', 'right': 'invalid:CLUSTER_ARMS_2'}|descriptor_status={}",
+  "reason_for_change": "not in design pool and no valid twin path >=150 mm",
+  "final_protocol_status": "EXCLUDED_TWIN_INVALID_OR_SHORT",
+  "in_pool59": false,
+  "twin_valid_150": false
+ },
+ {
+  "patient_id": "s1397",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=216.9', 'right': 'valid S=233.8'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "DEVELOPMENT",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s1400",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=279.9', 'right': 'valid S=276.8'}|descriptor_status={'left': 'EXTREME', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "DEVELOPMENT",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s1401",
+  "previous_status": "label73|scan_ok|not_gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=203.6', 'right': 'valid S=204.8'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s1403",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'EXTREME', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=213.9', 'right': 'valid S=208.7'}|descriptor_status={'left': 'FLAGGED', 'right': 'FLAGGED'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID_DESCRIPTOR_FLAGGED",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s1404",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'OK', 'right': 'OK'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=204.9', 'right': 'valid S=218.1'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ },
+ {
+  "patient_id": "s1405",
+  "previous_status": "label73|scan_ok|gate61|pool59|design_sides={'left': 'FLAGGED', 'right': 'FLAGGED'}",
+  "twin_status": "VALID>=150|{'left': 'valid S=181.2', 'right': 'valid S=187.3'}|descriptor_status={'left': 'OK', 'right': 'OK'}",
+  "reason_for_change": "unchanged membership; twin S longer than design S on median 13.6 mm; descriptors re-measured on the twin",
+  "final_protocol_status": "POOL_TWIN_VALID",
+  "in_pool59": true,
+  "twin_valid_150": true
+ }
+]

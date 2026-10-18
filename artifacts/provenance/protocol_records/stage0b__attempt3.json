@@ -1,0 +1,40 @@
+{
+ "stage": "stage0b",
+ "attempt": 3,
+ "written": "2026-10-18 11:23:36",
+ "patients": [
+  "s0011"
+ ],
+ "configuration": {
+  "scope": "multi-episode-per-process batching (module purge between episodes)",
+  "sequence": [
+   "default(hold15)",
+   "dummy default",
+   "default(hold15)"
+  ]
+ },
+ "file_sha256": {
+  "D:/projects/MedPhysAI/scripts/protocol/episode_batch.py": "70dee9f2a8a334dad173a55a50ea0d5f7dfea6450049b7e06fed11a10ee021f2",
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage0b/batch_regression/hold15_a/run/episode_physics_ep.json": "416c19631417852cc6d974dbcad8555638d414053225da835d6ee9360db66d68",
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage0b/batch_regression/hold15_b/run/episode_physics_ep.json": "620d83084184acf178911adc11fb6d4cbabcebce860cd3aa6600e839e25d34d7",
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage0b/batch_regression/default_a/run/episode_physics_ep.json": "a153cc3250ff3bb7145922711babff63c3168e34acd8b2b343d87a776627b469",
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage0b/batch_regression/default_b/run/episode_physics_ep.json": "cb2fb98fe9fc05034296665eec588d7809006b5efc8e63d2167fc4d1411990e8",
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage0b/batch_regression/cfg_fleg_v2_copy/run/episode_physics_ep.json": "056158dcbf5e3bd111be2d9f651787552ca60eb633a630f7c1fc0efdd18db023",
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage0b/batch_regression/run.log": "c0cbf92b8ec3222dccb6a4c31731cabc173fd5111a34695b1fd7d8d317d7739b",
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage0b/batch_regression/run_hold15.log": "f5faa3f057fcfe531c53043890b318daa19c0541876ce4ef5f14b1776cd82641"
+ },
+ "criteria": {
+  "each batched episode identical (rows, status, summary) to the accepted s0011 episode / to its single-process counterpart": "PASS"
+ },
+ "results": {
+  "default_a(hold0)_vs_accepted": "first 90 rows bit-identical (hold 0 vs 15 only changes post-success rows)",
+  "hold15_a_vs_accepted": "bit_identical 105/105 rows",
+  "hold15_b_after_other_episode_vs_accepted": "bit_identical 105/105 rows",
+  "config_episode_batched_vs_single_process": "bit_identical (Fleg_v2)"
+ },
+ "decision": "PASS: batching several episodes in one process reproduces the single-process episodes bit-identically",
+ "deviations": [
+  "Reason: WSL kernel hang probability scales with the number of CUDA process starts; ~1 in 5 single-episode processes hung."
+ ],
+ "reruns": []
+}

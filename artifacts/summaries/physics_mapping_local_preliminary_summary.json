@@ -1,0 +1,2678 @@
+{
+ "summary": {
+  "episodes": 72,
+  "episode_status": {
+   "LUMEN_VIOLATION": 47,
+   "SUCCESS": 4,
+   "NO_RESULT": 21
+  },
+  "start_condition_success_rate": 0.05555555555555555,
+  "sides_tested": 24,
+  "sides_admitted": 0,
+  "patients_tested": 13,
+  "patients_admitted": 0
+ },
+ "patients": {
+  "s0011": {
+   "admitted": false,
+   "sides_admitted": 0,
+   "sides_tested": 2
+  },
+  "s0058": {
+   "admitted": false,
+   "sides_admitted": 0,
+   "sides_tested": 2
+  },
+  "s0344": {
+   "admitted": false,
+   "sides_admitted": 0,
+   "sides_tested": 2
+  },
+  "s0513": {
+   "admitted": false,
+   "sides_admitted": 0,
+   "sides_tested": 2
+  },
+  "s0950": {
+   "admitted": false,
+   "sides_admitted": 0,
+   "sides_tested": 1
+  },
+  "s0963": {
+   "admitted": false,
+   "sides_admitted": 0,
+   "sides_tested": 2
+  },
+  "s1082": {
+   "admitted": false,
+   "sides_admitted": 0,
+   "sides_tested": 1
+  },
+  "s1348": {
+   "admitted": false,
+   "sides_admitted": 0,
+   "sides_tested": 2
+  },
+  "s1364": {
+   "admitted": false,
+   "sides_admitted": 0,
+   "sides_tested": 2
+  },
+  "s1388": {
+   "admitted": false,
+   "sides_admitted": 0,
+   "sides_tested": 2
+  },
+  "s1391": {
+   "admitted": false,
+   "sides_admitted": 0,
+   "sides_tested": 2
+  },
+  "s1397": {
+   "admitted": false,
+   "sides_admitted": 0,
+   "sides_tested": 2
+  },
+  "s1400": {
+   "admitted": false,
+   "sides_admitted": 0,
+   "sides_tested": 2
+  }
+ },
+ "sides": {
+  "s0011_left": {
+   "admitted": false,
+   "n_success": 0,
+   "n_start_conditions": 3,
+   "statuses": [
+    "LUMEN_VIOLATION",
+    "LUMEN_VIOLATION",
+    "LUMEN_VIOLATION"
+   ]
+  },
+  "s0011_right": {
+   "admitted": false,
+   "n_success": 1,
+   "n_start_conditions": 3,
+   "statuses": [
+    "SUCCESS",
+    "LUMEN_VIOLATION",
+    "LUMEN_VIOLATION"
+   ]
+  },
+  "s0058_left": {
+   "admitted": false,
+   "n_success": 0,
+   "n_start_conditions": 3,
+   "statuses": [
+    "NO_RESULT",
+    "NO_RESULT",
+    "NO_RESULT"
+   ]
+  },
+  "s0058_right": {
+   "admitted": false,
+   "n_success": 0,
+   "n_start_conditions": 3,
+   "statuses": [
+    "NO_RESULT",
+    "NO_RESULT",
+    "NO_RESULT"
+   ]
+  },
+  "s0344_left": {
+   "admitted": false,
+   "n_success": 0,
+   "n_start_conditions": 3,
+   "statuses": [
+    "NO_RESULT",
+    "NO_RESULT",
+    "NO_RESULT"
+   ]
+  },
+  "s0344_right": {
+   "admitted": false,
+   "n_success": 0,
+   "n_start_conditions": 3,
+   "statuses": [
+    "NO_RESULT",
+    "NO_RESULT",
+    "NO_RESULT"
+   ]
+  },
+  "s0513_left": {
+   "admitted": false,
+   "n_success": 0,
+   "n_start_conditions": 3,
+   "statuses": [
+    "NO_RESULT",
+    "NO_RESULT",
+    "NO_RESULT"
+   ]
+  },
+  "s0513_right": {
+   "admitted": false,
+   "n_success": 0,
+   "n_start_conditions": 3,
+   "statuses": [
+    "NO_RESULT",
+    "NO_RESULT",
+    "NO_RESULT"
+   ]
+  },
+  "s0950_right": {
+   "admitted": false,
+   "n_success": 0,
+   "n_start_conditions": 3,
+   "statuses": [
+    "LUMEN_VIOLATION",
+    "LUMEN_VIOLATION",
+    "LUMEN_VIOLATION"
+   ]
+  },
+  "s0963_left": {
+   "admitted": false,
+   "n_success": 2,
+   "n_start_conditions": 3,
+   "statuses": [
+    "SUCCESS",
+    "SUCCESS",
+    "LUMEN_VIOLATION"
+   ]
+  },
+  "s0963_right": {
+   "admitted": false,
+   "n_success": 1,
+   "n_start_conditions": 3,
+   "statuses": [
+    "LUMEN_VIOLATION",
+    "SUCCESS",
+    "LUMEN_VIOLATION"
+   ]
+  },
+  "s1082_right": {
+   "admitted": false,
+   "n_success": 0,
+   "n_start_conditions": 3,
+   "statuses": [
+    "NO_RESULT",
+    "NO_RESULT",
+    "NO_RESULT"
+   ]
+  },
+  "s1348_left": {
+   "admitted": false,
+   "n_success": 0,
+   "n_start_conditions": 3,
+   "statuses": [
+    "LUMEN_VIOLATION",
+    "LUMEN_VIOLATION",
+    "LUMEN_VIOLATION"
+   ]
+  },
+  "s1348_right": {
+   "admitted": false,
+   "n_success": 0,
+   "n_start_conditions": 3,
+   "statuses": [
+    "LUMEN_VIOLATION",
+    "LUMEN_VIOLATION",
+    "LUMEN_VIOLATION"
+   ]
+  },
+  "s1364_left": {
+   "admitted": false,
+   "n_success": 0,
+   "n_start_conditions": 3,
+   "statuses": [
+    "LUMEN_VIOLATION",
+    "LUMEN_VIOLATION",
+    "LUMEN_VIOLATION"
+   ]
+  },
+  "s1364_right": {
+   "admitted": false,
+   "n_success": 0,
+   "n_start_conditions": 3,
+   "statuses": [
+    "LUMEN_VIOLATION",
+    "LUMEN_VIOLATION",
+    "LUMEN_VIOLATION"
+   ]
+  },
+  "s1388_left": {
+   "admitted": false,
+   "n_success": 0,
+   "n_start_conditions": 3,
+   "statuses": [
+    "LUMEN_VIOLATION",
+    "LUMEN_VIOLATION",
+    "LUMEN_VIOLATION"
+   ]
+  },
+  "s1388_right": {
+   "admitted": false,
+   "n_success": 0,
+   "n_start_conditions": 3,
+   "statuses": [
+    "LUMEN_VIOLATION",
+    "LUMEN_VIOLATION",
+    "LUMEN_VIOLATION"
+   ]
+  },
+  "s1391_left": {
+   "admitted": false,
+   "n_success": 0,
+   "n_start_conditions": 3,
+   "statuses": [
+    "LUMEN_VIOLATION",
+    "LUMEN_VIOLATION",
+    "LUMEN_VIOLATION"
+   ]
+  },
+  "s1391_right": {
+   "admitted": false,
+   "n_success": 0,
+   "n_start_conditions": 3,
+   "statuses": [
+    "LUMEN_VIOLATION",
+    "LUMEN_VIOLATION",
+    "LUMEN_VIOLATION"
+   ]
+  },
+  "s1397_left": {
+   "admitted": false,
+   "n_success": 0,
+   "n_start_conditions": 3,
+   "statuses": [
+    "LUMEN_VIOLATION",
+    "LUMEN_VIOLATION",
+    "LUMEN_VIOLATION"
+   ]
+  },
+  "s1397_right": {
+   "admitted": false,
+   "n_success": 0,
+   "n_start_conditions": 3,
+   "statuses": [
+    "LUMEN_VIOLATION",
+    "LUMEN_VIOLATION",
+    "LUMEN_VIOLATION"
+   ]
+  },
+  "s1400_left": {
+   "admitted": false,
+   "n_success": 0,
+   "n_start_conditions": 3,
+   "statuses": [
+    "LUMEN_VIOLATION",
+    "LUMEN_VIOLATION",
+    "LUMEN_VIOLATION"
+   ]
+  },
+  "s1400_right": {
+   "admitted": false,
+   "n_success": 0,
+   "n_start_conditions": 3,
+   "statuses": [
+    "LUMEN_VIOLATION",
+    "LUMEN_VIOLATION",
+    "LUMEN_VIOLATION"
+   ]
+  }
+ },
+ "episodes": [
+  {
+   "pid": "s0011",
+   "side": "left",
+   "k": 0,
+   "F_mm": 60.0,
+   "S_contact_mm": 184.6823876758518,
+   "dir": "s0011_left_F0",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 14,
+   "success_decision_index": null,
+   "T_MAX": 73,
+   "max_axis_violation_mm": 2.4123056791722775,
+   "final_ext_mm": 136.98686436116276,
+   "zone": [
+    179.9623876758518,
+    182.3623876758518
+   ],
+   "n_CRUISE": 14,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 120.70047319484142,
+   "start_dist_cl_mm": 3.69873682593793,
+   "elapsed_s": 3.392000436782837,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -5.187793169170618,
+     "phi_mm_max": -1.8184214131906629,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.3333333333333333
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -3.2835756428539753,
+     "phi_mm_max": 9.352418594062328,
+     "frac_outside": 0.44,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.88
+    },
+    "mesh_vertices": 7092
+   }
+  },
+  {
+   "pid": "s0011",
+   "side": "left",
+   "k": 1,
+   "F_mm": 80.0,
+   "S_contact_mm": 184.6823876758518,
+   "dir": "s0011_left_F1",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 94,
+   "max_axis_violation_mm": 3.118742723017931,
+   "final_ext_mm": 102.46404926171537,
+   "zone": [
+    179.9623876758518,
+    182.3623876758518
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 101.35947237180191,
+   "start_dist_cl_mm": 1.3746257302501301,
+   "elapsed_s": 0.22376799583435059,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -4.446249920874834,
+     "phi_mm_max": -1.8184290966019034,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.48333333333333334
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -2.9387108515948057,
+     "phi_mm_max": 7.3349447920918465,
+     "frac_outside": 0.68,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 1.0
+    },
+    "mesh_vertices": 7092
+   }
+  },
+  {
+   "pid": "s0011",
+   "side": "left",
+   "k": 2,
+   "F_mm": 100.0,
+   "S_contact_mm": 184.6823876758518,
+   "dir": "s0011_left_F2",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 4,
+   "success_decision_index": null,
+   "T_MAX": 115,
+   "max_axis_violation_mm": 3.0804486013948917,
+   "final_ext_mm": 85.17057932466852,
+   "zone": [
+    179.9623876758518,
+    182.3623876758518
+   ],
+   "n_CRUISE": 4,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 81.5334722815401,
+   "start_dist_cl_mm": 1.8822019710507945,
+   "elapsed_s": 0.9435675144195557,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -3.6379708908498287,
+     "phi_mm_max": -1.818421995267272,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.5666666666666667
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -3.2580767292529345,
+     "phi_mm_max": 19.845400005578995,
+     "frac_outside": 0.66,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.88
+    },
+    "mesh_vertices": 7092
+   }
+  },
+  {
+   "pid": "s0011",
+   "side": "right",
+   "k": 0,
+   "F_mm": 60.0,
+   "S_contact_mm": 183.58441984277326,
+   "dir": "s0011_right_F0",
+   "infra_reruns": 0,
+   "status": "SUCCESS",
+   "decisions": 54,
+   "success_decision_index": 53,
+   "T_MAX": 73,
+   "max_axis_violation_mm": 1.1472858022898436,
+   "final_ext_mm": 179.22867248005997,
+   "zone": [
+    178.86441984277326,
+    181.26441984277326
+   ],
+   "n_CRUISE": 48,
+   "n_SLOW": 3,
+   "n_HOLD": 3,
+   "start_ext_mm": 120.12929374146464,
+   "start_dist_cl_mm": 3.3856010153010465,
+   "elapsed_s": 26.359175443649292,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -4.952199757099152,
+     "phi_mm_max": -1.697057276032865,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.5166666666666667
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -3.2519176602363586,
+     "phi_mm_max": -0.38961879909038544,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.92
+    },
+    "mesh_vertices": 7092
+   }
+  },
+  {
+   "pid": "s0011",
+   "side": "right",
+   "k": 1,
+   "F_mm": 80.0,
+   "S_contact_mm": 183.58441984277326,
+   "dir": "s0011_right_F1",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 4,
+   "success_decision_index": null,
+   "T_MAX": 94,
+   "max_axis_violation_mm": 2.719590673223138,
+   "final_ext_mm": 104.55697213711086,
+   "zone": [
+    178.86441984277326,
+    181.26441984277326
+   ],
+   "n_CRUISE": 4,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 100.07167866550321,
+   "start_dist_cl_mm": 0.681929618367102,
+   "elapsed_s": 1.0409762859344482,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -4.952196031808853,
+     "phi_mm_max": -1.6970608849078417,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.65
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -3.4831478260457516,
+     "phi_mm_max": 12.139399535953999,
+     "frac_outside": 0.66,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.96
+    },
+    "mesh_vertices": 7092
+   }
+  },
+  {
+   "pid": "s0011",
+   "side": "right",
+   "k": 2,
+   "F_mm": 100.0,
+   "S_contact_mm": 183.58441984277326,
+   "dir": "s0011_right_F2",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 3,
+   "success_decision_index": null,
+   "T_MAX": 115,
+   "max_axis_violation_mm": 3.5456183832138777,
+   "final_ext_mm": 83.56634396160915,
+   "zone": [
+    178.86441984277326,
+    181.26441984277326
+   ],
+   "n_CRUISE": 3,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 79.49462522116679,
+   "start_dist_cl_mm": 2.299239269094173,
+   "elapsed_s": 0.7409906387329102,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -3.5046953707933426,
+     "phi_mm_max": -1.697059953585267,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.75
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -2.9999911785125732,
+     "phi_mm_max": 15.473995357751846,
+     "frac_outside": 0.54,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 1.0
+    },
+    "mesh_vertices": 7092
+   }
+  },
+  {
+   "pid": "s0058",
+   "side": "left",
+   "k": 0,
+   "F_mm": 60.0,
+   "S_contact_mm": 200.5311188113304,
+   "dir": "s0058_left_F0",
+   "infra_reruns": 0,
+   "status": "NO_RESULT"
+  },
+  {
+   "pid": "s0058",
+   "side": "left",
+   "k": 1,
+   "F_mm": 80.0,
+   "S_contact_mm": 200.5311188113304,
+   "dir": "s0058_left_F1",
+   "infra_reruns": 0,
+   "status": "NO_RESULT"
+  },
+  {
+   "pid": "s0058",
+   "side": "left",
+   "k": 2,
+   "F_mm": 100.0,
+   "S_contact_mm": 200.5311188113304,
+   "dir": "s0058_left_F2",
+   "infra_reruns": 0,
+   "status": "NO_RESULT"
+  },
+  {
+   "pid": "s0058",
+   "side": "right",
+   "k": 0,
+   "F_mm": 60.0,
+   "S_contact_mm": 200.49084438587775,
+   "dir": "s0058_right_F0",
+   "infra_reruns": 0,
+   "status": "NO_RESULT"
+  },
+  {
+   "pid": "s0058",
+   "side": "right",
+   "k": 1,
+   "F_mm": 80.0,
+   "S_contact_mm": 200.49084438587775,
+   "dir": "s0058_right_F1",
+   "infra_reruns": 0,
+   "status": "NO_RESULT"
+  },
+  {
+   "pid": "s0058",
+   "side": "right",
+   "k": 2,
+   "F_mm": 100.0,
+   "S_contact_mm": 200.49084438587775,
+   "dir": "s0058_right_F2",
+   "infra_reruns": 0,
+   "status": "NO_RESULT"
+  },
+  {
+   "pid": "s0344",
+   "side": "left",
+   "k": 0,
+   "F_mm": 60.0,
+   "S_contact_mm": 242.218015898128,
+   "dir": "s0344_left_F0",
+   "infra_reruns": 0,
+   "status": "NO_RESULT"
+  },
+  {
+   "pid": "s0344",
+   "side": "left",
+   "k": 1,
+   "F_mm": 80.0,
+   "S_contact_mm": 242.218015898128,
+   "dir": "s0344_left_F1",
+   "infra_reruns": 0,
+   "status": "NO_RESULT"
+  },
+  {
+   "pid": "s0344",
+   "side": "left",
+   "k": 2,
+   "F_mm": 100.0,
+   "S_contact_mm": 242.218015898128,
+   "dir": "s0344_left_F2",
+   "infra_reruns": 0,
+   "status": "NO_RESULT"
+  },
+  {
+   "pid": "s0344",
+   "side": "right",
+   "k": 0,
+   "F_mm": 60.0,
+   "S_contact_mm": 245.5969779210014,
+   "dir": "s0344_right_F0",
+   "infra_reruns": 0,
+   "status": "NO_RESULT"
+  },
+  {
+   "pid": "s0344",
+   "side": "right",
+   "k": 1,
+   "F_mm": 80.0,
+   "S_contact_mm": 245.5969779210014,
+   "dir": "s0344_right_F1",
+   "infra_reruns": 0,
+   "status": "NO_RESULT"
+  },
+  {
+   "pid": "s0344",
+   "side": "right",
+   "k": 2,
+   "F_mm": 100.0,
+   "S_contact_mm": 245.5969779210014,
+   "dir": "s0344_right_F2",
+   "infra_reruns": 0,
+   "status": "NO_RESULT"
+  },
+  {
+   "pid": "s0513",
+   "side": "left",
+   "k": 0,
+   "F_mm": 60.0,
+   "S_contact_mm": 197.1248590624541,
+   "dir": "s0513_left_F0",
+   "infra_reruns": 0,
+   "status": "NO_RESULT"
+  },
+  {
+   "pid": "s0513",
+   "side": "left",
+   "k": 1,
+   "F_mm": 80.0,
+   "S_contact_mm": 197.1248590624541,
+   "dir": "s0513_left_F1",
+   "infra_reruns": 0,
+   "status": "NO_RESULT"
+  },
+  {
+   "pid": "s0513",
+   "side": "left",
+   "k": 2,
+   "F_mm": 100.0,
+   "S_contact_mm": 197.1248590624541,
+   "dir": "s0513_left_F2",
+   "infra_reruns": 0,
+   "status": "NO_RESULT"
+  },
+  {
+   "pid": "s0513",
+   "side": "right",
+   "k": 0,
+   "F_mm": 60.0,
+   "S_contact_mm": 222.52350969401442,
+   "dir": "s0513_right_F0",
+   "infra_reruns": 0,
+   "status": "NO_RESULT"
+  },
+  {
+   "pid": "s0513",
+   "side": "right",
+   "k": 1,
+   "F_mm": 80.0,
+   "S_contact_mm": 222.52350969401442,
+   "dir": "s0513_right_F1",
+   "infra_reruns": 0,
+   "status": "NO_RESULT"
+  },
+  {
+   "pid": "s0513",
+   "side": "right",
+   "k": 2,
+   "F_mm": 100.0,
+   "S_contact_mm": 222.52350969401442,
+   "dir": "s0513_right_F2",
+   "infra_reruns": 0,
+   "status": "NO_RESULT"
+  },
+  {
+   "pid": "s0950",
+   "side": "right",
+   "k": 0,
+   "F_mm": 60.0,
+   "S_contact_mm": 243.286936124092,
+   "dir": "s0950_right_F0",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 73,
+   "max_axis_violation_mm": 23.11963401734829,
+   "final_ext_mm": 151.28208821569373,
+   "zone": [
+    238.566936124092,
+    240.966936124092
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 143.60308383508007,
+   "start_dist_cl_mm": 28.823562484958853,
+   "elapsed_s": 0.2666335105895996,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -9.18650534003973,
+     "phi_mm_max": -1.9834868144243956,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.3
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -3.0000023543834686,
+     "phi_mm_max": 43.54403540492058,
+     "frac_outside": 0.7,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.98
+    },
+    "mesh_vertices": 10620
+   }
+  },
+  {
+   "pid": "s0950",
+   "side": "right",
+   "k": 1,
+   "F_mm": 80.0,
+   "S_contact_mm": 243.286936124092,
+   "dir": "s0950_right_F1",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 94,
+   "max_axis_violation_mm": 12.93295156210661,
+   "final_ext_mm": 142.93881806315082,
+   "zone": [
+    238.566936124092,
+    240.966936124092
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 140.36505357484032,
+   "start_dist_cl_mm": 18.97575042424762,
+   "elapsed_s": 0.21935176849365234,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -9.169031865894794,
+     "phi_mm_max": -1.277367933653295,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.4666666666666667
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -3.0000023543834686,
+     "phi_mm_max": 35.38687154650688,
+     "frac_outside": 0.84,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.98
+    },
+    "mesh_vertices": 10620
+   }
+  },
+  {
+   "pid": "s0950",
+   "side": "right",
+   "k": 2,
+   "F_mm": 100.0,
+   "S_contact_mm": 243.286936124092,
+   "dir": "s0950_right_F2",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 115,
+   "max_axis_violation_mm": 13.55951838195324,
+   "final_ext_mm": 182.82774273571212,
+   "zone": [
+    238.566936124092,
+    240.966936124092
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 182.3870342713517,
+   "start_dist_cl_mm": 10.954099980996638,
+   "elapsed_s": 0.2648606300354004,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -8.067375048995018,
+     "phi_mm_max": -1.2773630442097783,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.48333333333333334
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -4.176614806056023,
+     "phi_mm_max": 15.261121094226837,
+     "frac_outside": 0.52,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.82
+    },
+    "mesh_vertices": 10620
+   }
+  },
+  {
+   "pid": "s0963",
+   "side": "left",
+   "k": 0,
+   "F_mm": 60.0,
+   "S_contact_mm": 165.26370636265827,
+   "dir": "s0963_left_F0",
+   "infra_reruns": 0,
+   "status": "SUCCESS",
+   "decisions": 55,
+   "success_decision_index": 54,
+   "T_MAX": 73,
+   "max_axis_violation_mm": 1.3630782486870885,
+   "final_ext_mm": 160.9131100668414,
+   "zone": [
+    160.54370636265827,
+    162.94370636265828
+   ],
+   "n_CRUISE": 47,
+   "n_SLOW": 5,
+   "n_HOLD": 3,
+   "start_ext_mm": 102.3426347540724,
+   "start_dist_cl_mm": 3.0397410058749084,
+   "elapsed_s": 31.27112627029419,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -3.600123105570674,
+     "phi_mm_max": 0.32699323492124677,
+     "frac_outside": 0.03333333333333333,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.8833333333333333
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -2.3769093677401543,
+     "phi_mm_max": 11.129381135106087,
+     "frac_outside": 0.64,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 1.0
+    },
+    "mesh_vertices": 5682
+   }
+  },
+  {
+   "pid": "s0963",
+   "side": "left",
+   "k": 1,
+   "F_mm": 71.53185318132913,
+   "S_contact_mm": 165.26370636265827,
+   "dir": "s0963_left_F1",
+   "infra_reruns": 0,
+   "status": "SUCCESS",
+   "decisions": 64,
+   "success_decision_index": 63,
+   "T_MAX": 86,
+   "max_axis_violation_mm": 0.6730189197696745,
+   "final_ext_mm": 161.08172869077518,
+   "zone": [
+    160.54370636265827,
+    162.94370636265828
+   ],
+   "n_CRUISE": 56,
+   "n_SLOW": 5,
+   "n_HOLD": 3,
+   "start_ext_mm": 90.42995853450874,
+   "start_dist_cl_mm": 3.7883019834809737,
+   "elapsed_s": 40.06017875671387,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -3.4062687773257494,
+     "phi_mm_max": 0.42940559796988964,
+     "frac_outside": 0.03333333333333333,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.9333333333333333
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -2.4359864182770252,
+     "phi_mm_max": 10.55309921503067,
+     "frac_outside": 0.6,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 1.0
+    },
+    "mesh_vertices": 5682
+   }
+  },
+  {
+   "pid": "s0963",
+   "side": "left",
+   "k": 2,
+   "F_mm": 83.06370636265827,
+   "S_contact_mm": 165.26370636265827,
+   "dir": "s0963_left_F2",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 37,
+   "success_decision_index": null,
+   "T_MAX": 98,
+   "max_axis_violation_mm": 1.8818167736753821,
+   "final_ext_mm": 123.67227371216634,
+   "zone": [
+    160.54370636265827,
+    162.94370636265828
+   ],
+   "n_CRUISE": 37,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 79.47780381471752,
+   "start_dist_cl_mm": 1.4406467398481304,
+   "elapsed_s": 14.145692110061646,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -3.01686255261302,
+     "phi_mm_max": 0.34156066249124706,
+     "frac_outside": 0.03333333333333333,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.9666666666666667
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -2.7345330454409122,
+     "phi_mm_max": 10.036353021860123,
+     "frac_outside": 0.54,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 1.0
+    },
+    "mesh_vertices": 5682
+   }
+  },
+  {
+   "pid": "s0963",
+   "side": "right",
+   "k": 0,
+   "F_mm": 60.0,
+   "S_contact_mm": 163.10052307296925,
+   "dir": "s0963_right_F0",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 5,
+   "success_decision_index": null,
+   "T_MAX": 73,
+   "max_axis_violation_mm": 2.6834106538444757,
+   "final_ext_mm": 104.93254463829011,
+   "zone": [
+    158.38052307296925,
+    160.78052307296926
+   ],
+   "n_CRUISE": 5,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 99.03311761463658,
+   "start_dist_cl_mm": 2.468429199647401,
+   "elapsed_s": 2.4130544662475586,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -3.87313193641603,
+     "phi_mm_max": -1.198374549858272,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.8
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -2.5980924256145954,
+     "phi_mm_max": 16.60057343542576,
+     "frac_outside": 0.82,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 1.0
+    },
+    "mesh_vertices": 5682
+   }
+  },
+  {
+   "pid": "s0963",
+   "side": "right",
+   "k": 1,
+   "F_mm": 70.45026153648462,
+   "S_contact_mm": 163.10052307296925,
+   "dir": "s0963_right_F1",
+   "infra_reruns": 0,
+   "status": "SUCCESS",
+   "decisions": 63,
+   "success_decision_index": 62,
+   "T_MAX": 84,
+   "max_axis_violation_mm": 0.8409165893681347,
+   "final_ext_mm": 159.06583123173712,
+   "zone": [
+    158.38052307296925,
+    160.78052307296926
+   ],
+   "n_CRUISE": 56,
+   "n_SLOW": 4,
+   "n_HOLD": 3,
+   "start_ext_mm": 89.36431886107731,
+   "start_dist_cl_mm": 2.0853345306146425,
+   "elapsed_s": 38.79260563850403,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -3.369985381141305,
+     "phi_mm_max": -1.161781488917768,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.8666666666666667
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -3.196326782926917,
+     "phi_mm_max": 17.39107258617878,
+     "frac_outside": 0.68,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.98
+    },
+    "mesh_vertices": 5682
+   }
+  },
+  {
+   "pid": "s0963",
+   "side": "right",
+   "k": 2,
+   "F_mm": 80.90052307296925,
+   "S_contact_mm": 163.10052307296925,
+   "dir": "s0963_right_F2",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 14,
+   "success_decision_index": null,
+   "T_MAX": 95,
+   "max_axis_violation_mm": 2.5412554387003183,
+   "final_ext_mm": 95.5229122323835,
+   "zone": [
+    158.38052307296925,
+    160.78052307296926
+   ],
+   "n_CRUISE": 14,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 77.92420762036444,
+   "start_dist_cl_mm": 2.193388976392997,
+   "elapsed_s": 3.8186466693878174,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -3.3683457877486944,
+     "phi_mm_max": -1.202862011268735,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.9166666666666666
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -2.9999911785125732,
+     "phi_mm_max": 17.057500779628754,
+     "frac_outside": 0.6,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 1.0
+    },
+    "mesh_vertices": 5682
+   }
+  },
+  {
+   "pid": "s1082",
+   "side": "right",
+   "k": 0,
+   "F_mm": 60.0,
+   "S_contact_mm": 156.2399219269641,
+   "dir": "s1082_right_F0",
+   "infra_reruns": 0,
+   "status": "NO_RESULT"
+  },
+  {
+   "pid": "s1082",
+   "side": "right",
+   "k": 1,
+   "F_mm": 67.01996096348205,
+   "S_contact_mm": 156.2399219269641,
+   "dir": "s1082_right_F1",
+   "infra_reruns": 0,
+   "status": "NO_RESULT"
+  },
+  {
+   "pid": "s1082",
+   "side": "right",
+   "k": 2,
+   "F_mm": 74.03992192696408,
+   "S_contact_mm": 156.2399219269641,
+   "dir": "s1082_right_F2",
+   "infra_reruns": 0,
+   "status": "NO_RESULT"
+  },
+  {
+   "pid": "s1348",
+   "side": "left",
+   "k": 0,
+   "F_mm": 60.0,
+   "S_contact_mm": 178.29853317094998,
+   "dir": "s1348_left_F0",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 10,
+   "success_decision_index": null,
+   "T_MAX": 73,
+   "max_axis_violation_mm": 1.9907488021999598,
+   "final_ext_mm": 124.00849943773015,
+   "zone": [
+    173.57853317094998,
+    175.97853317095
+   ],
+   "n_CRUISE": 10,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 116.18823630216905,
+   "start_dist_cl_mm": 4.286893637584388,
+   "elapsed_s": 3.7330217361450195,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -5.688344594091177,
+     "phi_mm_max": -2.6201303116977215,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.1
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -4.355610813945532,
+     "phi_mm_max": 15.317344106733799,
+     "frac_outside": 0.68,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.82
+    },
+    "mesh_vertices": 9808
+   }
+  },
+  {
+   "pid": "s1348",
+   "side": "left",
+   "k": 1,
+   "F_mm": 78.04926658547498,
+   "S_contact_mm": 178.29853317094998,
+   "dir": "s1348_left_F1",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 5,
+   "success_decision_index": null,
+   "T_MAX": 92,
+   "max_axis_violation_mm": 1.537442672997713,
+   "final_ext_mm": 100.0259068498174,
+   "zone": [
+    173.57853317094998,
+    175.97853317095
+   ],
+   "n_CRUISE": 5,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 94.69985378814265,
+   "start_dist_cl_mm": 5.874061319341288,
+   "elapsed_s": 1.835897445678711,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -4.43676020950079,
+     "phi_mm_max": -2.6242213789373636,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.1
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -4.056986887007952,
+     "phi_mm_max": 32.42785483598709,
+     "frac_outside": 0.7,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.82
+    },
+    "mesh_vertices": 9808
+   }
+  },
+  {
+   "pid": "s1348",
+   "side": "left",
+   "k": 2,
+   "F_mm": 96.09853317094998,
+   "S_contact_mm": 178.29853317094998,
+   "dir": "s1348_left_F2",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 111,
+   "max_axis_violation_mm": 2.772866515442729,
+   "final_ext_mm": 78.08229947615008,
+   "zone": [
+    173.57853317094998,
+    175.97853317095
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 74.9198588382785,
+   "start_dist_cl_mm": 8.525454341829711,
+   "elapsed_s": 0.248246431350708,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -4.421935882419348,
+     "phi_mm_max": -2.275253413245082,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.13333333333333333
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -3.992729354649782,
+     "phi_mm_max": 28.949350118637085,
+     "frac_outside": 0.76,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.88
+    },
+    "mesh_vertices": 9808
+   }
+  },
+  {
+   "pid": "s1348",
+   "side": "right",
+   "k": 0,
+   "F_mm": 60.0,
+   "S_contact_mm": 203.24731696754117,
+   "dir": "s1348_right_F0",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 73,
+   "max_axis_violation_mm": 8.073681965470314,
+   "final_ext_mm": 131.6713942976531,
+   "zone": [
+    198.52731696754117,
+    200.92731696754117
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 129.69114950562465,
+   "start_dist_cl_mm": 14.587018441618724,
+   "elapsed_s": 0.23326325416564941,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -5.732796620577574,
+     "phi_mm_max": -2.6951569598168135,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.08333333333333333
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -3.5356783773750067,
+     "phi_mm_max": 16.77415706217289,
+     "frac_outside": 0.54,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.88
+    },
+    "mesh_vertices": 9808
+   }
+  },
+  {
+   "pid": "s1348",
+   "side": "right",
+   "k": 1,
+   "F_mm": 80.0,
+   "S_contact_mm": 203.24731696754117,
+   "dir": "s1348_right_F1",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 94,
+   "max_axis_violation_mm": 1.7040682723745704,
+   "final_ext_mm": 119.38714788973698,
+   "zone": [
+    198.52731696754117,
+    200.92731696754117
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 120.37607157028128,
+   "start_dist_cl_mm": 2.9383702699978658,
+   "elapsed_s": 0.2491762638092041,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -5.096678622066975,
+     "phi_mm_max": -2.69515672698617,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.08333333333333333
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -3.795679658651352,
+     "phi_mm_max": 22.354600951075554,
+     "frac_outside": 0.76,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.84
+    },
+    "mesh_vertices": 9808
+   }
+  },
+  {
+   "pid": "s1348",
+   "side": "right",
+   "k": 2,
+   "F_mm": 100.0,
+   "S_contact_mm": 203.24731696754117,
+   "dir": "s1348_right_F2",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 115,
+   "max_axis_violation_mm": 2.484329277649522,
+   "final_ext_mm": 99.21171217950341,
+   "zone": [
+    198.52731696754117,
+    200.92731696754117
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 98.6781085991082,
+   "start_dist_cl_mm": 7.044800611090542,
+   "elapsed_s": 0.27149319648742676,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -4.156347364187241,
+     "phi_mm_max": -2.38583842292428,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.13333333333333333
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -4.005549941211939,
+     "phi_mm_max": 31.459618359804153,
+     "frac_outside": 0.64,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.84
+    },
+    "mesh_vertices": 9808
+   }
+  },
+  {
+   "pid": "s1364",
+   "side": "left",
+   "k": 0,
+   "F_mm": 60.0,
+   "S_contact_mm": 190.22590315215814,
+   "dir": "s1364_left_F0",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 73,
+   "max_axis_violation_mm": 2.596885897219181,
+   "final_ext_mm": 128.76470249430787,
+   "zone": [
+    185.50590315215814,
+    187.90590315215815
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 127.42251081299565,
+   "start_dist_cl_mm": 6.877570817433982,
+   "elapsed_s": 0.23801946640014648,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -4.972511436790228,
+     "phi_mm_max": -1.9681849516928196,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.43333333333333335
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -3.475058823823929,
+     "phi_mm_max": 14.845865778625011,
+     "frac_outside": 0.7,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.88
+    },
+    "mesh_vertices": 10098
+   }
+  },
+  {
+   "pid": "s1364",
+   "side": "left",
+   "k": 1,
+   "F_mm": 80.0,
+   "S_contact_mm": 190.22590315215814,
+   "dir": "s1364_left_F1",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 94,
+   "max_axis_violation_mm": 3.187632653862238,
+   "final_ext_mm": 106.35613161125893,
+   "zone": [
+    185.50590315215814,
+    187.90590315215815
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 108.99694101547465,
+   "start_dist_cl_mm": 5.572470247982593,
+   "elapsed_s": 0.26926755905151367,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -4.808743949979544,
+     "phi_mm_max": -1.9681861158460379,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.48333333333333334
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -3.314842004328966,
+     "phi_mm_max": 29.497338458895683,
+     "frac_outside": 0.68,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.88
+    },
+    "mesh_vertices": 10098
+   }
+  },
+  {
+   "pid": "s1364",
+   "side": "left",
+   "k": 2,
+   "F_mm": 100.0,
+   "S_contact_mm": 190.22590315215814,
+   "dir": "s1364_left_F2",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 115,
+   "max_axis_violation_mm": 2.6359555777162313,
+   "final_ext_mm": 85.6184456538443,
+   "zone": [
+    185.50590315215814,
+    187.90590315215815
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 82.60354649410678,
+   "start_dist_cl_mm": 7.975789904310544,
+   "elapsed_s": 0.24335789680480957,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -3.6464789882302284,
+     "phi_mm_max": -1.968184020370245,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.5333333333333333
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -4.016131162643433,
+     "phi_mm_max": 24.868188425898552,
+     "frac_outside": 0.64,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.9
+    },
+    "mesh_vertices": 10098
+   }
+  },
+  {
+   "pid": "s1364",
+   "side": "right",
+   "k": 0,
+   "F_mm": 60.0,
+   "S_contact_mm": 212.62097759140374,
+   "dir": "s1364_right_F0",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 73,
+   "max_axis_violation_mm": 7.19761336222291,
+   "final_ext_mm": 153.78778054852856,
+   "zone": [
+    207.90097759140374,
+    210.30097759140375
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 152.65291157838348,
+   "start_dist_cl_mm": 10.578958836116216,
+   "elapsed_s": 0.3711717128753662,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -4.877100698649883,
+     "phi_mm_max": -1.4012352330610156,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.6333333333333333
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -3.258604556322098,
+     "phi_mm_max": 15.265917405486107,
+     "frac_outside": 0.72,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.98
+    },
+    "mesh_vertices": 10098
+   }
+  },
+  {
+   "pid": "s1364",
+   "side": "right",
+   "k": 1,
+   "F_mm": 80.0,
+   "S_contact_mm": 212.62097759140374,
+   "dir": "s1364_right_F1",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 94,
+   "max_axis_violation_mm": 5.620425567030907,
+   "final_ext_mm": 132.43754639993966,
+   "zone": [
+    207.90097759140374,
+    210.30097759140375
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 140.63785549731875,
+   "start_dist_cl_mm": 5.285178372906735,
+   "elapsed_s": 0.21946406364440918,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -4.877098370343447,
+     "phi_mm_max": -1.4012352330610156,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.6666666666666666
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -4.274544771760702,
+     "phi_mm_max": 20.03653161227703,
+     "frac_outside": 0.64,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.86
+    },
+    "mesh_vertices": 10098
+   }
+  },
+  {
+   "pid": "s1364",
+   "side": "right",
+   "k": 2,
+   "F_mm": 100.0,
+   "S_contact_mm": 212.62097759140374,
+   "dir": "s1364_right_F2",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 115,
+   "max_axis_violation_mm": 3.355104709044099,
+   "final_ext_mm": 106.10770921715574,
+   "zone": [
+    207.90097759140374,
+    210.30097759140375
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 103.96112144126661,
+   "start_dist_cl_mm": 8.2738393369112,
+   "elapsed_s": 0.2563438415527344,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -3.9525427855551243,
+     "phi_mm_max": -1.4012377941980958,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.7166666666666667
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -3.3012614585459232,
+     "phi_mm_max": 34.48497876524925,
+     "frac_outside": 0.68,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.98
+    },
+    "mesh_vertices": 10098
+   }
+  },
+  {
+   "pid": "s1388",
+   "side": "left",
+   "k": 0,
+   "F_mm": 60.0,
+   "S_contact_mm": 173.68864742073578,
+   "dir": "s1388_left_F0",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 73,
+   "max_axis_violation_mm": 5.529617425054312,
+   "final_ext_mm": 111.15893716643406,
+   "zone": [
+    168.96864742073578,
+    171.36864742073578
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 105.31639170696145,
+   "start_dist_cl_mm": 10.274979959343108,
+   "elapsed_s": 0.20969080924987793,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -3.439103253185749,
+     "phi_mm_max": -1.2469877256080508,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.8166666666666667
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -2.1804668940603733,
+     "phi_mm_max": 13.001362793147564,
+     "frac_outside": 0.5,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 1.0
+    },
+    "mesh_vertices": 6540
+   }
+  },
+  {
+   "pid": "s1388",
+   "side": "left",
+   "k": 1,
+   "F_mm": 75.7443237103679,
+   "S_contact_mm": 173.68864742073578,
+   "dir": "s1388_left_F1",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 5,
+   "success_decision_index": null,
+   "T_MAX": 90,
+   "max_axis_violation_mm": 1.7724562203511596,
+   "final_ext_mm": 96.89840480266207,
+   "zone": [
+    168.96864742073578,
+    171.36864742073578
+   ],
+   "n_CRUISE": 5,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 94.4135795698585,
+   "start_dist_cl_mm": 3.2276599169739475,
+   "elapsed_s": 1.9522857666015625,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -3.4395046532154083,
+     "phi_mm_max": -1.237506978213787,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.9
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -2.6359078474342823,
+     "phi_mm_max": 8.741568773984909,
+     "frac_outside": 0.64,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 1.0
+    },
+    "mesh_vertices": 6540
+   }
+  },
+  {
+   "pid": "s1388",
+   "side": "left",
+   "k": 2,
+   "F_mm": 91.48864742073577,
+   "S_contact_mm": 173.68864742073578,
+   "dir": "s1388_left_F2",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 3,
+   "success_decision_index": null,
+   "T_MAX": 106,
+   "max_axis_violation_mm": 1.5252454904839396,
+   "final_ext_mm": 81.25793306118021,
+   "zone": [
+    168.96864742073578,
+    171.36864742073578
+   ],
+   "n_CRUISE": 3,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 79.8643628799044,
+   "start_dist_cl_mm": 2.4997555284615895,
+   "elapsed_s": 0.6882448196411133,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -3.2172740902751684,
+     "phi_mm_max": -1.2571022380143404,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.9833333333333333
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -3.320513293147087,
+     "phi_mm_max": 25.111613795161247,
+     "frac_outside": 0.74,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.94
+    },
+    "mesh_vertices": 6540
+   }
+  },
+  {
+   "pid": "s1388",
+   "side": "right",
+   "k": 0,
+   "F_mm": 60.0,
+   "S_contact_mm": 181.17169680948834,
+   "dir": "s1388_right_F0",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 73,
+   "max_axis_violation_mm": 4.961478989571333,
+   "final_ext_mm": 116.03259838195977,
+   "zone": [
+    176.45169680948834,
+    178.85169680948835
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 111.70023340481977,
+   "start_dist_cl_mm": 9.9371572362415,
+   "elapsed_s": 0.21231389045715332,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -4.251090809702873,
+     "phi_mm_max": -1.1025499552488327,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.75
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -2.43494869209826,
+     "phi_mm_max": 12.342426925897598,
+     "frac_outside": 0.58,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 1.0
+    },
+    "mesh_vertices": 6540
+   }
+  },
+  {
+   "pid": "s1388",
+   "side": "right",
+   "k": 1,
+   "F_mm": 79.48584840474416,
+   "S_contact_mm": 181.17169680948834,
+   "dir": "s1388_right_F1",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 12,
+   "success_decision_index": null,
+   "T_MAX": 94,
+   "max_axis_violation_mm": 1.5937461284920573,
+   "final_ext_mm": 110.06289099614001,
+   "zone": [
+    176.45169680948834,
+    178.85169680948835
+   ],
+   "n_CRUISE": 12,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 99.35396675761201,
+   "start_dist_cl_mm": 2.0619818681428312,
+   "elapsed_s": 6.391451120376587,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -3.720812499523163,
+     "phi_mm_max": -1.0996701894327998,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.9
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -2.5311470963060856,
+     "phi_mm_max": 13.654998503625393,
+     "frac_outside": 0.7,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 1.0
+    },
+    "mesh_vertices": 6540
+   }
+  },
+  {
+   "pid": "s1388",
+   "side": "right",
+   "k": 2,
+   "F_mm": 98.97169680948834,
+   "S_contact_mm": 181.17169680948834,
+   "dir": "s1388_right_F2",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 4,
+   "success_decision_index": null,
+   "T_MAX": 114,
+   "max_axis_violation_mm": 1.69406458735466,
+   "final_ext_mm": 80.73553852492655,
+   "zone": [
+    176.45169680948834,
+    178.85169680948835
+   ],
+   "n_CRUISE": 4,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 78.75502889373843,
+   "start_dist_cl_mm": 2.625457506390509,
+   "elapsed_s": 1.2267608642578125,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -3.7209265865385532,
+     "phi_mm_max": 3.181678708642721,
+     "frac_outside": 0.016666666666666666,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.8666666666666667
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -2.868849551305175,
+     "phi_mm_max": 27.897095307707787,
+     "frac_outside": 0.78,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 1.0
+    },
+    "mesh_vertices": 6540
+   }
+  },
+  {
+   "pid": "s1391",
+   "side": "left",
+   "k": 0,
+   "F_mm": 60.0,
+   "S_contact_mm": 209.67801714138238,
+   "dir": "s1391_left_F0",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 73,
+   "max_axis_violation_mm": 3.5581672564148903,
+   "final_ext_mm": 143.21325860514685,
+   "zone": [
+    204.95801714138238,
+    207.3580171413824
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 141.57350965135296,
+   "start_dist_cl_mm": 10.553506163163817,
+   "elapsed_s": 0.25446629524230957,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -5.204392597079277,
+     "phi_mm_max": -1.6263022553175688,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.15
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -4.050370771437883,
+     "phi_mm_max": 40.556322783231735,
+     "frac_outside": 0.64,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.72
+    },
+    "mesh_vertices": 6380
+   }
+  },
+  {
+   "pid": "s1391",
+   "side": "left",
+   "k": 1,
+   "F_mm": 80.0,
+   "S_contact_mm": 209.67801714138238,
+   "dir": "s1391_left_F1",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 94,
+   "max_axis_violation_mm": 4.196275025606155,
+   "final_ext_mm": 129.55183284367902,
+   "zone": [
+    204.95801714138238,
+    207.3580171413824
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 124.63381363220866,
+   "start_dist_cl_mm": 11.538436724327141,
+   "elapsed_s": 0.23731780052185059,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -5.204398185014725,
+     "phi_mm_max": -1.6263144789263606,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.16666666666666666
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -4.903589840978384,
+     "phi_mm_max": 16.40441082417965,
+     "frac_outside": 0.4,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.76
+    },
+    "mesh_vertices": 6380
+   }
+  },
+  {
+   "pid": "s1391",
+   "side": "left",
+   "k": 2,
+   "F_mm": 100.0,
+   "S_contact_mm": 209.67801714138238,
+   "dir": "s1391_left_F2",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 115,
+   "max_axis_violation_mm": 1.6199387609958649,
+   "final_ext_mm": 104.68159051783098,
+   "zone": [
+    204.95801714138238,
+    207.3580171413824
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 106.70447606747726,
+   "start_dist_cl_mm": 2.017843503495025,
+   "elapsed_s": 0.280381441116333,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -5.53795974701643,
+     "phi_mm_max": -2.8999471105635166,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.03333333333333333
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -5.482942797243595,
+     "phi_mm_max": 21.90226875245571,
+     "frac_outside": 0.66,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.78
+    },
+    "mesh_vertices": 6380
+   }
+  },
+  {
+   "pid": "s1391",
+   "side": "right",
+   "k": 0,
+   "F_mm": 60.0,
+   "S_contact_mm": 213.6132673356544,
+   "dir": "s1391_right_F0",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 73,
+   "max_axis_violation_mm": 16.11948199570179,
+   "final_ext_mm": 128.5836249372783,
+   "zone": [
+    208.8932673356544,
+    211.2932673356544
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 128.52880604125505,
+   "start_dist_cl_mm": 22.22957937778775,
+   "elapsed_s": 0.26433277130126953,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -6.046666298061609,
+     "phi_mm_max": -3.062222385779023,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.0
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -4.067885223776102,
+     "phi_mm_max": 20.73509991168976,
+     "frac_outside": 0.58,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.86
+    },
+    "mesh_vertices": 6380
+   }
+  },
+  {
+   "pid": "s1391",
+   "side": "right",
+   "k": 1,
+   "F_mm": 80.0,
+   "S_contact_mm": 213.6132673356544,
+   "dir": "s1391_right_F1",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 94,
+   "max_axis_violation_mm": 2.6927583385258913,
+   "final_ext_mm": 127.74848722316761,
+   "zone": [
+    208.8932673356544,
+    211.2932673356544
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 128.41299657514836,
+   "start_dist_cl_mm": 7.155194776968846,
+   "elapsed_s": 0.21947979927062988,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -5.723651498556137,
+     "phi_mm_max": -3.0622300691902637,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.0
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -4.18563187122345,
+     "phi_mm_max": 18.74963380396366,
+     "frac_outside": 0.66,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.8
+    },
+    "mesh_vertices": 6380
+   }
+  },
+  {
+   "pid": "s1391",
+   "side": "right",
+   "k": 2,
+   "F_mm": 100.0,
+   "S_contact_mm": 213.6132673356544,
+   "dir": "s1391_right_F2",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 115,
+   "max_axis_violation_mm": 1.8360242247581482,
+   "final_ext_mm": 110.8015885558033,
+   "zone": [
+    208.8932673356544,
+    211.2932673356544
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 113.03626191836591,
+   "start_dist_cl_mm": 7.58869475184865,
+   "elapsed_s": 0.25338006019592285,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -5.576228257268667,
+     "phi_mm_max": -3.062229370698333,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.0
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -4.890104290097952,
+     "phi_mm_max": 27.382880449295044,
+     "frac_outside": 0.6,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.76
+    },
+    "mesh_vertices": 6380
+   }
+  },
+  {
+   "pid": "s1397",
+   "side": "left",
+   "k": 0,
+   "F_mm": 60.0,
+   "S_contact_mm": 216.87290688712827,
+   "dir": "s1397_left_F0",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 73,
+   "max_axis_violation_mm": 20.693456754088402,
+   "final_ext_mm": 130.65646222205254,
+   "zone": [
+    212.15290688712827,
+    214.55290688712827
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 120.44164937175644,
+   "start_dist_cl_mm": 29.428203859341714,
+   "elapsed_s": 0.4585449695587158,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -6.36704545468092,
+     "phi_mm_max": -1.5204810770228505,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.18333333333333332
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -3.212203271687031,
+     "phi_mm_max": 36.56283766031265,
+     "frac_outside": 0.66,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.98
+    },
+    "mesh_vertices": 11432
+   }
+  },
+  {
+   "pid": "s1397",
+   "side": "left",
+   "k": 1,
+   "F_mm": 80.0,
+   "S_contact_mm": 216.87290688712827,
+   "dir": "s1397_left_F1",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 94,
+   "max_axis_violation_mm": 9.922732599079609,
+   "final_ext_mm": 120.21318041750229,
+   "zone": [
+    212.15290688712827,
+    214.55290688712827
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 118.8688419401305,
+   "start_dist_cl_mm": 18.6332532251366,
+   "elapsed_s": 0.2702372074127197,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -6.367034744471312,
+     "phi_mm_max": -1.4658529544249177,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.25
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -3.526191459968686,
+     "phi_mm_max": 20.24495042860508,
+     "frac_outside": 0.58,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.86
+    },
+    "mesh_vertices": 11432
+   }
+  },
+  {
+   "pid": "s1397",
+   "side": "left",
+   "k": 2,
+   "F_mm": 100.0,
+   "S_contact_mm": 216.87290688712827,
+   "dir": "s1397_left_F2",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 115,
+   "max_axis_violation_mm": 1.6840985044836998,
+   "final_ext_mm": 115.26380401427384,
+   "zone": [
+    212.15290688712827,
+    214.55290688712827
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 116.45148036575291,
+   "start_dist_cl_mm": 5.866977778149487,
+   "elapsed_s": 0.27082157135009766,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -6.367037538439035,
+     "phi_mm_max": -1.4658502768725157,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.26666666666666666
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -4.499761387705803,
+     "phi_mm_max": 16.941925510764122,
+     "frac_outside": 0.64,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.76
+    },
+    "mesh_vertices": 11432
+   }
+  },
+  {
+   "pid": "s1397",
+   "side": "right",
+   "k": 0,
+   "F_mm": 60.0,
+   "S_contact_mm": 233.7648143179276,
+   "dir": "s1397_right_F0",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 73,
+   "max_axis_violation_mm": 16.762591898441315,
+   "final_ext_mm": 152.33000510430085,
+   "zone": [
+    229.0448143179276,
+    231.4448143179276
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 144.49709852857592,
+   "start_dist_cl_mm": 24.66194588992025,
+   "elapsed_s": 0.5629055500030518,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -7.6415459625422955,
+     "phi_mm_max": -3.316318616271019,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.0
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -5.1961480639874935,
+     "phi_mm_max": 34.87158194184303,
+     "frac_outside": 0.64,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.84
+    },
+    "mesh_vertices": 11432
+   }
+  },
+  {
+   "pid": "s1397",
+   "side": "right",
+   "k": 1,
+   "F_mm": 80.0,
+   "S_contact_mm": 233.7648143179276,
+   "dir": "s1397_right_F1",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 94,
+   "max_axis_violation_mm": 7.230294868350029,
+   "final_ext_mm": 141.53089342357146,
+   "zone": [
+    229.0448143179276,
+    231.4448143179276
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 139.6432294522679,
+   "start_dist_cl_mm": 14.313042848493687,
+   "elapsed_s": 0.2368605136871338,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -7.641547825187445,
+     "phi_mm_max": -3.3163176849484444,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.0
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -4.5321970246732235,
+     "phi_mm_max": 35.16083583235741,
+     "frac_outside": 0.66,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.8
+    },
+    "mesh_vertices": 11432
+   }
+  },
+  {
+   "pid": "s1397",
+   "side": "right",
+   "k": 2,
+   "F_mm": 100.0,
+   "S_contact_mm": 233.7648143179276,
+   "dir": "s1397_right_F2",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 115,
+   "max_axis_violation_mm": 2.7885923627763987,
+   "final_ext_mm": 130.10833408662705,
+   "zone": [
+    229.0448143179276,
+    231.4448143179276
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 132.3878608662109,
+   "start_dist_cl_mm": 5.55801921039043,
+   "elapsed_s": 0.27143192291259766,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -5.820551887154579,
+     "phi_mm_max": -3.3163230400532484,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.0
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -5.292671732604504,
+     "phi_mm_max": 21.066684275865555,
+     "frac_outside": 0.74,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.8
+    },
+    "mesh_vertices": 11432
+   }
+  },
+  {
+   "pid": "s1400",
+   "side": "left",
+   "k": 0,
+   "F_mm": 60.0,
+   "S_contact_mm": 279.93208992337753,
+   "dir": "s1400_left_F0",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 73,
+   "max_axis_violation_mm": 9.069970808923244,
+   "final_ext_mm": 202.51403668909634,
+   "zone": [
+    275.2120899233775,
+    277.61208992337754
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 202.51403668909634,
+   "start_dist_cl_mm": 22.404916207003346,
+   "elapsed_s": 0.24256467819213867,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -10.075943544507027,
+     "phi_mm_max": -3.857948584482074,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.0
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -4.432446323335171,
+     "phi_mm_max": 15.113580971956253,
+     "frac_outside": 0.48,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.7
+    },
+    "mesh_vertices": 21028
+   }
+  },
+  {
+   "pid": "s1400",
+   "side": "left",
+   "k": 1,
+   "F_mm": 80.0,
+   "S_contact_mm": 279.93208992337753,
+   "dir": "s1400_left_F1",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 9,
+   "success_decision_index": null,
+   "T_MAX": 94,
+   "max_axis_violation_mm": 1.5645392704755068,
+   "final_ext_mm": 198.03500145345532,
+   "zone": [
+    275.2120899233775,
+    277.61208992337754
+   ],
+   "n_CRUISE": 9,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 191.320222749997,
+   "start_dist_cl_mm": 12.04659488477774,
+   "elapsed_s": 2.8839399814605713,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -10.0759482011199,
+     "phi_mm_max": -3.406594740226865,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.0
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -4.478557035326958,
+     "phi_mm_max": 18.91166903078556,
+     "frac_outside": 0.56,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.76
+    },
+    "mesh_vertices": 21028
+   }
+  },
+  {
+   "pid": "s1400",
+   "side": "left",
+   "k": 2,
+   "F_mm": 100.0,
+   "S_contact_mm": 279.93208992337753,
+   "dir": "s1400_left_F2",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 115,
+   "max_axis_violation_mm": 2.452768152579665,
+   "final_ext_mm": 176.9230750578418,
+   "zone": [
+    275.2120899233775,
+    277.61208992337754
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 176.21335408030097,
+   "start_dist_cl_mm": 5.930795736713656,
+   "elapsed_s": 0.2475593090057373,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -8.9937224984169,
+     "phi_mm_max": -3.406592644751072,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.0
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -5.622796714305878,
+     "phi_mm_max": 28.419960290193558,
+     "frac_outside": 0.72,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.84
+    },
+    "mesh_vertices": 21028
+   }
+  },
+  {
+   "pid": "s1400",
+   "side": "right",
+   "k": 0,
+   "F_mm": 60.0,
+   "S_contact_mm": 276.7624593783353,
+   "dir": "s1400_right_F0",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 73,
+   "max_axis_violation_mm": 5.391397047787905,
+   "final_ext_mm": 210.42225123993512,
+   "zone": [
+    272.04245937833525,
+    274.4424593783353
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 210.39141060768168,
+   "start_dist_cl_mm": 15.625870760549132,
+   "elapsed_s": 0.2622182369232178,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -7.222970481961966,
+     "phi_mm_max": -3.508815774694085,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.0
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -4.3959831818938255,
+     "phi_mm_max": 6.372594740241766,
+     "frac_outside": 0.2,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.44
+    },
+    "mesh_vertices": 21028
+   }
+  },
+  {
+   "pid": "s1400",
+   "side": "right",
+   "k": 1,
+   "F_mm": 80.0,
+   "S_contact_mm": 276.7624593783353,
+   "dir": "s1400_right_F1",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 94,
+   "max_axis_violation_mm": 7.104515563696623,
+   "final_ext_mm": 186.9654897787097,
+   "zone": [
+    272.04245937833525,
+    274.4424593783353
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 188.50832452566203,
+   "start_dist_cl_mm": 8.117859708461928,
+   "elapsed_s": 0.25242066383361816,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -7.222970481961966,
+     "phi_mm_max": -1.906082732602954,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.05
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -3.7569524720311165,
+     "phi_mm_max": 50.00000074505806,
+     "frac_outside": 0.72,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.86
+    },
+    "mesh_vertices": 21028
+   }
+  },
+  {
+   "pid": "s1400",
+   "side": "right",
+   "k": 2,
+   "F_mm": 100.0,
+   "S_contact_mm": 276.7624593783353,
+   "dir": "s1400_right_F2",
+   "infra_reruns": 0,
+   "status": "LUMEN_VIOLATION",
+   "decisions": 1,
+   "success_decision_index": null,
+   "T_MAX": 115,
+   "max_axis_violation_mm": 22.746751084923744,
+   "final_ext_mm": 137.7406736459826,
+   "zone": [
+    272.04245937833525,
+    274.4424593783353
+   ],
+   "n_CRUISE": 1,
+   "n_SLOW": 0,
+   "n_HOLD": 0,
+   "start_ext_mm": 134.7844771394012,
+   "start_dist_cl_mm": 30.704307837898337,
+   "elapsed_s": 0.2317667007446289,
+   "probe": {
+    "path": {
+     "n": 60,
+     "phi_mm_min": -7.222969084978104,
+     "phi_mm_max": -1.9060525810346007,
+     "frac_outside": 0.0,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.08333333333333333
+    },
+    "straight_rod": {
+     "n": 50,
+     "phi_mm_min": -4.285647068172693,
+     "phi_mm_max": 45.2190637588501,
+     "frac_outside": 0.62,
+     "frac_phi_gt_-3mm(catheter radius not clear)": 0.72
+    },
+    "mesh_vertices": 21028
+   }
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "stage": "stage3",
+ "attempt": 1,
+ "written": "2026-10-18 12:04:23",
+ "patients": [
+  "13 development patients"
+ ],
+ "configuration": {
+  "teacher": "legacy rule",
+  "admission": "all 3 start conditions SUCCESS per side"
+ },
+ "file_sha256": {
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage3/PAUSE_MANIFEST.json": "bd9064dc3e2fde4fd2688691e2c701f79fe3cb8d5b7dca7746e90ecb3d79ad3c",
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage3/PAUSED_local_partial_summary.json": "e994d32383ae4ec59d644724aaf67d98e3084a415e489931d628dff06a148166",
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage3/dev_configs.txt": "0bcbb2d92bc88709f77db37c37d7a7573bdf2e383cd985a9c4905dfc7b1c6568",
+  "D:/projects/MedPhysAI/docs/cvpr_stage3_native_linux_migration.md": "9f43f1cbe2f392c8606f825074327c4cf98da6f18d4171522cfb3228532df209"
+ },
+ "criteria": {
+  "complete": false
+ },
+ "results": {
+  "completed_local_episodes": 51,
+  "pending": 21,
+  "episode_status": {
+   "LUMEN_VIOLATION": 47,
+   "SUCCESS": 4,
+   "NO_RESULT": 21
+  },
+  "note": "preliminary, local WSL2 only; not admission results until native-Linux reproduction passes"
+ },
+ "decision": "PAUSED (infrastructure): resume on native Linux after the pre-declared reproduction checks",
+ "deviations": [
+  "Local WSL2 hangs/EIO; interrupted attempts preserved, not classified as physics failures."
+ ],
+ "reruns": []
+}

@@ -1,0 +1,8 @@
+{
+  "comment": "Cases that must reproduce before physics mapping is (re)started on a new stack. Reference episodes were produced by the validated pipeline; 'accepted_reference' is the accepted single-patient reference episode, the other two are completed multi-patient episodes (preliminary local results).",
+  "cases": [
+    {"label": "A_accepted_reference", "config_dir": "artifacts/references/accepted_reference", "reference_episode": "artifacts/references/accepted_reference/accepted_episode.json", "run_name": "accepted_reference", "post_hold": 15},
+    {"label": "B_completed_SUCCESS", "config_dir": "artifacts/references/reproduction/completed_success", "reference_episode": "artifacts/references/reproduction/completed_success/local_episode.json", "run_name": "completed_success", "post_hold": 0, "expected_status": "SUCCESS"},
+    {"label": "C_completed_LUMEN_VIOLATION", "config_dir": "artifacts/references/reproduction/completed_lumen_violation", "reference_episode": "artifacts/references/reproduction/completed_lumen_violation/local_episode.json", "run_name": "completed_lumen_violation", "post_hold": 0, "expected_status": "LUMEN_VIOLATION"}
+  ]
+}

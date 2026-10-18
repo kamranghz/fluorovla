@@ -1,0 +1,31 @@
+{
+ "stage": "migration_prep",
+ "attempt": 1,
+ "written": "2026-10-18 13:00:20",
+ "patients": [
+  "13 development patients"
+ ],
+ "configuration": {
+  "bundle": "migration/cloud_stage3_v1"
+ },
+ "file_sha256": {
+  "D:/projects/MedPhysAI/migration/cloud_stage3_v1/MANIFEST_SHA256.txt": "019e882acd458cc3f5a62b3f3696cf4a7b7abf0e33bae225eb416f69e9ee05b3",
+  "D:/projects/MedPhysAI/migration/cloud_stage3_v1/MIGRATION_MANIFEST.json": "374efbc202538dd8c469939aff174773a286cdb9bf6bf088f12317192f2ae65d",
+  "D:/projects/MedPhysAI/migration/cloud_stage3_v1/RUNBOOK_NATIVE_LINUX.md": "1f7eb4935fa4b069ee84a66ba8b6de6acaeb6394a274ec5ef1d70f8bb9f90d23",
+  "D:/projects/MedPhysAI/docs/cvpr_cohort_reconciliation_v1.md": "9aeca8a7edd42e24cdb56ba09fa2688abcdaa163f69db51e3ca06019cd8022df",
+  "D:/projects/MedPhysAI/docs/cvpr_stage3_preliminary_init_audit.md": "de5f688f8d1a789da682a2975fe6fec2a51e58dfea3b4a3c8d5aac5b1fd6c893"
+ },
+ "criteria": {
+  "packaging_only": true
+ },
+ "results": {
+  "files_hashed": 2101,
+  "verified": "mismatched/missing 0",
+  "completed_local": 51,
+  "pending": 21,
+  "cohort": "62 twin-valid vs 59 design (not a superset: +6 -3)"
+ },
+ "decision": "READY: bundle prepared; nothing executed on native Linux; Stage 3 remains paused",
+ "deviations": [],
+ "reruns": []
+}

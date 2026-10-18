@@ -1,0 +1,143 @@
+{
+ "stage": "stage2",
+ "attempt": 1,
+ "written": "2026-10-18 10:30:00",
+ "patients": [
+  "s0011",
+  "s0963",
+  "s1400",
+  "s1364",
+  "s0950",
+  "s0344",
+  "s1388",
+  "s1348",
+  "s1397",
+  "s0513",
+  "s1391",
+  "s0058",
+  "s1082"
+ ],
+ "configuration": {
+  "algorithm": "design_v3/_sel_common + _sel_step3_final unchanged, twin rows",
+  "N": 12
+ },
+ "file_sha256": {
+  "D:/projects/MedPhysAI/scripts/protocol/stage2_select.py": "816eae5776955a70ea71add79ebceae0030cebb99efea5e2c011aad43326c194",
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage2/twin_rows.json": "40ab965f395e43a034e38f27bf3dd9c57655b49f6933b6f701cc719543431421",
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage2/selection_step3.json": "c4d116b5e87aede1e5ac23d050b4c68daef71e6b461bb9df47de2493813387c5",
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage2/run.log": "99fe1c339dd84a9734282e45f228b7252c22f0507c6f92d41201f3142a327199"
+ },
+ "criteria": {
+  "deterministic": true
+ },
+ "results": {
+  "cohort12": [
+   "s0011",
+   "s0963",
+   "s1400",
+   "s1364",
+   "s0950",
+   "s0344",
+   "s1388",
+   "s1348",
+   "s1397",
+   "s0513",
+   "s1391",
+   "s0058"
+  ],
+  "roles": {
+   "s0011": "reference",
+   "s0963": "edge",
+   "s1400": "edge",
+   "s1364": "edge",
+   "s0950": "edge",
+   "s0344": "compound",
+   "s1388": "compound",
+   "s1348": "core",
+   "s1397": "core",
+   "s0513": "core",
+   "s1391": "core",
+   "s0058": "core"
+  },
+  "metrics_k12": {
+   "mean_nn": 1.194882321876808,
+   "p90_nn": 1.959546986283867,
+   "max_nn": 2.9169489272307594,
+   "tails_covered": 14,
+   "range_cov_mean": 1.0,
+   "pairs_covered": 13,
+   "pairs_populated": 14
+  },
+  "forced": [
+   "s0011",
+   "s0963",
+   "s1400",
+   "s1364",
+   "s0950",
+   "s0344",
+   "s1388"
+  ],
+  "edge_tails": {
+   "narrow vessel": 0.05,
+   "wide vessel": 0.05,
+   "short path": 0.05,
+   "long path": 0.05,
+   "high tortuosity": 0.05,
+   "large bend severity": 0.05,
+   "large bifurcation angle": 0.05,
+   "strong flare": 0.05,
+   "reduced landing clearance": 0.05
+  },
+  "universe": {
+   "paths": 119,
+   "patients": 62,
+   "verified_paths(OK/BOUNDARY)": 102,
+   "eligible_patients": 56
+  },
+  "conditional_rules": {
+   "s1206": "not in the twin-space cohort; its rule (keep only if twin gives a valid path >=150 mm) is moot. twin: left 156.3 (BOUNDARY), right 164.0, valid.",
+   "s1082": "twin confirms severe tortuosity (right side tort_w 2.22, robust z +8.3, S_contact 156.2; left side S_contact 143.6 < 150 gate so only one path) -> kept as STRESS SENTINEL",
+   "s0727": "twin valid both sides (171.2, 179.9), not selected"
+  },
+  "development_cohort": [
+   "s0011",
+   "s0963",
+   "s1400",
+   "s1364",
+   "s0950",
+   "s0344",
+   "s1388",
+   "s1348",
+   "s1397",
+   "s0513",
+   "s1391",
+   "s0058",
+   "s1082"
+  ],
+  "sentinel": "s1082",
+  "previous_provisional": [
+   "s0011",
+   "s1400",
+   "s1388",
+   "s1124",
+   "s1206",
+   "s1350",
+   "s0344",
+   "s0513",
+   "s0629",
+   "s0912",
+   "s1336",
+   "s1387"
+  ],
+  "overlap_with_previous": [
+   "s0011",
+   "s0344",
+   "s0513",
+   "s1388",
+   "s1400"
+  ]
+ },
+ "decision": "PASS: development cohort fixed = 12 + sentinel s1082; names not preserved from the provisional set",
+ "deviations": [],
+ "reruns": []
+}

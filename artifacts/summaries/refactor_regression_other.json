@@ -1,0 +1,12 @@
+{
+ "module_ast_identity": {"method": "ast.dump after removing docstrings and renaming module paths", "identical": ["action.py", "task_contract.py", "teacher/privileged_teacher.py", "observations/drr_framing.py", "physics/engine.py", "physics/progression.py", "physics/backend_protocol.py"]},
+ "lumen_sdf_function_diff": {"generate_lumen_contacts": "only intended differences (mesh -> sdf object, s4a.TARGET_PHI_M -> TARGET_PHI_M)", "quat_rotate_inv": "identical", "transform_point_world": "identical", "query_points_sdf": "sign/max-dist constants passed explicitly", "query_sdf_at_points": "identical (comment only)"},
+ "D_geometry_extraction": {"patients": 69, "extraction_errors": 0, "candidate_pool": 65, "candidate_paths": 125, "descriptor_rows_identical_to_attempt2": true, "geometry_arrays_identical": true},
+ "E_cohort_selection": {"reproduces_locked_cohort_exactly": true, "inputs": "descriptor table regenerated from the twins by the new tools"},
+ "F_config_and_paths": {"episode_configs_compared_to_legacy": 45, "different": 0, "unit_tests": "tests/test_episode_config_and_paths.py"},
+ "G_firewall": "tests/test_privileged_firewall.py",
+ "H_no_patient_branching": "tests/test_code_hygiene.py (no patient identifiers in source logic; fixed constants guarded by configs/physics/fixed_constants.json)",
+ "I_cohort_lock": "tests/test_cohort_lock.py (65 candidates, 12 locked development patients, sentinel s1082)",
+ "data_move": {"files_moved": 12530, "verified_identical_to_PRE_REFACTOR_SHA256": true, "raw": "data/Totalsegmentator_dataset_small_v201 -> data/raw/totalsegmentator", "cache": "data/ct_cache -> data/cache/twin"},
+ "legacy_bundle_cloud_stage3_v1": "manifest and tarball re-verified unchanged after the refactor"
+}

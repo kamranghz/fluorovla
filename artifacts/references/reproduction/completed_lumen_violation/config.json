@@ -1,0 +1,24 @@
+{
+ "patient_id": "s0963",
+ "access_side": "left",
+ "start_index": 2,
+ "F_mm": 83.06370636265827,
+ "S_contact_mm": 165.26370636265827,
+ "s_portal_mm": 0.980000000000004,
+ "ct_dir": "cache/twin/s0963",
+ "mesh_cache": "cache/twin/s0963/lumen_collision_mesh_ct_frame.npz",
+ "mesh_frame": "ct",
+ "portal_ct_mm": [
+  -84.6953125,
+  167.3046875,
+  -913.7100358360123
+ ],
+ "tangent": [
+  0.20771879240264735,
+  -0.11769790356232933,
+  0.9710819258846385
+ ],
+ "sign_scale": 1.0,
+ "landing_zone": "landing_zone.json",
+ "path_npz": "path_ext.npz"
+}

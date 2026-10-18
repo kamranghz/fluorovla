@@ -1,0 +1,56 @@
+{
+ "stage": "stage0b",
+ "attempt": 2,
+ "written": "2026-10-18 10:45:50",
+ "patients": [
+  "s0011"
+ ],
+ "configuration": {
+  "scope": "override-mode sanity (config path, CT-frame mesh cache, portal from twin path, protocol T_MAX)"
+ },
+ "file_sha256": {
+  "D:/projects/MedPhysAI/scripts/protocol/build_patient_episode_config.py": "45c92821726771609f4c8a93de546fd04b89c9fa79bc335cbe69302d7f78458f",
+  "D:/projects/MedPhysAI/scripts/protocol/episode_with_probe.py": "aac6e0130ad5b52aa1010eb0dec557c2a4854767d61f2219636ceb02bf6f604e",
+  "D:/projects/MedPhysAI/scripts/protocol/run_episodes.py": "96b601bb68a182c7bb626c77e7b29c75ae45e94a77467c79919d9744cae241ed",
+  "D:/projects/MedPhysAI/scripts/medphysai/patient_config.py": "108c4611c1fb5c28209267a93c41ddbc9183e495271188b811ecdaebd6cc4753",
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage3/_s0011_right_Fleg/config.json": "5182d2ff83e25ab86ce20064f00db4019e3b93b5a33bc63930258d9de0a35959",
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage3/_s0011_right_Fleg/run_attempt0_harness_path_bug.log": "b6e8b82259efb0d0dd88b0934ab6313557aab3946d0bf93218524276bd0f8a64",
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage3/_s0011_right_Fleg/run_attempt1_rc135_sigbus.log": "795cc12b1e871f7827f85e4bca833b2c592adb6f63daf2178655f58a6eb641b8",
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage3/_s0011_right_Fleg/run_attempt2_rc126_9p_io_error.log": "75be988bbc65df33758ec3389fd81b47a9eef4703fb9f0037ecff91b9652defd",
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage3/_s0011_right_Fleg/run.log": "9815c0433b9ae548c17f557ba0b434559c6c6380098c7beafb5d20cb14bcc107",
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage3/_s0011_right_Fleg/run/episode_physics_ep.json": "927fc0a01881370103b65ecce494ebdb1a1e622820f7559b2a55faaa033868b8",
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage3/_s0011_right_Fleg_v2/config.json": "82f4d91e5f4646639195969719ff73429c38fa5e64c7dae8d86853238a830e29",
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage3/_s0011_right_Fleg_v2/run/episode_physics_ep.json": "094d2ecb4a1581c1e92716619efebb092bbba891de1c02d331c65b0270707fea",
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage3/_s0011_right_Fleg_v2/run.log": "177827fb8add71bcfdc0a79d9e2b4f5e8e1daf2111fe51226111d80532a82077"
+ },
+ "criteria": {
+  "episode reaches SUCCESS with max axis violation <= 1.5 mm": "PASS"
+ },
+ "results": {
+  "v1_portal_on_smoothed_path": {
+   "status": "LUMEN_VIOLATION",
+   "decisions": 2,
+   "max_axis_violation_mm": 3.01,
+   "cause": "portal placed on the smoothed path, whose start is 1.17 mm inside the raw polyline (Gaussian end effect); the s0011 episode places the portal on the RAW node 0"
+  },
+  "v2_portal_on_raw_polyline": {
+   "status": "SUCCESS",
+   "decisions": 90,
+   "success_decision_index": 89,
+   "max_axis_violation_mm": 1.0175121715292335,
+   "legacy_reference": {
+    "success_decision_index": 89,
+    "decisions": 105,
+    "max_axis_violation_mm": 1.0396653087809682
+   },
+   "differences_from_legacy": "tangent 0.29 deg (5-mm chord of the smoothed path vs frozen i4h value), T_MAX 118 vs 95 (protocol formula), CT-frame mesh cache"
+  },
+  "bit_identical_expected": false
+ },
+ "decision": "PASS (override mode): the config-mode pipeline reaches SUCCESS on s0011 at the legacy start depth; default-mode regression (attempt 1) remains bit-identical",
+ "deviations": [
+  "Config-mode portal placement defect (smoothed vs raw polyline) fixed after v1 failed; this is a parameterization bug fix, no physics constant was changed.",
+  "Infrastructure reruns: rc=135 (SIGBUS on /mnt/d read) and rc=126 (9p Input/output error; /mnt/d unreadable after Docker Desktop restarts); fixed by stopping Docker Desktop and restarting WSL. Logs kept."
+ ],
+ "reruns": []
+}

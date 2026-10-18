@@ -1,0 +1,39 @@
+{
+ "stage": "stage0",
+ "attempt": 1,
+ "written": "2026-10-18 08:59:39",
+ "patients": [
+  "s0011 (regression reference)"
+ ],
+ "configuration": {
+  "protocol": "docs/cvpr_final_experimental_protocol_v1.md",
+  "note": "pre-registration written before any new multi-patient physics"
+ },
+ "file_sha256": {
+  "D:/projects/MedPhysAI/docs/cvpr_final_experimental_protocol_v1.md": "e4fa2a242ae5b69dbf11f627b7d2d6c68cbc3344662c8d9c1b5fb818ae8278d7",
+  "D:/projects/MedPhysAI/docs/cvpr_adaptive_teacher_multipatient_pilot_v2.md": "50932cd2f69ee4b6af97baf2661778deafb57fcf61e6309463837c50a8c4fa8f",
+  "D:/projects/MedPhysAI/docs/cvpr_pilot_cohort_selection_v1.md": "3ccb4aaea221cdd87a70ee427435557d9c244689f526e0a4594bc7cc691dca57",
+  "D:/projects/MedPhysAI/scripts/medphysai/teacher.py": "c1d8dc52af21a52b948c055e6d2d91475db1135d7629d8cd5ed08fc4f8db1651",
+  "D:/projects/MedPhysAI/scripts/medphysai/target_contract.py": "6d7912f74456bf7c9885530147cea62ca1e7eeea7a664f341e241e44f2de7e70",
+  "D:/projects/MedPhysAI/scripts/medphysai/backends/newton_patient_episode.py": "06f257bfdaf351472dfb0e39f9b24b558d5b67d09cd2375753239aa228ca4d61",
+  "D:/projects/MedPhysAI/scripts/medphysai/backends/newton_stage2d_engine.py": "88a39181d6299cc8243e53ea76f4de9f14856e125e5351cf1820124ae00bf8f9",
+  "D:/projects/MedPhysAI/scripts/medphysai/backends/newton_fluoro_observation.py": "a5e80d0936055c1237f409e1485ca9997a20a87530cec1664d9f64423a251d4a",
+  "D:/projects/MedPhysAI/scripts/newton_stage4a_vessel_contact.py": "71c9a9525fc64c0234dd37c16e3372ab03a75a47d647f59be9f37a0c732af5e3",
+  "D:/projects/MedPhysAI/scripts/_canonical_episode_physics.py": "981e2a9b60d5da7ea538010394755547eacbb43efcbee413187a030621c2fadb",
+  "D:/projects/MedPhysAI/scripts/_render_demo_images.py": "05d0911358edfc480a3dbd77b7ed36dd11d6eeaa51c3cf8dcc1812787414e698",
+  "D:/projects/MedPhysAI/scripts/_build_demo_episode.py": "c8e3a4f3ac69f415d5921d00911a1318421a46c691fd65108d8e41ec122d8220",
+  "D:/projects/MedPhysAI/scripts/medphysai/groot/episode_schema.py": "452c90e8b8e5f502d2b467ac2331aaed5dd30254ea2cff9b2fbec29c87c9ff09",
+  "D:/projects/MedPhysAI/outputs/cvpr_first_demo_v2_holdtail/episode_physics_canon2.json": "0af16e66736bb87e4fd1a0679849b2f5b91de5bb2ad723b5d4e270d282c93881",
+  "D:/projects/MedPhysAI/outputs/cvpr_visible_bifurcation_v1/landing_zone.json": "baa3d3467f8bd9f54c6dd69f7b3b2abc35bcd6632258033518492d6898c3104c",
+  "D:/projects/MedPhysAI/outputs/cvpr_visible_bifurcation_v1/path_ext.npz": "46e498d543db23eda29dac179488ba778c43a7c20a4a839500eb6c064abd5f5e",
+  "D:/projects/MedPhysAI/outputs/cvpr_multipatient_design_v1/selection_descriptors.json": "032ec4ef3fa8aba78398c95e664cbdb14443f6b0cf765a5a12e2882d0638f4fe",
+  "D:/projects/MedPhysAI/outputs/cvpr_multipatient_design_v1/split_plan_provisional.json": "aa021d79d974d04ed46076de0701a9a2710492f73826f2c35d6e015401c2b004"
+ },
+ "criteria": "see protocol sections 1-21",
+ "results": {
+  "registered": true
+ },
+ "decision": "PASS: protocol registered before new multi-patient physics results exist",
+ "deviations": [],
+ "reruns": []
+}

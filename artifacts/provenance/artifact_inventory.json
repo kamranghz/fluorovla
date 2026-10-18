@@ -1,0 +1,534 @@
+{
+ "outputs/cvpr_tiny_overfit_v1": {
+  "files": 385,
+  "bytes": 154113699451,
+  "category": "KEEP_EVIDENCE",
+  "note": "GR00T tiny-overfit run (checkpoints, evals, logs); 154 GB; intermediate checkpoints are candidates for external archive",
+  "new_location": "legacy archive"
+ },
+ "data/ct_cache": {
+  "files": 493,
+  "bytes": 20932651120,
+  "category": "REGENERABLE_CACHE",
+  "note": "patient twins (mu/hu volumes, masks, centerlines); rebuilt deterministically by tools/build_patient_twin.py; MOVED (hash-verified) to FluoroVLA/data/cache/twin",
+  "new_location": "FluoroVLA/data/cache/twin"
+ },
+ "data/Totalsegmentator_dataset_small_v201": {
+  "files": 12037,
+  "bytes": 4216432467,
+  "category": "KEEP_CANONICAL",
+  "note": "raw CT + segmentations (authoritative raw data); MOVED (hash-verified) to FluoroVLA/data/raw/totalsegmentator",
+  "new_location": "FluoroVLA/data/raw/totalsegmentator"
+ },
+ "data/Totalsegmentator_dataset_small_v201.zip": {
+  "files": 1,
+  "bytes": 3244617817,
+  "category": "DUPLICATE",
+  "note": "zip archive of the raw dataset that now lives, extracted and verified, in FluoroVLA/data/raw/totalsegmentator; kept (raw-data protection)",
+  "new_location": "legacy archive (not deleted)"
+ },
+ "migration/cloud_stage3_v1": {
+  "files": 2102,
+  "bytes": 490584706,
+  "category": "KEEP_REPRODUCTION",
+  "note": "immutable pre-refactor recovery bundle",
+  "new_location": "unchanged"
+ },
+ "third_party/i4h-workflows": {
+  "files": 1568,
+  "bytes": 478295079,
+  "category": "KEEP_EVIDENCE",
+  "note": "external i4h repository checkout (renderer / twin sources)",
+  "new_location": "legacy archive; document pinned commit"
+ },
+ "environments/windows-cuda-shim": {
+  "files": 104,
+  "bytes": 191961930,
+  "category": "OBSOLETE",
+  "note": "Windows CUDA shim from the abandoned Windows-native renderer attempt",
+  "new_location": "legacy archive"
+ },
+ "outputs/cvpr_visible_bifurcation_v1": {
+  "files": 283,
+  "bytes": 66534265,
+  "category": "KEEP_REPRODUCTION",
+  "note": "contains the accepted s0011 landing zone / path (copied to artifacts/references/s0011)",
+  "new_location": "artifacts/references/s0011 + legacy archive"
+ },
+ "outputs/cvpr_dsa_roadmap_v1": {
+  "files": 233,
+  "bytes": 61289450,
+  "category": "KEEP_EVIDENCE",
+  "note": "DSA roadmap protocol outputs (needed again at DSA calibration)",
+  "new_location": "legacy archive"
+ },
+ "outputs/cvpr_first_demo_v2_holdtail": {
+  "files": 331,
+  "bytes": 50951230,
+  "category": "KEEP_REPRODUCTION",
+  "note": "contains the accepted s0011 episode (copied to artifacts/references/s0011)",
+  "new_location": "artifacts/references/s0011 + legacy archive"
+ },
+ "outputs/cvpr_first_demo_v1": {
+  "files": 288,
+  "bytes": 44025897,
+  "category": "OBSOLETE",
+  "note": "superseded by first_demo_v2_holdtail",
+  "new_location": "legacy archive"
+ },
+ "data/4d_medphys": {
+  "files": 363,
+  "bytes": 22507543,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier 4D trajectory frames of s0011",
+  "new_location": "legacy archive"
+ },
+ "outputs/cvpr_physical_reachability_v1": {
+  "files": 135,
+  "bytes": 13809486,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "migration": {
+  "files": 2,
+  "bytes": 13134977,
+  "category": "KEEP_EVIDENCE",
+  "note": "",
+  "new_location": ""
+ },
+ "outputs/cvpr_target_contract_v1": {
+  "files": 175,
+  "bytes": 7180442,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/cvpr_teacher_validation_v1": {
+  "files": 33,
+  "bytes": 5585120,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/cvpr_protocol_v1": {
+  "files": 503,
+  "bytes": 3986142,
+  "category": "KEEP_EVIDENCE",
+  "note": "protocol execution records, geometry, selection, local physics-mapping results and infrastructure logs",
+  "new_location": "artifacts/provenance/protocol_records + artifacts/summaries + legacy archive"
+ },
+ "outputs/stage6_5_2a_demo_logger": {
+  "files": 69,
+  "bytes": 3785664,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "assets": {
+  "files": 3,
+  "bytes": 3292862,
+  "category": "KEEP_EVIDENCE",
+  "note": "supplementary figure S5 gallery",
+  "new_location": "legacy archive"
+ },
+ "outputs/stage6_2_1_prefix_consistency": {
+  "files": 4,
+  "bytes": 2321493,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/cvpr_multipatient_design_v1": {
+  "files": 31,
+  "bytes": 2266785,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/newton_drr_observation_bridge": {
+  "files": 47,
+  "bytes": 2178793,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/icra_pre_ai_audit": {
+  "files": 51,
+  "bytes": 2141681,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/groot_catheter_schema_smoke": {
+  "files": 56,
+  "bytes": 2080609,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "07_MedPhysAI_materials.zip": {
+  "files": 1,
+  "bytes": 1879679,
+  "category": "KEEP_EVIDENCE",
+  "note": "thesis materials archive (not inspected for redundancy)",
+  "new_location": "legacy archive"
+ },
+ "outputs.zip": {
+  "files": 1,
+  "bytes": 1471298,
+  "category": "KEEP_EVIDENCE",
+  "note": "archive of early outputs (not inspected for redundancy)",
+  "new_location": "legacy archive"
+ },
+ "scripts": {
+  "files": 148,
+  "bytes": 1405958,
+  "category": "KEEP_EVIDENCE",
+  "note": "",
+  "new_location": ""
+ },
+ "outputs/stage6_5_2a_pose_guard_audit": {
+  "files": 1,
+  "bytes": 837810,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "tools": {
+  "files": 91,
+  "bytes": 774439,
+  "category": "KEEP_EVIDENCE",
+  "note": "i4h / holohub CLI tooling copy (third party); only needed to rebuild the i4h container",
+  "new_location": "legacy archive"
+ },
+ "outputs/stage4_s0011": {
+  "files": 11,
+  "bytes": 533899,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "scripts/medphysai": {
+  "files": 60,
+  "bytes": 524811,
+  "category": "KEEP_EVIDENCE",
+  "note": "",
+  "new_location": ""
+ },
+ "outputs/newton_stage2b_single_activation": {
+  "files": 1,
+  "bytes": 467668,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "scripts/__pycache__": {
+  "files": 14,
+  "bytes": 425162,
+  "category": "KEEP_EVIDENCE",
+  "note": "",
+  "new_location": ""
+ },
+ "outputs/stage5_s0011": {
+  "files": 1,
+  "bytes": 313247,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "docs": {
+  "files": 33,
+  "bytes": 286015,
+  "category": "KEEP_EVIDENCE",
+  "note": "",
+  "new_location": ""
+ },
+ "outputs/newton_stage2c_multi_activation": {
+  "files": 1,
+  "bytes": 274949,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "scratch_vdt": {
+  "files": 30,
+  "bytes": 167426,
+  "category": "REGENERABLE_CACHE",
+  "note": "copy of the vasculature_digital_twin package from the i4h image",
+  "new_location": "VDT_PATH documented in docs/reproducibility.md"
+ },
+ "scripts/design_v3": {
+  "files": 29,
+  "bytes": 157359,
+  "category": "KEEP_EVIDENCE",
+  "note": "",
+  "new_location": ""
+ },
+ "scripts/protocol": {
+  "files": 36,
+  "bytes": 149582,
+  "category": "KEEP_EVIDENCE",
+  "note": "",
+  "new_location": ""
+ },
+ "outputs/stage6_5_2a_progression_actions": {
+  "files": 1,
+  "bytes": 111284,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/stage6_1_action_space": {
+  "files": 7,
+  "bytes": 106548,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/stage6_5_2a_variable_rest_feed": {
+  "files": 1,
+  "bytes": 98177,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/stage6_counterfactual": {
+  "files": 4,
+  "bytes": 88033,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/stage6_2_rci_dcs_poc": {
+  "files": 5,
+  "bytes": 54921,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "THESIS_MATERIALS_MANIFEST.md": {
+  "files": 1,
+  "bytes": 54169,
+  "category": "KEEP_EVIDENCE",
+  "note": "manifest of the thesis materials archive",
+  "new_location": "legacy archive"
+ },
+ "outputs/_pool_scan.json": {
+  "files": 1,
+  "bytes": 46235,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/stage3_5_drr_regression.png": {
+  "files": 1,
+  "bytes": 35231,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/stage3_drr_synthetic.png": {
+  "files": 1,
+  "bytes": 35231,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/stage3_drr_synthetic_i4h.png": {
+  "files": 1,
+  "bytes": 35231,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/stage3_7": {
+  "files": 4,
+  "bytes": 32449,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/stage6_3_sheath_insertion": {
+  "files": 1,
+  "bytes": 23770,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/stage6_2_2_root_stabilization": {
+  "files": 1,
+  "bytes": 23763,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/stage6_5_2_material_boundary": {
+  "files": 1,
+  "bytes": 22383,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/cvpr_prelearning_doublecheck": {
+  "files": 5,
+  "bytes": 20239,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/newton_stage4c_contact_root_cause": {
+  "files": 1,
+  "bytes": 18678,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/newton_stage1_5_smoke": {
+  "files": 4,
+  "bytes": 15423,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/cvpr_groot_integration_v2": {
+  "files": 1,
+  "bytes": 10542,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/cvpr_groot_integration_v1": {
+  "files": 1,
+  "bytes": 9635,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/newton_stage4bde_patient_feed_revalidation": {
+  "files": 1,
+  "bytes": 8582,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/newton_progression_adapter": {
+  "files": 1,
+  "bytes": 7014,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/newton_stage4a_vessel_contact": {
+  "files": 1,
+  "bytes": 7003,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/newton_stage4d_segment_contact": {
+  "files": 1,
+  "bytes": 6706,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/newton_stage4e_native_lumen_contact": {
+  "files": 1,
+  "bytes": 6683,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/newton_stage2a_portal_feed": {
+  "files": 1,
+  "bytes": 6648,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/newton_stage2d_progression_actions": {
+  "files": 1,
+  "bytes": 6631,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/newton_stage4b_activation_contact": {
+  "files": 1,
+  "bytes": 6430,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/newton_shared_patient_feed_backend": {
+  "files": 1,
+  "bytes": 5975,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/newton_stage4f_lumen_contact_fix": {
+  "files": 1,
+  "bytes": 5253,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/newton_stage3b_patient_mapping": {
+  "files": 1,
+  "bytes": 5171,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/stage6_5_material_feed_poc": {
+  "files": 1,
+  "bytes": 3025,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/stage6_5_1_activation_boundary": {
+  "files": 1,
+  "bytes": 2422,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "environments": {
+  "files": 1,
+  "bytes": 1705,
+  "category": "KEEP_EVIDENCE",
+  "note": "",
+  "new_location": ""
+ },
+ "outputs/stage3_7_windows_gpu_probe.txt": {
+  "files": 1,
+  "bytes": 627,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "outputs/_pool_gate_ids.json": {
+  "files": 1,
+  "bytes": 549,
+  "category": "KEEP_EVIDENCE",
+  "note": "earlier stage output (validation JSON/figures)",
+  "new_location": "legacy archive"
+ },
+ "scripts/bin": {
+  "files": 1,
+  "bytes": 417,
+  "category": "KEEP_EVIDENCE",
+  "note": "",
+  "new_location": ""
+ },
+ "=0.40": {
+  "files": 1,
+  "bytes": 0,
+  "category": "DELETE",
+  "note": "stray file created by an unquoted pip command ('pip install pkg>=0.40' redirect); no content of value",
+  "new_location": "(deleted)"
+ }
+}

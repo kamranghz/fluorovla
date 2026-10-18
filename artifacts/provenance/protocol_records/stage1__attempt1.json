@@ -1,0 +1,216 @@
+{
+ "stage": "stage1",
+ "attempt": 1,
+ "written": "2026-10-18 10:30:00",
+ "patients": [
+  "s0011",
+  "s0058",
+  "s0250",
+  "s0344",
+  "s0358",
+  "s0454",
+  "s0461",
+  "s0477",
+  "s0513",
+  "s0519",
+  "s0573",
+  "s0591",
+  "s0629",
+  "s0649",
+  "s0703",
+  "s0720",
+  "s0726",
+  "s0727",
+  "s0762",
+  "s0763",
+  "s0777",
+  "s0812",
+  "s0815",
+  "s0859",
+  "s0878",
+  "s0885",
+  "s0903",
+  "s0912",
+  "s0915",
+  "s0928",
+  "s0950",
+  "s0963",
+  "s0970",
+  "s1029",
+  "s1082",
+  "s1086",
+  "s1123",
+  "s1124",
+  "s1127",
+  "s1206",
+  "s1233",
+  "s1267",
+  "s1287",
+  "s1336",
+  "s1348",
+  "s1350",
+  "s1361",
+  "s1364",
+  "s1365",
+  "s1366",
+  "s1369",
+  "s1371",
+  "s1372",
+  "s1373",
+  "s1374",
+  "s1383",
+  "s1384",
+  "s1387",
+  "s1388",
+  "s1390",
+  "s1391",
+  "s1395",
+  "s1397",
+  "s1400",
+  "s1401",
+  "s1403",
+  "s1404",
+  "s1405"
+ ],
+ "configuration": {
+  "spur_mm": 12.0,
+  "descriptor_definitions": "design_v3/_extract_for_selection.py windows (173.5 mm, zone offset 4.72, capsule 3.0)",
+  "side_assignment": "nearest TotalSegmentator iliac label (<=6 mm)"
+ },
+ "file_sha256": {
+  "D:/projects/MedPhysAI/scripts/protocol/twin_geometry.py": "3ca0babdd7e2392a32fc9740844f215df967757aea0ebf58776ffc9069d13ad3",
+  "D:/projects/MedPhysAI/scripts/protocol/stage1_compare.py": "8017b66384e223c612e80fce9efad3a5e765d3bcc12b11f7b6a14d95abd09cb6",
+  "D:/projects/MedPhysAI/scripts/protocol/twin_build_win.py": "5e99e93945fa0676eadf6b97099fc2e7cb9ac38e0c3da9844d8c198676675ff9",
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage1/twin_geometry.json": "bfe10cd689b48142e0f1b53ce87337c489291d404fd851b03071e5b5445e1d82",
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage1/twin_geometry.npz": "40ba85c08a4a32a3f53a71e0d38af479e51df49f50a81824bd367b64983849f7",
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage1/twin_vs_design.json": "4f6ca5e3891a4661c60352156870e56a778a1dd19289c29e551b26db7ecf161a",
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage1/build_win.log": "d78d90137d7af4156c9fe973aef498238be901c329ea3b1dbd3483f96cebf99b",
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage1/build_all_attempt1_hang_at_s0720.log": "8c8185b624830cf643fb855c29f16577015882de10d0a493cb6654687d421a42",
+  "D:/projects/MedPhysAI/outputs/cvpr_protocol_v1/stage1/build_all_attempt2_inproc_hang_at_s0720.log": "a433e360e905204d83f8b90f5bfdb9147f7a436b5df556c4acf046212ba3121c"
+ },
+ "criteria": {
+  "s0011 twin S_contact reproduces reference 183.58 within 0.01 mm": "PASS"
+ },
+ "results": {
+  "funnel": {
+   "subjects": 102,
+   "anatomical_gate_design(both iliacs>=2000vox,120mm; aorta>=200mm)": 61,
+   "twin_built": 69,
+   "twin_geometry_computed": 68,
+   "twin_geometry_failed": [
+    {
+     "pid": "s1379",
+     "reason": "IndexError('index -1 is out of bounds for axis 0 with size 0')"
+    }
+   ],
+   "patients_with_>=1_valid_path_S>=150": 62
+  },
+  "path_counts": {
+   "valid": 129,
+   "valid_S>=150": 119,
+   "invalid:CLUSTER_ARMS_4": 3,
+   "invalid:CLUSTER_ARMS_5": 4,
+   "valid_S<150": 10
+  },
+  "agreement_twin_vs_design": {
+   "S_contact_mm": {
+    "n": 105,
+    "spearman": 0.9439456769645449,
+    "median_diff_twin_minus_design": 13.63305266786304,
+    "median_abs_diff": 13.695417508720595,
+    "p90_abs_diff": 19.058294940114763
+   },
+   "r_med_mm": {
+    "n": 105,
+    "spearman": 0.9837756583039601,
+    "median_diff_twin_minus_design": 0.021605472702964423,
+    "median_abs_diff": 0.041628822213112926,
+    "p90_abs_diff": 0.17491313121746935
+   },
+   "tort_w": {
+    "n": 105,
+    "spearman": 0.9743520630313083,
+    "median_diff_twin_minus_design": 0.0009608719087932371,
+    "median_abs_diff": 0.009203434534676314,
+    "p90_abs_diff": 0.043785764447504205
+   },
+   "e30_p95_mm": {
+    "n": 105,
+    "spearman": 0.907287995023844,
+    "median_diff_twin_minus_design": 0.01484427372657482,
+    "median_abs_diff": 0.18266327820486428,
+    "p90_abs_diff": 0.7448062871529427
+   },
+   "c_z_mm": {
+    "n": 105,
+    "spearman": 0.7990047688160895,
+    "median_diff_twin_minus_design": 0.018531303038876068,
+    "median_abs_diff": 0.3026930992367509,
+    "p90_abs_diff": 0.8967329204812445
+   },
+   "flare": {
+    "n": 117,
+    "spearman": 0.07149065623641894,
+    "median_diff_twin_minus_design": 0.027295304619853855,
+    "median_abs_diff": 0.16961344283798296,
+    "p90_abs_diff": 0.5404745974826731
+   },
+   "ang_deg": {
+    "n": 103,
+    "spearman": 0.48798181227517456,
+    "median_diff_twin_minus_design": -3.3125529830233233,
+    "median_abs_diff": 8.799650810653532,
+    "p90_abs_diff": 21.47319947163669
+   }
+  },
+  "s0011_reference_check": {
+   "twin_S_contact_mm_portal_side": 183.584,
+   "reference_s_cluster_entry_mm": 183.5789,
+   "diff_mm": 0.005
+  },
+  "invalid_paths": [
+   [
+    "s0461",
+    "left",
+    "CLUSTER_ARMS_4"
+   ],
+   [
+    "s0815",
+    "left",
+    "CLUSTER_ARMS_5"
+   ],
+   [
+    "s0815",
+    "right",
+    "CLUSTER_ARMS_5"
+   ],
+   [
+    "s1369",
+    "left",
+    "CLUSTER_ARMS_5"
+   ],
+   [
+    "s1369",
+    "right",
+    "CLUSTER_ARMS_5"
+   ],
+   [
+    "s1395",
+    "left",
+    "CLUSTER_ARMS_4"
+   ],
+   [
+    "s1395",
+    "right",
+    "CLUSTER_ARMS_4"
+   ]
+  ],
+  "note": "twin S_contact is on median 13.6 mm longer than the design-stage prototype (design under-counted skeleton length); flare (Spearman 0.07) and daughter angle (0.49) agree poorly; radius, tortuosity, path length, bend severity agree (Spearman 0.91-0.98)."
+ },
+ "decision": "REPORTED (not gated): twin geometry verified; feeds Stage 2",
+ "deviations": [
+  "Container (WSL2/Docker) twin builds hung 3 times in the known kernel VMA-lock bug (two logs retained as build_all_attempt*_hang*.log, build_test_attempt1_hung.log); builds were then run with the unmodified vasculature_digital_twin package on Windows python (verified bit-identical on s0058, all 6 .npy files). Infrastructure only, no scientific change.",
+  "Twin geometry for s1379 failed (IndexError in the geometry code, reported, not retried with a changed rule)."
+ ],
+ "reruns": []
+}

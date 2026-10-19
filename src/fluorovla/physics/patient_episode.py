@@ -32,9 +32,9 @@ CATASTROPHIC_VEL_MPS = 2.0
 _N_ACTIVE_INIT = 2
 
 
-def measure_outside(sdf, q, bodies, n_active, root, axis):
-    """(fraction of axis samples beyond the wall surface, max SDF excess [m]); identical to the audited function."""
-    pts = []
+def axis_sample_points(q, bodies, n_active, root, axis):
+    """[(body, fraction, point)] for the axis samples used by the lumen-violation test, in the order of ``measure_outside`` (root excluded)."""
+    out = []
     for b in bodies[:n_active]:
         if b == root:
             continue
@@ -43,7 +43,13 @@ def measure_outside(sdf, q, bodies, n_active, root, axis):
         n = float(np.linalg.norm(ax_b))
         ax = (ax_b / n) if n > 1e-12 else np.asarray(axis, dtype=np.float64)
         for f in SAMPLE_FRAC:
-            pts.append(com + (f - 0.5) * L_SEG * ax)
+            out.append((b, f, com + (f - 0.5) * L_SEG * ax))
+    return out
+
+
+def measure_outside(sdf, q, bodies, n_active, root, axis):
+    """(fraction of axis samples beyond the wall surface, max SDF excess [m]); identical to the audited function."""
+    pts = [p for _b, _f, p in axis_sample_points(q, bodies, n_active, root, axis)]
     if not pts:
         return 0.0, 0.0
     ph, _, _ = sdf.query(np.stack(pts, axis=0).astype(np.float32))
@@ -51,8 +57,11 @@ def measure_outside(sdf, q, bodies, n_active, root, axis):
 
 
 class PatientEpisode:
-    def __init__(self, cfg: PatientConfig) -> None:
+    def __init__(self, cfg: PatientConfig, observer=None) -> None:
+        """``observer`` (optional, read-only diagnostics): called as ``observer(stage, episode, info)`` at the checkpoints build_scene, settle1_substep, after_settle1,
+        after_body_enable, settle2_substep, after_settle2, ready (start of the first decision) and, during decisions, decision_substep. It never changes the physics."""
         self.cfg = cfg
+        self.observer = observer
         assert NUM_SEGMENTS == 7
         ensure_warp()
         self.sdf = LumenSDF(cfg)
@@ -64,21 +73,27 @@ class PatientEpisode:
         self.state_0, self.state_1 = self.model.state(), self.model.state()
         self.control = self.model.control()
         self.n_active = _N_ACTIVE_INIT
-        for _ in range(SETTLE_FRAMES * SIM_SUBSTEPS):
+        self._notify("build_scene")
+        for _k in range(SETTLE_FRAMES * SIM_SUBSTEPS):
             apply_portal_fixed(self.model, self.portal_joint, self.baseline_z)
             self._contact_step()
             self._swap()
+            self._notify("settle1_substep", k=_k)
+        self._notify("after_settle1")
         while self.n_active < PREDEPLOY_ACTIVE:
             enable_body_along_parent(self.model, self.solver, self.state_0, self.bodies, self.joints, self.stored,
                                      self.n_active, self.axis, self.baseline_z)
             self.n_active += 1
             self.state_1.body_q.assign(self.state_0.body_q)
             self.state_1.body_qd.assign(self.state_0.body_qd)
-        for _ in range(SETTLE_FRAMES * SIM_SUBSTEPS):
+        self._notify("after_body_enable")
+        for _k in range(SETTLE_FRAMES * SIM_SUBSTEPS):
             apply_portal_fixed(self.model, self.portal_joint, self.baseline_z)
             apply_distal_fraction_feed(self.model, self.joints, self.portal_joint, self.baseline_z, self.n_active, 0.0)
             self._contact_step()
             self._swap()
+            self._notify("settle2_substep", k=_k)
+        self._notify("after_settle2")
         apply_distal_tip_compliance(self.model, self.solver, self.joints, self.n_active)    # canonical soft tip
         self.L_total = 0.0
         self._n_completed = 0
@@ -89,8 +104,13 @@ class PatientEpisode:
         self.all_finite = True
         self.max_viol_m = 0.0
         self.max_outside_frac = 0.0
+        self._notify("ready")
 
     # -- internals ---------------------------------------------------------------------------------------------
+    def _notify(self, stage: str, **info) -> None:
+        if self.observer is not None:
+            self.observer(stage, self, info)
+
     def _swap(self):
         self.state_0, self.state_1 = self.state_1, self.state_0
 
@@ -148,6 +168,7 @@ class PatientEpisode:
                 of, vi = measure_outside(self.sdf, q, self.bodies, self.n_active, self.root, self.axis)
                 out = max(out, of)
                 viol = max(viol, vi)
+                self._notify("decision_substep", frame=self.frame, sub=_sub, violation_m=vi)
             self.frame += 1
         q = self.state_0.body_q.numpy()
         root_d = float(np.linalg.norm(_pos(q, self.root) - self._root0))

@@ -38,9 +38,11 @@ def _code_hashes() -> dict[str, str]:
 
 
 def run_physics_episode(cfg: PatientConfig, out_dir: str | Path, tag: str, post_success_hold: int = 0,
-                        action_override: Callable[[str, float, TeacherState], tuple[str, float]] | None = None) -> dict:
+                        action_override: Callable[[str, float, TeacherState], tuple[str, float]] | None = None,
+                        observer=None, decision_cap: int | None = None) -> dict:
     """Run the episode and write ``episode_physics_<tag>.json`` / ``.npz`` into ``out_dir``. ``action_override`` (optional) may replace the Teacher decision
-    (used for paired-speed experiments); it is None for the canonical Teacher."""
+    (used for paired-speed experiments); it is None for the canonical Teacher. ``observer`` (read-only diagnostics, see PatientEpisode) and ``decision_cap`` (stop
+    after that many decisions with status DECISION_CAP; diagnostics only) are None for every production run."""
     out = Path(out_dir)
     out.mkdir(parents=True, exist_ok=True)
     land = json.load(open(cfg.landing_zone_path))
@@ -50,7 +52,7 @@ def run_physics_episode(cfg: PatientConfig, out_dir: str | Path, tag: str, post_
     T_MAX = land["timeout"]["T_MAX_decisions"]
     POST_HOLD = int(post_success_hold)
 
-    ep = PatientEpisode(cfg)
+    ep = PatientEpisode(cfg, observer=observer)
     t0 = time.time()
 
     def privileged(ep):
@@ -64,7 +66,11 @@ def run_physics_episode(cfg: PatientConfig, out_dir: str | Path, tag: str, post_
     prev_v = 0.0
     dwell = 0
     poly, s, d, rad = privileged(ep)
+    capped = False
     for t in range(T_MAX + POST_HOLD):
+        if decision_cap is not None and t >= decision_cap:
+            capped = True
+            break
         if success_idx is None and t >= T_MAX:                           # the timeout applies to the approach only
             break
         poly, s, d, rad = privileged(ep)                                  # accepted state at the start of decision t
@@ -109,7 +115,7 @@ def run_physics_episode(cfg: PatientConfig, out_dir: str | Path, tag: str, post_
             if t - success_idx >= POST_HOLD:                             # exactly POST_HOLD decisions after the success decision
                 break
     if status is None:
-        status = "TIMEOUT"
+        status = "DECISION_CAP" if capped else "TIMEOUT"
     poly_final, s_f, d_f, rad_f = privileged(ep)
     summary = {
         "tag": tag, "status": status, "decisions": len(rows), "success_decision_index": success_idx,

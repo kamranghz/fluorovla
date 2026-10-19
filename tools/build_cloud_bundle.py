@@ -44,6 +44,9 @@ ap.add_argument("--newton-src", required=True)
 ap.add_argument("--data-root", required=True)
 ap.add_argument("--local-results", default=None, help="directory of local per-episode result folders <name>/run/episode_physics_ep.json (comparison only)")
 ap.add_argument("--environment-json", default=None)
+ap.add_argument("--episodes", nargs="+", default=None, help="restrict the workload (and the twins) to these episodes, e.g. for a diagnostic bundle")
+ap.add_argument("--reference-runs", default=None, help="original physics_mapping runs; the accepted result of every selected episode is copied to workload/reference_results (comparison)")
+ap.add_argument("--runbook", default=str(REPO / "docs/cloud_workflow.md"))
 a = ap.parse_args()
 out = Path(a.out)
 if out.exists():
@@ -59,6 +62,8 @@ tarfile.open(fileobj=io.BytesIO(tar)).extractall(out / "project")
 MESH = reference_mesh_files()
 lock = json.load(open(REPO / "artifacts/provenance/cohort_lock.json"))
 patients = lock["development_cohort"] + [lock["stress_sentinel"]]
+if a.episodes:
+    patients = [p for p in patients if any(e.startswith(p + "_") for e in a.episodes)]
 data = Path(a.data_root)
 for pid in patients:
     dst = out / "project/data/cache/twin" / pid
@@ -75,6 +80,8 @@ for pid in patients:
         if is_candidate_path(s):
             for k in range(len(start_depths(s["S_contact_mm"]))):
                 name = f"{pid}_{side}_F{k}"
+                if a.episodes and name not in a.episodes:
+                    continue
                 build_episode_config(pid, side, k, s["S_contact_mm"], arr[f"{pid}__{s['entry_node']}__ext_pts"], arr[f"{pid}__{s['entry_node']}__ext_rad"], ecfg / name)
                 names.append(name)
 completed = []
@@ -86,6 +93,15 @@ if a.local_results:
         if f.is_file():
             shutil.copy2(f, ref / f"{n}.json")
             completed.append(n)
+if a.reference_runs:
+    from fluorovla.evaluation.physics_mapping_summary import accepted_attempt
+    for n in names:                                             # original results in the attempt layout used by the tools (comparison only)
+        acc, _ = accepted_attempt(Path(a.reference_runs) / n)
+        if acc is not None:
+            d = out / "workload/reference_runs" / n / "attempt_001"
+            (d / "run").mkdir(parents=True, exist_ok=True)
+            shutil.copy2(acc / "run/episode_physics_ep.json", d / "run/episode_physics_ep.json")
+            (d / "DONE.json").write_text(json.dumps({"state": "COMPLETED", "has_result": True, "note": "copy of the accepted original result, for comparison only"}))
 json.dump({"purpose": "physics mapping (Privileged Teacher, legacy rule) on the locked development cohort + stress sentinel", "episodes_configs_note": "episode_configs/<name>/{config,landing_zone,path_ext}",
            "episode_configs_dir": "episode_configs", "episodes": names, "completed_local": completed, "pending": [n for n in names if n not in completed],
            "local_results_note": "completed_local = preliminary results from the unstable local WSL2 stack, kept for comparison; they are re-run on the stable stack for the final mapping"},
@@ -97,7 +113,7 @@ shutil.copytree(nsrc, out / "env/newton-src", ignore=shutil.ignore_patterns(".gi
 shutil.copy2(REPO / "constraints.txt", out / "env/constraints.txt")
 if a.environment_json:
     shutil.copy2(a.environment_json, out / "ENVIRONMENT_LOCAL.json")
-shutil.copy2(REPO / "docs/cloud_workflow.md", out / "RUNBOOK_NATIVE_LINUX.md")
+shutil.copy2(a.runbook, out / "RUNBOOK_NATIVE_LINUX.md")
 json.dump({"git_commit": commit, "created": time.strftime("%Y-%m-%d %H:%M:%S"), "patients": patients, "n_episodes": len(names), "n_completed_local": len(completed),
            "n_pending": len(names) - len(completed), "source": "git archive HEAD of a clean working tree"}, open(out / "BUNDLE_INFO.json", "w"), indent=1)
 n = write_file_manifest(out, out / "MANIFEST_SHA256.txt")

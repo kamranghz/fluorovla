@@ -21,7 +21,8 @@ violation <= 1.5 mm, finite physics and root drift <= 1e-6 m. Terminal priority:
 | stage | status |
 |---|---|
 | anatomy: twin verification, cohort selection and lock | done |
-| physics mapping on the development cohort | paused locally (infrastructure); preliminary local results are not interpretable; native-Linux reproduction first |
+| physics mapping on the development cohort | completed on native Linux (72 episodes: 68 LUMEN_VIOLATION, 4 SUCCESS, 0 sides admitted); **not interpretable as anatomy infeasibility** until the initial-state audit is done (`docs/provenance/stage3a_initial_state_audit.md`) |
+| initial-state / registration audit | tooling ready, native-Linux run pending (`docs/initial_state_audit_runbook.md`) |
 | SAFETY test, DSA resolvability, LANDING ablation | not run |
 | integrated pilot, admission sweep, K-fold population | not run |
 | GR00T multi-patient training, closed-loop evaluation | not run |

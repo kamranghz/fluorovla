@@ -1,0 +1,188 @@
+{
+  "comment": "Pre-declared design of the lumen-containment audit. Written before any containment-audit measurement on real patient data was made; nothing in this file may be changed after a real-data run without a new, dated file.",
+  "declared_on": "2026-10-28",
+  "declared_against_commit": "1cb5008",
+  "trace_cases": [
+    {
+      "name": "s0011_right_F0",
+      "tier": "primary",
+      "stage3a_role": "positive_control",
+      "stage3a_outcome": "SUCCESS@53",
+      "provenance": "docs/provenance/stage3a_initial_state_audit.md section 4 (native-Linux Stage 3A return)",
+      "reason": "positive control of the initial-state audit"
+    },
+    {
+      "name": "s0963_left_F1",
+      "tier": "primary",
+      "stage3a_role": "positive_control",
+      "stage3a_outcome": "SUCCESS@63",
+      "provenance": "docs/provenance/stage3a_initial_state_audit.md section 4",
+      "reason": "positive control of the initial-state audit; same anatomy as s0963_left_F2"
+    },
+    {
+      "name": "s0963_left_F2",
+      "tier": "primary",
+      "stage3a_role": "late_failure",
+      "stage3a_outcome": "LUMEN_VIOLATION@36",
+      "provenance": "docs/provenance/stage3a_initial_state_audit.md section 4",
+      "reason": "late failure with the same anatomy as a control"
+    },
+    {
+      "name": "s0344_left_F1",
+      "tier": "primary",
+      "stage3a_role": "early_failure",
+      "stage3a_outcome": "LUMEN_VIOLATION@0",
+      "provenance": "docs/provenance/stage3a_initial_state_audit.md section 4",
+      "reason": "immediate failure, invalid after the settle phase"
+    },
+    {
+      "name": "s0011_left_F1",
+      "tier": "supplementary",
+      "stage3a_role": "not_audited_in_stage3a",
+      "stage3a_outcome": "LUMEN_VIOLATION@1 (physics mapping, 72 episodes)",
+      "provenance": "docs/provenance/stage3a_initial_state_audit.md section 7 item 3 (committed in 1cb5008 before any containment-audit result existed): straight start that still fails at decision 1",
+      "reason": "named in the Stage 3A document as the next case to audit; its selection predates this audit and does not use any containment-audit statistic"
+    }
+  ],
+  "analysis_scope": {
+    "straight_deployment_and_clearance": "all configurations present under --configs-root",
+    "trace_cases_only_for_physics_trace": true,
+    "note": "the expensive physics trace is restricted to trace_cases; no case is added because of an outcome or curvature statistic"
+  },
+  "numerical_calibration_design": {
+    "comment": "Design values of the synthetic numerical experiment (not simulator constants). Voxel spacings are taken from the metadata of the configurations under --configs-root; the catheter radius, segment length, body count, sample fractions and collision-mask stride are read from the canonical source. Reference error is binned by the local twin radius; the half-voxel face-centred reference replaces the centre-to-centre one only under variant_selection_rule.",
+    "seed": 20261027,
+    "bends": [
+      {
+        "bend_radius_mm": null,
+        "turn_deg": 0.0
+      },
+      {
+        "bend_radius_mm": 15.0,
+        "turn_deg": 70.0
+      },
+      {
+        "bend_radius_mm": 30.0,
+        "turn_deg": 90.0
+      },
+      {
+        "bend_radius_mm": 60.0,
+        "turn_deg": 45.0
+      }
+    ],
+    "rotations_deg": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        25.0,
+        40.0,
+        15.0
+      ],
+      [
+        70.0,
+        10.0,
+        -40.0
+      ]
+    ],
+    "voxel_offset_fractions_xyz": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.31,
+        0.17,
+        0.43
+      ],
+      [
+        0.5,
+        0.5,
+        0.5
+      ]
+    ],
+    "straight_in_mm": 40.0,
+    "straight_out_mm": 40.0,
+    "start_mm": [
+      10.0,
+      -20.0,
+      5.0
+    ],
+    "margin_mm": 15.0,
+    "evaluation_band_mm": 6.0,
+    "points_per_case": 1500,
+    "variant_selection_rule": "half_voxel_if_lower_abs_median_and_lower_p99_abs",
+    "radius_bins": [
+      {
+        "id": "r1.5-2.0",
+        "lo_mm": 1.5,
+        "hi_mm": 2.0,
+        "tube_radius_mm": [
+          1.6,
+          1.9
+        ]
+      },
+      {
+        "id": "r2.0-3.0",
+        "lo_mm": 2.0,
+        "hi_mm": 3.0,
+        "tube_radius_mm": [
+          2.0,
+          2.5
+        ]
+      },
+      {
+        "id": "r3.0-4.0",
+        "lo_mm": 3.0,
+        "hi_mm": 4.0,
+        "tube_radius_mm": [
+          3.0,
+          3.5
+        ]
+      },
+      {
+        "id": "r4.0-6.0",
+        "lo_mm": 4.0,
+        "hi_mm": 6.0,
+        "tube_radius_mm": [
+          4.0,
+          5.0
+        ]
+      },
+      {
+        "id": "r6.0-9.0",
+        "lo_mm": 6.0,
+        "hi_mm": 9.0,
+        "tube_radius_mm": [
+          6.0,
+          8.0
+        ]
+      },
+      {
+        "id": "r9.0-12.0",
+        "lo_mm": 9.0,
+        "hi_mm": 12.0,
+        "tube_radius_mm": [
+          9.5,
+          11.0
+        ]
+      }
+    ],
+    "radius_bins_comment": "Declared before any real-data run (2026-10-28). Coverage is informational: `preflight` and `calibrate` report it, a traced sample whose local twin radius is outside every bin gets no tolerance (UNAVAILABLE) and its event is INDETERMINATE with reason RADIUS_OUTSIDE_CALIBRATED_BINS. Nothing aborts, nothing is extrapolated."
+  },
+  "supersedes": "2026-10-27 draft of this file (never used for a real-data run): mechanisms revised, radius-binned calibration and reference-variant selection added",
+  "mechanisms": {
+    "COLLISION_DISCRETIZATION_DECISION_FLIP": "engine violation > LUMEN_DELTA at the terminating (else peak) event while the primary-reference violation upper bound (phi + calibrated bin error per sample) <= LUMEN_DELTA",
+    "PRE_ACTION_INVALIDITY": "primary-reference violation lower bound (phi - calibrated bin error per sample) > LUMEN_DELTA at the post-settle `ready` state",
+    "specificity": "a mechanism whose criterion is met by any case with stage3a_role == positive_control is NON_DISCRIMINATING for the whole audit"
+  },
+  "secondary_descriptive_analysis": {
+    "name": "SECONDARY_P99_DESCRIPTIVE",
+    "definition": "the flip and pre-action criteria re-evaluated with the per-bin p99 |reference error| instead of the max",
+    "provenance_class": "HEURISTIC",
+    "effect_on_statuses_or_labels": "none; reported as QUANTITATIVE_ONLY, can never be CONFIRMED"
+  }
+}
